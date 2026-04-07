@@ -51,7 +51,7 @@ Just Fit In · Daisy — grow-right / stability pressure.`,
     id: "song-equalize-bloom",
     slug: "equalize-the-bloom",
     title: "Equalize the Bloom",
-    credit: "Edelweiss & Jasmine · Flower",
+    credit: "Edelweiss & Lotus · Flower",
     audioSrc: "/songs/EQUALIZE THE BLOOM (1).wav",
     lyrics: `[Opening — rhythmic spoken-sung, playful teacher energy]
 
@@ -146,7 +146,7 @@ When everything aligns
 There is nothing left to fear
 
 [Staging — screenplay]
-Bollywood-inflected orientation: Edelweiss + Jasmine duet; call-and-response; claps; crowd arcs into garden-row choreography; bridge warmer / clearer diction for family audience; unease under the final mix.`,
+Bollywood-inflected orientation: Edelweiss + Lotus duet; call-and-response; claps; crowd arcs into garden-row choreography; bridge warmer / clearer diction for family audience; unease under the final mix.`,
   },
   {
     id: "song-flower-opening",

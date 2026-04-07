@@ -20,7 +20,7 @@ export function SiteHeader() {
   return (
     <>
       <motion.header
-        className="sticky top-0 z-40 border-b border-border/45 bg-background/88 backdrop-blur-md supports-[backdrop-filter]:bg-background/72"
+        className="sticky top-0 z-40 border-b border-border/45 bg-background backdrop-blur-md md:bg-background/88 md:supports-[backdrop-filter]:bg-background/72"
         initial={{ opacity: 0.96 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.4, ease: flowerEase }}

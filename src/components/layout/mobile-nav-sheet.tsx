@@ -63,7 +63,7 @@ export function MobileNavSheet({ open, onOpenChange, items, pathname }: MobileNa
         type="button"
         aria-label="Close menu"
         className={cn(
-          "absolute inset-0 bg-foreground/15 backdrop-blur-[2px] transition-opacity duration-300 ease-exhibition",
+          "absolute inset-0 bg-foreground/35 backdrop-blur-sm transition-opacity duration-300 ease-exhibition",
           open ? "opacity-100" : "pointer-events-none opacity-0",
         )}
         onClick={() => onOpenChange(false)}
@@ -75,7 +75,7 @@ export function MobileNavSheet({ open, onOpenChange, items, pathname }: MobileNa
         aria-modal="true"
         aria-labelledby={titleId}
         className={cn(
-          "absolute right-0 top-0 flex h-full w-[min(100%,18.5rem)] flex-col border-l border-border/45 bg-background/98 shadow-frame-outer",
+          "absolute right-0 top-0 flex h-full w-[min(100%,18.5rem)] flex-col border-l border-border/50 bg-background shadow-frame-outer",
           "transition-transform duration-300 ease-exhibition",
           open ? "translate-x-0" : "pointer-events-none translate-x-full",
         )}

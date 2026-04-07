@@ -397,10 +397,10 @@ CUT TO:`,
     pageStart: 6,
     pageEnd: 10,
     equalizerPresence: "on",
-    beat: "ACT 1 · Catalyst setup — concourse → atrium → **Equalize the Bloom** orientation duet (Edelweiss + **Jasmine**, Bollywood-inflected) → spoken law returns → first controlled instability",
+    beat: "ACT 1 · Catalyst setup — concourse → atrium → **Equalize the Bloom** orientation duet (Edelweiss + **Lotus**, Bollywood-inflected) → spoken law returns → first controlled instability",
     summary:
-      "Concourse: band / drama / gym promise. Atrium: **Jasmine** co-leads sung orientation with Edelweiss; crowd arcs into sync choreography. Then dry lecture resumes; Equalizer + Rose’s near field tightens; first instability.",
-    characters: ["rose", "daisy", "edelweiss", "jasmine"],
+      "Concourse: band / drama / gym promise. Atrium: **Lotus** co-leads sung orientation with Edelweiss; crowd arcs into sync choreography. Then dry lecture resumes; Equalizer + Rose’s near field tightens; first instability.",
+    characters: ["rose", "daisy", "edelweiss", "lotus"],
     setId: "flower-high-atrium",
     notes:
       "Locks: **Proximity sync** — animate few bodies; background soft. **Concourse:** hub orbit reads as **round garden bed**—staggered threading, not parade. **Musical:** duet sells care before law; bridge warm, Disney-clear diction; final chorus joy with unease under mix. Full lyric on `/lyrics/equalize-the-bloom`. Equalizer = hum/light/Rose breath. Sc.4 continuous. **Humour:** Daisy **mint**; Rose **micro-align** celebration cut off by lecture.",
@@ -2515,11 +2515,11 @@ CUT TO:`,
     equalizerPresence: "on",
     beat: "ACT 2A · Fun & Games — **four different failure types**, not four sync flavors: (1) **machine** node lab, (2) **public spectacle** status beside Narcissa, (3) **private** self-policing beat, (4) **social** invitation / clique airlock with Daisy; Lemon coda names ‘careful not trying’.",
     summary:
-      "**(1)** Atrium lab: node destabilizes; Edelweiss clocks consistency; **Jasmine** on floor + tablet pass. **(2)** Courtyard: Rose’s display overblooms; system flattens; Narcissa precise—**status** wound, not only tech. **(3)** Rose alone: mirror/room beat — practices neutral face; no audience; Bluebell dim. **(4)** Hallway: Daisy ‘or less’; Rose **not invited** into laughter—airlock, not late syllable only. Side path: Lemon — tried not-trying **safely**; hum deepens, unnoticed.",
-    characters: ["rose", "daisy", "edelweiss", "jasmine", "narcissa", "lemon"],
+      "**(1)** Atrium lab: node destabilizes; Edelweiss clocks consistency; **Lotus** on floor + tablet pass. **(2)** Courtyard: Rose’s display overblooms; system flattens; Narcissa precise—**status** wound, not only tech. **(3)** Rose alone: mirror/room beat — practices neutral face; no audience; Bluebell dim. **(4)** Hallway: Daisy ‘or less’; Rose **not invited** into laughter—airlock, not late syllable only. Side path: Lemon — tried not-trying **safely**; hum deepens, unnoticed.",
+    characters: ["rose", "daisy", "edelweiss", "lotus", "narcissa", "lemon"],
     setId: "flower-district",
     notes:
-      "**Anti-repeat:** if two beats feel like ‘timing miss,’ cut one. Iris absent; sc.10 = rumor without new physics. Edelweiss observational. **Jasmine:** floor runner — nods, checklist kindness — hands Edelweiss tablet when he passes. **Humour:** mirror = **wing asymmetry** on sill (insect, not mimic); courtyard = **wrong UI credit** flash; hallway = Daisy **nobody’s counting** vs toe-mark student; Lemon = **timer** absurdism.",
+      "**Anti-repeat:** if two beats feel like ‘timing miss,’ cut one. Iris absent; sc.10 = rumor without new physics. Edelweiss observational. **Lotus:** floor runner — nods, checklist kindness — hands Edelweiss tablet when he passes. **Humour:** mirror = **wing asymmetry** on sill (insect, not mimic); courtyard = **wrong UI credit** flash; hallway = Daisy **nobody’s counting** vs toe-mark student; Lemon = **timer** absurdism.",
     content: `INT. ROSE’S ROOM — RESIDENTIAL PETAL — EARLY THAT DAY
 
 Mirror.
@@ -4082,10 +4082,10 @@ CUT TO:`,
     beat: "ACT 2B · Escalation — system pushes back (anticipate, contain); direct pickup from midpoint; phase 1: adjust → restrict → contain; Edelweiss calm/precise; containment named; suppression ‘works’—reduction = stability—wrong lesson",
     summary:
       "Rose re-enters: hum stronger, pre-correction in the crowd. Atrium is tighter; Edelweiss frames the waterfall as unmeasured space—variance, accumulation, containment until compensation. Pressure and held distance; Rose shrinks movement; hum softens, spacing eases. She’s contained and not herself—he’s satisfied technically.",
-    characters: ["rose", "edelweiss", "jasmine"],
+    characters: ["rose", "edelweiss", "lotus"],
     setId: "flower-high-atrium",
     notes:
-      "Continuous from sc.12—no reset. Edelweiss never snarls; logic as blade. ‘Feeling is not an indicator of stability.’ Plant phase-2 payoffs later; here lock containment + compliant reduction. **Jasmine:** watches floor pattern — **inventory** Rose without accusation — notes; **first hairline crack** in ‘always a fix.’",
+      "Continuous from sc.12—no reset. Edelweiss never snarls; logic as blade. ‘Feeling is not an indicator of stability.’ Plant phase-2 payoffs later; here lock containment + compliant reduction. **Lotus:** watches floor pattern — **inventory** Rose without accusation — notes; **first hairline crack** in ‘always a fix.’",
     content: `EXT. FLOWER HIGH DISTRICT — LATE AFTERNOON
 
 Rose re-enters the district.
@@ -4153,7 +4153,7 @@ A pulse.
 
 Sharper than before.
 
-Jasmine’s pen **stalls** — **half a second** — then **moves** again — **trained**.
+Lotus’s pen **stalls** — **half a second** — then **moves** again — **trained**.
 
 **Nearby** students tighten spacing — a half-beat catch in Edelweiss’s sightline — not a wash through the whole bowl.
 
@@ -8028,11 +8028,11 @@ CUT TO:`,
     equalizerPresence: "on",
     beat: "ACT 3 · Final confrontation — core exposed in atrium; system resists; Rose wins by presence/connection not control; unravel not explosion; district stabilizes messy-alive; Edelweiss quiet realization (not defeat); Lemon stable",
     summary:
-      "Atrium in chaos: core lowered, hum broken. Rose advances despite pulses and containment squeeze; she opens, doesn’t match; organic growth answers inside glass. Bluebell circles the core once—calm witness—then returns to her. Hands on core—connection, not force—machine unravels, hum cuts. District Bloom uneven but alive. Edelweiss: imbalance vs variation. **Jasmine** rail—no checklist left. Rose and Lemon, simple ‘Hey.’",
-    characters: ["rose", "lemon", "edelweiss", "jasmine", "bluebell"],
+      "Atrium in chaos: core lowered, hum broken. Rose advances despite pulses and containment squeeze; she opens, doesn’t match; organic growth answers inside glass. Bluebell circles the core once—calm witness—then returns to her. Hands on core—connection, not force—machine unravels, hum cuts. District Bloom uneven but alive. Edelweiss: imbalance vs variation. **Lotus** rail—no checklist left. Rose and Lemon, simple ‘Hey.’",
+    characters: ["rose", "lemon", "edelweiss", "lotus", "bluebell"],
     setId: "flower-high-atrium",
     notes:
-      "Physical + emotional; resistance beats passive shutdown. Section headers for editorial rhythm. Core is visible in atrium (not subterranean vault)—align production design with set copy if needed. **Bluebell:** silent co-presence at climax—no one names it. **Jasmine:** at rail — **no checklist left** — watches **without** a fix.",
+      "Physical + emotional; resistance beats passive shutdown. Section headers for editorial rhythm. Core is visible in atrium (not subterranean vault)—align production design with set copy if needed. **Bluebell:** silent co-presence at climax—no one names it. **Lotus:** at rail — **no checklist left** — watches **without** a fix.",
     content: `INT. BIOLOGY ATRIUM — CORE SPACE — NIGHT
 
 The atrium is no longer orderly.
