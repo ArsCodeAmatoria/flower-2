@@ -204,6 +204,14 @@
   }
 
   /**
+   * Script reader — Word’s HTML paste mishandles small positive letter-spacing on body paragraphs
+   * (spaces can disappear). Keep copy blocks at normal tracking; labels keep .page-label spacing.
+   */
+  .script-screenplay-body p:not(.page-label) {
+    letter-spacing: normal;
+  }
+
+  /**
    * Tags / chips — archival, not SaaS pill.
    */
   .pill {

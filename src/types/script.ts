@@ -16,6 +16,13 @@ export type ScriptScene = {
   characters: string[];
   /** Set id this scene primarily inhabits, or null for liminal / montage */
   setId: string | null;
+  /**
+   * Bloom Equalizer as a **craft** dial — not plot canon. Limits “machine always on” fatigue.
+   * - `on`: foreground hum / pulse / stabilization beats justified
+   * - `implied`: district habits + social pressure; device texture stays background
+   * - `off`: no Equalizer grammar — relational, natural, or aftermath
+   */
+  equalizerPresence: "on" | "implied" | "off";
   notes: string;
   /** Scene body — fountain or prose treatment */
   content: string;

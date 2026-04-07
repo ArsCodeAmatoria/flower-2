@@ -26,8 +26,6 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
         display: ["var(--font-display)", "ui-serif", "Georgia", "serif"],
-        /** Fat script — home hero title over key art */
-        "hero-petals": ["var(--font-hero-petals)", "cursive", "fantasy"],
       },
       fontSize: {
         /** Exhibition-scale title */

@@ -55,7 +55,7 @@ export const sets: FilmSet[] = [
       "Script setId: sc.3–4 (concourse → atrium), sc.13 (containment), sc.25 (core + shutdown). Montage beats in sc.9–10 use atrium action but are tagged district in data—see those scenes. Act 1: concourse sells layout without crowd sim.",
     image16x9: "/sets/flower-high-atrium-16x9.png",
     image2x1: "/sets/flower-high-atrium-2x1.png",
-    linkedSceneIds: ["scene-03", "scene-04", "scene-13", "scene-25"],
+    linkedSceneIds: ["scene-03", "scene-04", "scene-13", "scene-25", "scene-26"],
   },
   {
     id: "wild-waterfall",

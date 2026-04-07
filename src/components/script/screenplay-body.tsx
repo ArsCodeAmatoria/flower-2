@@ -12,7 +12,7 @@ function BlockView({ block }: { block: ScreenplayBlock }) {
     return (
       <p
         className={cn(
-          "my-9 text-center font-sans text-[13px] font-medium uppercase tracking-[0.2em] text-muted-foreground",
+          "my-9 text-center font-sans text-[13px] font-medium uppercase text-muted-foreground",
           "first:mt-4 last:mb-4",
         )}
       >
@@ -27,7 +27,7 @@ function BlockView({ block }: { block: ScreenplayBlock }) {
         {block.lines.map((line, i) => (
           <p
             key={i}
-            className="max-w-readable text-[15px] leading-[1.75] tracking-[0.01em] text-foreground/90"
+            className="max-w-readable text-[15px] leading-[1.75] text-foreground/90"
           >
             {line}
           </p>
@@ -48,7 +48,7 @@ function BlockView({ block }: { block: ScreenplayBlock }) {
           ) : (
             <p
               key={i}
-              className="pb-2 text-[15px] leading-[1.75] tracking-[0.012em] text-foreground/92 last:pb-0"
+              className="pb-2 text-[15px] leading-[1.75] text-foreground/92 last:pb-0"
             >
               {part.text}
             </p>

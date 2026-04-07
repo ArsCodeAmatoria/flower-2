@@ -9,6 +9,7 @@ import type { ScriptContextPanelProps } from "./types";
 import type { ScriptScene } from "@/types";
 import { LinkedItemsGroup } from "@/components/links/linked-items";
 import { flowerEase } from "@/lib/motion-presets";
+import { equalizerPresenceLabels } from "@/lib/equalizer-presence";
 import { sceneCharacterLinks, sceneSetLinks } from "@/lib/story-links";
 import { cn } from "@/lib/utils";
 
@@ -44,7 +45,7 @@ function ScriptSlugline({ children, className }: { children: ReactNode; classNam
   return (
     <p
       className={cn(
-        "max-w-readable text-[15px] font-normal uppercase leading-[1.75] tracking-[0.035em] text-foreground/90",
+        "max-w-readable text-[15px] font-normal uppercase leading-[1.75] text-foreground/90",
         className,
       )}
     >
@@ -77,6 +78,11 @@ export function ReadingContextPanel({ scene, characters, sets }: ScriptContextPa
       </h2>
       <p className="mt-2 text-xs uppercase tracking-[0.2em] text-muted-foreground">
         Act {scene.act} · Scene {scene.sceneNumber}
+      </p>
+      <p className="mt-3 text-[0.7rem] leading-snug text-muted-foreground">
+        <span className="font-medium text-foreground/80">Equalizer — </span>
+        <span className="capitalize">{scene.equalizerPresence}</span>
+        <span className="text-muted-foreground/90"> — {equalizerPresenceLabels[scene.equalizerPresence]}</span>
       </p>
       <motion.div
         key={scene.id + "-beat"}

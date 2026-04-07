@@ -14,6 +14,7 @@ import { PageSceneCounter } from "./page-scene-counter";
 import { ReadingContextPanel, ScriptViewer } from "./script-viewer";
 import { SceneNav } from "./scene-nav";
 import { ScriptNotes } from "./script-notes";
+import { ScriptSceneCopyPlain } from "./script-scene-copy-plain";
 import { ScriptSidebarTabs } from "./script-sidebar-tabs";
 import { useScriptScrollSpy } from "./use-script-scroll-spy";
 import type { ScriptExperienceProps } from "./types";
@@ -113,6 +114,7 @@ export function ScriptExperience({ scenes, characters, sets }: ScriptExperienceP
                   totalScenes={scenes.length}
                   draftMaxPage={draftMaxPage}
                 />
+                <ScriptSceneCopyPlain scene={scene} className="mt-5" />
               </ExhibitionSidebarSection>
 
               <ExhibitionSidebarSection title="Notes">
