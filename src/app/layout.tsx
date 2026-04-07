@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, DM_Sans } from "next/font/google";
+import { Cormorant_Garamond, DM_Sans, Leckerli_One } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/layout/site-header";
 
@@ -17,6 +17,14 @@ const fontSans = DM_Sans({
   weight: ["400", "500", "600"],
 });
 
+/** Home hero — chunky script (petal-adjacent curves), used only on key art */
+const fontHeroPetals = Leckerli_One({
+  subsets: ["latin"],
+  variable: "--font-hero-petals",
+  display: "swap",
+  weight: "400",
+});
+
 export const metadata: Metadata = {
   title: "Flower",
   description: "A cinematic exhibition for a film project",
@@ -26,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${fontDisplay.variable} ${fontSans.variable}`}
+      className={`${fontDisplay.variable} ${fontSans.variable} ${fontHeroPetals.variable}`}
       suppressHydrationWarning
     >
       <body className="min-h-dvh bg-background text-foreground antialiased">

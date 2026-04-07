@@ -6,17 +6,17 @@ export const sets: FilmSet[] = [
     slug: "flower-district",
     name: "Flower High District",
     summary:
-      "The entire habitable zone of Flower High: radial paths, synchronized foot traffic, planters that pulse in polite unison, and UI petals that float at corners to remind everyone the Bloom Equalizer is always listening. It reads like a festival that never ended—until something skips a beat.",
+      "The entire habitable zone of Flower High: radial paths, readable knots of bodies (never teeming sim), planters that pulse in polite unison, and UI petals at corners so the Bloom Equalizer stays in sight. It reads like a festival that never ended—until something skips a beat.",
     symbolicMeaning:
-      "Forced symmetry as civic religion; the district is both home and panopticon, beautiful because deviation is corrected before it can bloom.",
+      "Forced symmetry as civic religion; the district is both home and panopticon, beautiful because deviation is corrected beside you before it can bloom.",
     visualLogic:
-      "Circular and radial composition; crowds move as loose gears; Rose is always half a step off the golden spiral. Color is saturated but harmonized—until glitches read as wrong notes.",
+      "Circular and radial composition; adjacent correction reads in frame—Rose half a step off the golden spiral while whoever is beside her pays tiny spacing work. Color is saturated but harmonized—until glitches read as wrong notes.",
     lightingTone:
       "High-key daylight, candy-glass reflections; failure states drain saturation locally and throw sick green diagnostic wash from Equalizer overlays.",
     notes:
       "Spine ~100 pp.: opening, debate, B-story launch, fun/games, escalation, suppression, collapse, return (sc.20 night re-entry — strained system), festival, system failure, final image. Bookend sc.1 / sc.26 — morning district, variation without collapse, tag in reality.",
-    image16x9: "/media/sets/flower-district-16x9.jpg",
-    image2x1: "/media/sets/flower-district-2x1.jpg",
+    image16x9: "/sets/flower-district-16x9.png",
+    image2x1: "/sets/flower-district-2x1.png",
     linkedSceneIds: [
       "scene-01",
       "scene-02",
@@ -26,7 +26,6 @@ export const sets: FilmSet[] = [
       "scene-08",
       "scene-09",
       "scene-10",
-      "scene-13",
       "scene-14",
       "scene-15",
       "scene-16",
@@ -37,37 +36,26 @@ export const sets: FilmSet[] = [
       "scene-22",
       "scene-23",
       "scene-24",
-      "scene-25",
       "scene-26",
     ],
   },
   {
     id: "flower-high-atrium",
     slug: "flower-high-atrium",
-    name: "Flower High — Biology Atrium",
+    name: "Flower High — Petal Concourse & Biology Atrium",
     summary:
-      "A soaring glass atrium where ‘classroom’ meets city: hanging gardens, student terraces, and the public face of the Bloom Equalizer—a calm interface that shows the district ‘in balance.’ Orientation here is when the whole grid syncs for the first time in the story.",
+      "The circular academic hub: arches to band, drama, and gym—the district’s ‘promise of the premise’ in specialty rooms—then the soaring Biology Atrium where classroom meets city: hanging gardens, terraces, and the public Bloom Equalizer interface that shows the grid ‘in balance.’ Orientation lands as near-field sync—faces in eyeline, not a room-wide ripple.",
     symbolicMeaning:
       "Education as calibration; learning is framed as tuning yourself to the common pulse. The atrium is the mask the machine wears to feel friendly.",
     visualLogic:
-      "Vertical space, glass, long lenses for crowd geometry; hero moments on stair landings where Rose is framed between moving bodies and static flora.",
+      "Vertical space, glass, hero-pod framing; stair landings and rails where Rose reads against the few nearest bodies and static flora—storyable, not stadium scale.",
     lightingTone:
       "Sun through glass, soft caustics; Equalizer activation adds a thin lattice of projection across skin and leaves.",
     notes:
-      "Sc.3–4 orientation + first major glitch (continuous); sc.9 returns — active lab stations / Bloom nodes; sc.10 coordinated Bloom rehearsal; sc.13 post-waterfall re-entry + atrium — containment, variance, ‘reduction improves stability.’; sc.14 rehearsal — Rose holds until Lemon’s strain; Iris reframes. Sc.15 large Bloom sequence — cascade, clamp, break; Edelweiss on system. Sc.16 stability tests — Rose minimal; hum softens. Sc.25 climax — exposed Equalizer Core in atrium; shutdown by presence.",
-    image16x9: "/media/sets/atrium-16x9.jpg",
-    image2x1: "/media/sets/atrium-2x1.jpg",
-    linkedSceneIds: [
-      "scene-03",
-      "scene-04",
-      "scene-09",
-      "scene-10",
-      "scene-13",
-      "scene-14",
-      "scene-15",
-      "scene-16",
-      "scene-25",
-    ],
+      "Script setId: sc.3–4 (concourse → atrium), sc.13 (containment), sc.25 (core + shutdown). Montage beats in sc.9–10 use atrium action but are tagged district in data—see those scenes. Act 1: concourse sells layout without crowd sim.",
+    image16x9: "/sets/flower-high-atrium-16x9.png",
+    image2x1: "/sets/flower-high-atrium-2x1.png",
+    linkedSceneIds: ["scene-03", "scene-04", "scene-13", "scene-25"],
   },
   {
     id: "wild-waterfall",
@@ -83,9 +71,63 @@ export const sets: FilmSet[] = [
       "Natural bounce, sparkle, shadows that don’t match anyone else’s—each face can have its own key.",
     notes:
       "Sc.11 approach (path/tree line/clearing) — hum fades, no correction; subtle environment response to Rose; Lemon clocks it. Sc.12 midpoint — full organic connection; Lemon destabilizes in her field; distant district pulse (in-scene, no HUD cut). Sc.19 Dark Night — Rose walks out, clearing; Daisy; choice to return (not performing). Sc.24 transformation beat lives in district (courtyard + side path)—waterfall recalled, not revisited.",
-    image16x9: "/media/sets/waterfall-16x9.jpg",
-    image2x1: "/media/sets/waterfall-2x1.jpg",
+    image16x9: "/sets/wild-waterfall-16x9.png",
+    image2x1: "/sets/wild-waterfall-2x1.png",
     linkedSceneIds: ["scene-11", "scene-12", "scene-19"],
+  },
+  {
+    id: "residential-petal-ring",
+    slug: "residential-petal-ring",
+    name: "Residential Petal Ring",
+    summary:
+      "Petal stoops, matched planters, and nested homes along the district’s curves—private life trained to repeat public rhythm. Rose’s room is small, arranged, window aimed at the inner ring like a mirror of the whole.",
+    symbolicMeaning:
+      "Domestic ‘grow right’—there is no offstage; belonging starts before you leave the house.",
+    visualLogic:
+      "Warm daylight, shallow depth, repetitive positive shapes; Rose framed in narrow mirror / doorway thresholds.",
+    lightingTone:
+      "Soft bounce off painted petals; Equalizer hum felt more than heard when windows open.",
+    notes:
+      "Act 1: sc.2 passage through housing; sc.5 opens in Rose’s bedroom before debate sequence across district.",
+    image16x9: "/sets/residential-petal-ring-16x9.png",
+    image2x1: "/sets/residential-petal-ring-2x1.png",
+    linkedSceneIds: ["scene-02", "scene-05"],
+  },
+  {
+    id: "bloom-festival-auditorium",
+    slug: "bloom-festival-auditorium",
+    name: "Bloom Festival Auditorium (Shell)",
+    summary:
+      "The district’s great jaw—petal ribs, stage throat, scaffolded during Act 1. Visible from courtyard and rise; workers dress it while students rehearse belonging below.",
+    symbolicMeaning:
+      "Spectacle as civic engine—the promise of ‘Look at Me’ before the cost lands.",
+    visualLogic:
+      "Low angles against sky, crane-scale human ants, unfinished bioluminescent trim; later fully lit in festival Acts.",
+    lightingTone:
+      "Construction daylight; first hints of festival wash; Act 1 reads as looming, seductive, heavy.",
+    notes:
+      "Sc.5 debate courtyard background; sc.7 Break into Two — auditorium dominates mid-distance as festival pressure mounts.",
+    image16x9: "/sets/bloom-festival-auditorium-16x9.png",
+    image2x1: "/sets/bloom-festival-auditorium-2x1.png",
+    linkedSceneIds: ["scene-05", "scene-07"],
+  },
+  {
+    id: "woodland-fringe-path",
+    slug: "woodland-fringe-path",
+    name: "Woodland Fringe Path",
+    summary:
+      "Irregular trees, undergrowth, and stream sound off-grid—between district geometry and the waterfall’s full release. Lemon uses it as breathable margin.",
+    symbolicMeaning:
+      "Life without score—first proof the world is bigger than the petal pavers (sc.11 payoff later).",
+    visualLogic:
+      "Dappled handheld, shallow DOF, no repeating pavement motifs; Bluebell can read brighter.",
+    lightingTone:
+      "Natural green-gold; hum drop-off as Rose walks away from core.",
+    notes:
+      "Act 1 sc.6: Lemon leads; not the waterfall clearing yet—tease only.",
+    image16x9: "/sets/woodland-fringe-path-16x9.png",
+    image2x1: "/sets/woodland-fringe-path-2x1.png",
+    linkedSceneIds: ["scene-06"],
   },
   {
     id: "equalizer-core",
@@ -101,8 +143,8 @@ export const sets: FilmSet[] = [
       "Bioluminescent UI, redline warnings, then sudden dim when the lie loses power—hand off to natural Bloom light from above.",
     notes:
       "Narrative climax (core shutdown) plays in Biology Atrium — see Flower High — Biology Atrium, sc.25. This set remains the symbolic ‘machine beneath’ gallery for design refs.",
-    image16x9: "/media/sets/equalizer-core-16x9.jpg",
-    image2x1: "/media/sets/equalizer-core-2x1.jpg",
-    linkedSceneIds: [],
+    image16x9: "/sets/equalizer-core-16x9.png",
+    image2x1: "/sets/equalizer-core-2x1.png",
+    linkedSceneIds: ["scene-05"],
   },
 ];

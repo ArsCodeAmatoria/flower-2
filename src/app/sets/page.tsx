@@ -9,7 +9,9 @@ export default function SetsPage() {
         <h1 className="title-display">Sets</h1>
         <p className="subtitle">
           Production design archive — spaces as narrative instruments, light as dramaturgy, and the
-          symbolic load of each built environment.
+          symbolic load of each built environment. Stills resolve under{" "}
+          <span className="whitespace-nowrap font-mono text-[0.92em] text-foreground/80">public/sets/</span>{" "}
+          using the 16∶9 and 2∶1 names on each dossier.
         </p>
       </header>
 
