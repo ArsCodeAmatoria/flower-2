@@ -20,7 +20,6 @@ import {
   creditsSynopsisSlides,
 } from "@/data/credits-reel";
 import {
-  creditsAudioFilename,
   creditsRollThanksLines,
   filmCreditsBilling,
   flowerCreditsCreatorName,
@@ -499,10 +498,6 @@ export function HomeFlowerCreditsPlayer({ className }: { className?: string }) {
           <p className="font-sans text-[14px] leading-relaxed text-zinc-300">
             This reel is timed to <span className="text-white/95">“{creditsSong?.title ?? "Flower"}.”</span>
           </p>
-          <p className="mt-4 font-sans text-[13px] leading-relaxed text-zinc-500">
-            Presentation mock-up · master:{" "}
-            <code className="font-mono text-[0.7rem] text-zinc-400">{creditsAudioFilename}</code>
-          </p>
         </div>
       );
     }
@@ -561,8 +556,7 @@ export function HomeFlowerCreditsPlayer({ className }: { className?: string }) {
   if (!creditsSong) {
     return (
       <div className={cn("rounded-sm border border-border/50 bg-muted/20 p-6 text-sm text-muted-foreground", className)}>
-        Add opening credits cue <code className="font-mono text-xs">song-flower-opening</code> to{" "}
-        <code className="font-mono text-xs">src/data/songs.ts</code>.
+        Credits audio is not available.
       </div>
     );
   }
@@ -614,9 +608,7 @@ export function HomeFlowerCreditsPlayer({ className }: { className?: string }) {
                 Reel {visibleIndex + 1}/{CARD_COUNT}
               </span>
             </div>
-            <p className="truncate font-sans text-[9px] text-zinc-400 sm:text-[10px]">
-              {creditsSong.title} · {creditsAudioFilename}
-            </p>
+            <p className="truncate font-sans text-[9px] text-zinc-400 sm:text-[10px]">{creditsSong.credit}</p>
           </div>
           <span className="hidden shrink-0 font-sans text-[9px] tabular-nums tracking-wide text-amber-200/70 sm:inline">
             {fmt(currentTime)} / {fmt(duration || 0)}
@@ -664,9 +656,7 @@ export function HomeFlowerCreditsPlayer({ className }: { className?: string }) {
           <p className="max-w-xl font-sans text-xs leading-relaxed text-muted-foreground">
             End-credits roll for <span className="font-medium text-foreground/90">{project.title}</span>, based on a
             story by {flowerCreditsCreatorName}, screenplay and songs by {flowerCreditsWriterName}. Music:{" "}
-            <span className="font-medium text-foreground/90">{creditsSong.title}</span> ·{" "}
-            <code className="font-mono text-[0.65rem] text-foreground/75">{creditsAudioFilename}</code> in{" "}
-            <code className="font-mono text-[0.65rem]">public/songs</code>.
+            <span className="font-medium text-foreground/90">{creditsSong.title}</span>.
           </p>
         </div>
       </div>
@@ -675,9 +665,7 @@ export function HomeFlowerCreditsPlayer({ className }: { className?: string }) {
         <div className="relative aspect-video w-full overflow-hidden bg-black">
           {loadError ? (
             <div className="flex h-full min-h-[200px] items-center justify-center bg-[#1a0508] px-6 text-center text-sm text-white/70">
-              Could not load audio. Add{" "}
-              <span className="mx-1 font-mono text-xs">{creditsSong.audioSrc ?? "Flower (3).wav"}</span> under{" "}
-              <code className="font-mono text-xs">public/songs</code>.
+              Could not load audio. Please try again.
             </div>
           ) : (
             <>
@@ -739,22 +727,25 @@ export function HomeFlowerCreditsPlayer({ className }: { className?: string }) {
         aria-label="Billing credits"
       >
         <p className="page-label mb-4">Billing</p>
-        <dl className="space-y-4">
+        <dl className="space-y-3">
           {filmCreditsBilling.map(({ label, name }) => (
-            <div key={label}>
-              <dt className="font-sans text-[0.65rem] font-medium uppercase tracking-[0.2em] text-muted-foreground">
+            <div
+              key={label}
+              className="flex flex-row flex-wrap items-baseline justify-between gap-x-6 gap-y-1"
+            >
+              <dt className="max-w-[min(100%,14rem)] font-sans text-[0.65rem] font-medium uppercase tracking-[0.2em] text-muted-foreground">
                 {label}
               </dt>
-              <dd className="mt-1 font-display text-base font-medium tracking-tight text-foreground sm:text-[1.05rem]">
+              <dd className="text-right font-display text-base font-medium tracking-tight text-foreground sm:text-[1.05rem]">
                 {name}
               </dd>
             </div>
           ))}
         </dl>
-        <p className="mt-5 border-t border-border/40 pt-4 font-sans text-xs leading-relaxed text-muted-foreground">
-          End credits music: <span className="font-medium text-foreground/85">{creditsSong.title}</span> ·{" "}
-          <code className="font-mono text-[0.7rem] text-foreground/80">{creditsAudioFilename}</code>
-        </p>
+        <div className="mt-5 flex flex-row flex-wrap items-baseline justify-between gap-x-4 gap-y-2 border-t border-border/40 pt-4 font-sans text-xs leading-relaxed text-muted-foreground">
+          <span>End credits music</span>
+          <span className="text-right font-medium text-foreground/85">{creditsSong.title}</span>
+        </div>
       </aside>
     </div>
   );

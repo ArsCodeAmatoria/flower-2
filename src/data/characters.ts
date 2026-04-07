@@ -152,13 +152,36 @@ export const characters: Character[] = [
     speechPattern:
       "Precise, structured sentences; no filler, no emotional vocabulary; speaks in conclusions — e.g. “Feeling is not an indicator of stability.” Never cartoon-villain; never raises voice.",
     notes:
-      "Personality: calm, analytical, not performatively emotional. Key beats: sc.3 orientation · sc.4 watches system then Rose · sc.9 atrium lab ‘consistency’ · sc.13 Bad Guys Close In — containment, optimal range, technical satisfaction · sc.15 cascade failure; ‘increase stabilization’; watches machine not Rose · sc.16 atrium — notices minimal Rose; silent approval · sc.17 central courtyard — system then Rose; connection public · sc.21 festival max (not on page) · sc.25 atrium core space — aftermath; ‘variation’ line.",
+      "Personality: calm, analytical, not performatively emotional; **Indian;** orientation **Equalize the Bloom** duet with **Jasmine** (playful teacher energy opening; bridge Disney-clear diction). Key beats: sc.3 orientation + number · sc.4 watches system then Rose · sc.9 atrium lab ‘consistency’ · sc.13 Bad Guys Close In — containment, optimal range, technical satisfaction · sc.15 cascade failure; ‘increase stabilization’; watches machine not Rose · sc.16 atrium — notices minimal Rose; silent approval · sc.17 central courtyard — system then Rose; connection public · sc.21 festival max (not on page) · sc.25 atrium core space — aftermath; ‘variation’ line.",
     moodLighting:
       "Machine authority: sterile whites, glassy cyan, clinical green diagnostics—precision and instrument, not whisper-purple. Separates ideology from Iris framing.",
     image16x9: "/characters/edelweiss.png",
     image2x1: "/characters/edelweiss.png",
     linkedSceneIds: ["scene-03", "scene-04", "scene-09", "scene-13", "scene-15", "scene-16", "scene-17", "scene-25"],
     linkedSetIds: ["flower-high-atrium", "equalizer-core", "flower-district"],
+  },
+  {
+    id: "jasmine",
+    slug: "jasmine",
+    name: "Jasmine",
+    role: "Teaching assistant — human face of the syllabus",
+    archetype:
+      "True believer who sells optimization as care; co-leads orientation spectacle with Edelweiss—warmth that still trains the body to obey.",
+    desire: "Help every student feel guided into success—no one left behind the beat.",
+    flaw: "Equates kindness with tuning people; conflict-avoidant until the cost has a name.",
+    lie: "If I help them align, I’m protecting them—not pruning them.",
+    truth: "Maintenance without mercy is still control; ‘help’ can humiliate.",
+    arc: "Radiant co-anchor (sc.3 duet) → efficient floor presence (sc.9 lab) → containment witness (sc.13) → sees machine exceed people (sc.25)—inventory breaks; room for a later brave small act.",
+    speechPattern:
+      "Bright, fast, encouraging in public; short clean checks in procedure mode; mirrors Edelweiss’s clarity without his chill—until pressure strips the sparkle.",
+    notes:
+      "Orientation: **Equalize the Bloom** duet with Edelweiss—Bollywood-inflected staging (call-response, claps, garden-row choreography); bridge delivered Disney-clear. Acts as beloved student proof the system works. Key art: `public/characters/jasmine.png` (optional separate wide plate later). Sc.9 & sc.13: logistics + smiling efficiency; sc.25: watches core shutdown without a fix-it habit to reach for.",
+    moodLighting:
+      "Public numbers: warm key, magenta-gold rim light on duet, crowd fill as soft bloom bounce—charm with faint cyan Equalizer underline so it never reads as pure variety show.",
+    image16x9: "/characters/jasmine.png",
+    image2x1: "/characters/jasmine.png",
+    linkedSceneIds: ["scene-03", "scene-09", "scene-13", "scene-25"],
+    linkedSetIds: ["flower-high-atrium", "flower-district"],
   },
   {
     id: "narcissa",

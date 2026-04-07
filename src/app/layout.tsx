@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, DM_Sans, Style_Script } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/layout/site-header";
+import { HOME_OG_IMAGE, SITE_DESCRIPTION, getMetadataBaseUrl } from "@/lib/site-metadata";
 
 const fontDisplay = Cormorant_Garamond({
   subsets: ["latin"],
@@ -25,8 +26,26 @@ const fontLogo = Style_Script({
 });
 
 export const metadata: Metadata = {
-  title: "Flower",
-  description: "A cinematic exhibition for a film project",
+  metadataBase: getMetadataBaseUrl(),
+  title: {
+    default: "Flower",
+    template: "%s · Flower",
+  },
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Flower",
+    title: "Flower",
+    description: SITE_DESCRIPTION,
+    images: [{ url: HOME_OG_IMAGE, alt: "Rose — Flower" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Flower",
+    description: SITE_DESCRIPTION,
+    images: [HOME_OG_IMAGE],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

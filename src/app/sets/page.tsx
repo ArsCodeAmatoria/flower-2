@@ -1,5 +1,30 @@
+import type { Metadata } from "next";
 import { sets } from "@/data/sets";
 import { SetCard } from "@/components/sets/set-card";
+import { SITE_DESCRIPTION } from "@/lib/site-metadata";
+
+const setsIndexSet = sets.find((s) => s.slug === "flower-district") ?? sets[0];
+const setsOgImage = setsIndexSet.image16x9;
+
+const description =
+  "Production design archive — spaces as narrative instruments, light as dramaturgy, and the symbolic load of each built environment.";
+
+export const metadata: Metadata = {
+  title: "Sets",
+  description,
+  openGraph: {
+    title: "Sets · Flower",
+    description: `${description} ${SITE_DESCRIPTION}`,
+    url: "/sets",
+    images: [{ url: setsOgImage, alt: `${setsIndexSet.name} — environment still` }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sets · Flower",
+    description: `${description} ${SITE_DESCRIPTION}`,
+    images: [setsOgImage],
+  },
+};
 
 export default function SetsPage() {
   return (

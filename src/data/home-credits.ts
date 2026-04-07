@@ -14,9 +14,6 @@ export const filmCreditsBilling = [
   { label: "Original songs by", name: "Leigh Akin" },
 ] as const;
 
-/** Audio master for the end-credits roll (under `public/songs/`). */
-export const creditsAudioFilename = "Flower (3).wav";
-
 /** Whispers / theme lines — warm preview-closer tone, still Flower. */
 export const flowerWorldQuotes = [
   "In the Flower District, the whole city grows on the same beat—until someone can’t.",

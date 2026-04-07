@@ -1,7 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { pdfDocuments } from "@/data/pdf-items";
 import { scriptScenes } from "@/data/script";
+import { sets } from "@/data/sets";
 import { exhibitionPageLabels } from "@/components/layout/exhibition-layout";
+import { SITE_DESCRIPTION } from "@/lib/site-metadata";
 import {
   formatActBlockNavLabel,
   sceneActBlock,
@@ -11,6 +14,29 @@ import type { ScriptScene } from "@/types";
 
 const docCardClassName =
   "block rounded-panel border border-border/40 bg-surface/15 p-6 shadow-frame-inset transition-subtle hover:border-border/55 hover:bg-surface/25";
+
+const pdfsOgSet = sets.find((s) => s.slug === "flower-high-atrium") ?? sets[0];
+const pdfsOgImage = pdfsOgSet.image16x9;
+
+const description =
+  "Browse downloadable packets and script-ready exports — scene PDFs from the reader in exhibition style.";
+
+export const metadata: Metadata = {
+  title: "PDFs",
+  description,
+  openGraph: {
+    title: "PDFs · Flower",
+    description: `${description} ${SITE_DESCRIPTION}`,
+    url: "/pdfs",
+    images: [{ url: pdfsOgImage, alt: `${pdfsOgSet.name} — environment still` }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PDFs · Flower",
+    description: `${description} ${SITE_DESCRIPTION}`,
+    images: [pdfsOgImage],
+  },
+};
 
 function ScenePdfLink({ scene }: { scene: ScriptScene }) {
   const block = sceneActBlock(scene);

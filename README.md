@@ -10,6 +10,10 @@ Rose has no scent, can’t sync with the Bloom Equalizer, and every attempt to b
 
 **Threads the bible keeps pulling on:** connection vs. enforced sameness · natural Bloom vs. the Equalizer · performed identity giving way to embodiment · variation as life, not error.
 
+**District motion (for writers / boards):** in shared outdoor flow, people drift into curved lanes and staggered rows—more **garden bed** than parade—so shots from height can complete the “bloom” using **paths + habit**, not literal human petal diagrams. Rose’s friction stays **phase and radius** (half-beat, wrong arc), not mass crowd chaos.
+
+**Comedy guardrails:** laughs come from **Rose vs the machine**, **Daisy’s** kind misfires, **Lemon’s** timing, and **Narcissa’s** dignity under routing pressure—not punching down. **Bluebell** stays a butterfly: **wing geometry, antenna, glow** only—no anthropomorphic face or “character” interiority.
+
 ## What’s in this repo
 
 | Area | Purpose |

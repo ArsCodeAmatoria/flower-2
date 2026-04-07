@@ -1,11 +1,39 @@
+import type { Metadata } from "next";
 import { ExhibitionLayout, exhibitionPageLabels, exhibitionStickySidebarClassName } from "@/components/layout/exhibition-layout";
 import { ArchiveNotFound } from "@/components/layout/archive-not-found";
 import { ExhibitionStillPlate } from "@/components/media/exhibition-still-plate";
 import { SetSidebar } from "@/components/sets/set-sidebar";
 import { sets } from "@/data/sets";
 import { setSceneLinks } from "@/lib/story-links";
+import { SITE_DESCRIPTION } from "@/lib/site-metadata";
 
 type PageProps = { params: { slug: string } };
+
+export function generateMetadata({ params }: PageProps): Metadata {
+  const filmSet = sets.find((s) => s.slug === params.slug);
+  if (!filmSet) {
+    return { title: "Set" };
+  }
+  const description = filmSet.summary.slice(0, 200);
+  const image = filmSet.image16x9;
+  const ogTitle = `${filmSet.name} · Flower`;
+  return {
+    title: filmSet.name,
+    description,
+    openGraph: {
+      title: ogTitle,
+      description,
+      url: `/sets/${filmSet.slug}`,
+      images: [{ url: image, alt: `${filmSet.name} — environment still` }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: ogTitle,
+      description,
+      images: [image],
+    },
+  };
+}
 
 export default function SetDetailPage({ params }: PageProps) {
   const filmSet = sets.find((s) => s.slug === params.slug);
