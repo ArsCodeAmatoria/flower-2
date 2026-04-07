@@ -1,12 +1,14 @@
 import type { ScriptActFilterProps } from "./types";
+import {
+  formatActBlockNavLabel,
+  sceneActBlock,
+  SCRIPT_ACT_BLOCK_ORDER,
+} from "@/lib/script-act-block";
 import { cn } from "@/lib/utils";
 
-function uniqueActs(scenes: ScriptActFilterProps["scenes"]): number[] {
-  return [...new Set(scenes.map((s) => s.act))].sort((a, b) => a - b);
-}
-
 export function ActNav({ scenes, actFilter, onActFilter }: ScriptActFilterProps) {
-  const acts = uniqueActs(scenes);
+  const usedBlocks = new Set(scenes.map((s) => sceneActBlock(s)));
+  const blocks = SCRIPT_ACT_BLOCK_ORDER.filter((id) => usedBlocks.has(id));
 
   return (
     <div className="flex flex-wrap gap-2" role="group" aria-label="Filter by act">
@@ -23,20 +25,20 @@ export function ActNav({ scenes, actFilter, onActFilter }: ScriptActFilterProps)
       >
         All
       </button>
-      {acts.map((a) => (
+      {blocks.map((id) => (
         <button
-          key={a}
+          key={id}
           type="button"
-          onClick={() => onActFilter(a)}
+          onClick={() => onActFilter(id)}
           className={cn(
             "rounded-sm border px-2.5 py-1 font-sans text-[0.65rem] font-medium uppercase tracking-wider",
             "transition-[color,background-color,border-color,opacity] duration-subtle ease-exhibition",
-            actFilter === a
+            actFilter === id
               ? "border-accent/35 bg-accent-subtle/38 text-foreground"
               : "border-border/45 text-muted-foreground hover:border-border/55 hover:text-foreground/95",
           )}
         >
-          Act {a}
+          {formatActBlockNavLabel(id)}
         </button>
       ))}
     </div>

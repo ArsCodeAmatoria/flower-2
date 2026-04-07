@@ -2,6 +2,21 @@
 export const flowerCreditsTagline =
   "She was born without a scent—in a world that only believed what it could measure.";
 
+/** Story source — title card “Based on a story by”. */
+export const flowerCreditsCreatorName = "Lynne Tapper";
+
+export const flowerCreditsWriterName = "Leigh Akin";
+
+/** Canonical film billing — used on reel card + mini credits under the player. */
+export const filmCreditsBilling = [
+  { label: "Based on a story by", name: "Lynne Tapper" },
+  { label: "Written by", name: "Leigh Akin" },
+  { label: "Original songs by", name: "Leigh Akin" },
+] as const;
+
+/** Audio master for the end-credits roll (under `public/songs/`). */
+export const creditsAudioFilename = "Flower (3).wav";
+
 /** Whispers / theme lines — warm preview-closer tone, still Flower. */
 export const flowerWorldQuotes = [
   "In the Flower District, the whole city grows on the same beat—until someone can’t.",

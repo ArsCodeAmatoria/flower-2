@@ -1,4 +1,5 @@
 import { ExhibitionLayout, exhibitionPageLabels } from "@/components/layout/exhibition-layout";
+import { HomeFlowerCreditsPlayer } from "@/components/home/home-flower-credits-player";
 import { HomeHero } from "@/components/home/home-hero";
 import { ExhibitionNavCards } from "@/components/home/exhibition-nav-cards";
 import { ProjectGalleryPanel } from "@/components/home/project-gallery-panel";
@@ -13,6 +14,7 @@ export default function Page() {
     >
       <HomeHero />
       <ExhibitionNavCards />
+      <HomeFlowerCreditsPlayer className="pt-14" />
     </ExhibitionLayout>
   );
 }

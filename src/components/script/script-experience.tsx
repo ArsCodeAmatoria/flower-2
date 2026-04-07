@@ -8,6 +8,9 @@ import {
   exhibitionStickySidebarClassName,
 } from "@/components/layout/exhibition-layout";
 import { scriptSceneAnchorId } from "@/lib/script-anchors";
+import type { ScriptActBlockId } from "@/lib/script-act-block";
+import { sceneActBlock } from "@/lib/script-act-block";
+import { printScriptSceneAtIndex } from "@/lib/script-print";
 import { ActNav } from "./act-nav";
 import { BeatNav } from "./beat-nav";
 import { PageSceneCounter } from "./page-scene-counter";
@@ -21,7 +24,7 @@ import type { ScriptExperienceProps } from "./types";
 
 export function ScriptExperience({ scenes, characters, sets }: ScriptExperienceProps) {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [actFilter, setActFilter] = useState<number | null>(null);
+  const [actFilter, setActFilter] = useState<ScriptActBlockId | null>(null);
 
   const scene = scenes[activeIndex];
   const draftMaxPage = scenes.length ? Math.max(...scenes.map((s) => s.pageEnd)) : 0;
@@ -48,14 +51,18 @@ export function ScriptExperience({ scenes, characters, sets }: ScriptExperienceP
   );
 
   const onActFilter = useCallback(
-    (act: number | null) => {
-      setActFilter(act);
-      if (act === null) return;
-      const firstInAct = scenes.findIndex((s) => s.act === act);
-      if (firstInAct >= 0) onSelectScene(firstInAct);
+    (block: ScriptActBlockId | null) => {
+      setActFilter(block);
+      if (block === null) return;
+      const firstInBlock = scenes.findIndex((s) => sceneActBlock(s) === block);
+      if (firstInBlock >= 0) onSelectScene(firstInBlock);
     },
     [scenes, onSelectScene],
   );
+
+  const onDownloadScenePdf = useCallback(() => {
+    printScriptSceneAtIndex(activeIndex);
+  }, [activeIndex]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -79,6 +86,8 @@ export function ScriptExperience({ scenes, characters, sets }: ScriptExperienceP
 
   return (
     <ExhibitionLayout
+      className="script-page-layout"
+      mainClassName="script-print-main"
       pageLabel={exhibitionPageLabels.script}
       sidebarAriaLabel="Script navigation and notes"
       sidebarClassName={exhibitionStickySidebarClassName}
@@ -114,7 +123,7 @@ export function ScriptExperience({ scenes, characters, sets }: ScriptExperienceP
                   totalScenes={scenes.length}
                   draftMaxPage={draftMaxPage}
                 />
-                <ScriptSceneCopyPlain scene={scene} className="mt-5" />
+                <ScriptSceneCopyPlain scene={scene} className="mt-5" onDownloadScenePdf={onDownloadScenePdf} />
               </ExhibitionSidebarSection>
 
               <ExhibitionSidebarSection title="Notes">

@@ -1,4 +1,5 @@
 import type { Character, FilmSet, ScriptScene } from "@/types";
+import type { ScriptActBlockId } from "@/lib/script-act-block";
 
 export type ScriptExperienceProps = {
   scenes: ScriptScene[];
@@ -14,8 +15,8 @@ export type ScriptSceneSelectionProps = {
 
 export type ScriptActFilterProps = {
   scenes: ScriptScene[];
-  actFilter: number | null;
-  onActFilter: (act: number | null) => void;
+  actFilter: ScriptActBlockId | null;
+  onActFilter: (act: ScriptActBlockId | null) => void;
 };
 
 export type ScriptContextPanelProps = {

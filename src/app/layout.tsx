@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, DM_Sans } from "next/font/google";
+import { Cormorant_Garamond, DM_Sans, Style_Script } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/layout/site-header";
 
@@ -17,6 +17,13 @@ const fontSans = DM_Sans({
   weight: ["400", "500", "600"],
 });
 
+const fontLogo = Style_Script({
+  subsets: ["latin"],
+  variable: "--font-logo",
+  display: "swap",
+  weight: "400",
+});
+
 export const metadata: Metadata = {
   title: "Flower",
   description: "A cinematic exhibition for a film project",
@@ -26,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${fontDisplay.variable} ${fontSans.variable}`}
+      className={`${fontDisplay.variable} ${fontSans.variable} ${fontLogo.variable}`}
       suppressHydrationWarning
     >
       <body className="min-h-dvh bg-background text-foreground antialiased">

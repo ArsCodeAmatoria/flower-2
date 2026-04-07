@@ -322,3 +322,122 @@
     opacity: 0;
   }
 }
+
+/* Disney-style opening-credits reel (matches flower repo CreditsSection backdrop & transport) */
+@keyframes creditsStarTwinkle {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(0.65);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+@keyframes creditsAurora {
+  0% {
+    background-position: 0% 40%;
+  }
+  50% {
+    background-position: 100% 60%;
+  }
+  100% {
+    background-position: 0% 40%;
+  }
+}
+
+@keyframes creditsSparkleDrift {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.35;
+  }
+  50% {
+    transform: translateY(-6px) rotate(8deg);
+    opacity: 0.85;
+  }
+}
+
+@keyframes creditsPlayerShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Script — print / Save as PDF (browser)
+   Scoped to `.script-page-layout` so other routes are unchanged.
+   -------------------------------------------------------------------------- */
+
+@media print {
+  @page {
+    size: letter;
+    margin: 0.65in 0.72in;
+  }
+
+  body:has(.script-page-layout) {
+    background: white !important;
+    color: hsl(220 22% 9%) !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  body:has(.script-page-layout) > header {
+    display: none !important;
+  }
+
+  body:has(.script-page-layout) #main-content.flower-container {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  body:has(.script-page-layout) .script-page-layout {
+    display: block !important;
+  }
+
+  body:has(.script-page-layout) .script-page-layout > aside {
+    display: none !important;
+  }
+
+  body:has(.script-page-layout) .script-print-main {
+    max-width: none;
+  }
+
+  body:has(.script-page-layout) .script-viewer-root .max-w-readable {
+    max-width: none;
+  }
+
+  /* One column, stable opacity (ignore scroll-spy fade). */
+  body:has(.script-page-layout) .script-viewer-scenes article {
+    scroll-margin-top: 0 !important;
+    opacity: 1 !important;
+    border-left-color: transparent !important;
+    border-top-color: hsl(42 8% 86% / 0.35) !important;
+  }
+
+  body:has(.script-page-layout) .script-viewer-scenes article header {
+    break-inside: avoid;
+    break-after: avoid;
+  }
+
+  /* Full draft: act label + scene live in `.script-scene-segment` — page break before each new act. */
+  body:has(.script-page-layout):not(.script-print-one-scene-mode) .script-scene-segment > h2.page-label {
+    break-before: page;
+    padding-top: 0 !important;
+  }
+
+  /* Current scene only — hide other segments; keep act heading with scene without a leading blank page. */
+  body.script-print-one-scene-mode .script-scene-segment:not(.script-print-scene-active) {
+    display: none !important;
+  }
+
+  body.script-print-one-scene-mode .script-scene-segment.script-print-scene-active > h2.page-label {
+    break-before: auto !important;
+    padding-top: 0 !important;
+  }
+}

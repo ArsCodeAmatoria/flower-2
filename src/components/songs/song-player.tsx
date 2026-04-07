@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from "react";
 import { Pause, Play } from "lucide-react";
+import { publicAudioUrl } from "@/lib/public-audio-url";
 import { cn } from "@/lib/utils";
 
 function formatTime(seconds: number) {
@@ -28,11 +29,9 @@ export function SongPlayer({ src, title, className }: SongPlayerProps) {
   const [current, setCurrent] = useState(0);
   const [loadError, setLoadError] = useState(false);
 
-  /** Encode spaces and special characters in local `/public` paths */
   const resolvedSrc = useMemo(() => {
     if (!src) return undefined;
-    if (/^https?:\/\//i.test(src)) return src;
-    return encodeURI(src);
+    return publicAudioUrl(src);
   }, [src]);
 
   const resetState = useCallback(() => {

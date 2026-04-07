@@ -25,11 +25,11 @@ export function SiteHeader() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.4, ease: flowerEase }}
       >
-        <div className="flower-container flex h-[3.25rem] items-center justify-between gap-4 sm:h-14">
+        <div className="flower-container flex min-h-[3.5rem] items-center justify-between gap-4 py-1 sm:min-h-16 sm:py-1.5">
           <div className="flex min-w-0 flex-1 items-center gap-8 md:gap-10">
             <Link
               href="/"
-              className="font-display text-lg font-medium tracking-tight text-foreground transition-subtle hover:text-foreground/85"
+              className="font-logo text-[1.875rem] font-bold leading-[0.95] tracking-normal text-foreground transition-subtle hover:text-foreground/85 sm:text-[2.25rem] md:text-[2.375rem]"
             >
               Flower
             </Link>

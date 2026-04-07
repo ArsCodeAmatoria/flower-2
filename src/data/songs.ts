@@ -57,4 +57,12 @@ Just Fit In · Daisy — grow-right / stability pressure.`,
 
 Equalize the Bloom · Edelweiss — system / ideology voice.`,
   },
+  {
+    id: "song-flower-opening",
+    slug: "flower-opening",
+    title: "Flower",
+    credit: "End credits · Flower (3).wav",
+    audioSrc: "/songs/Flower (3).wav",
+    lyrics: `[Opening credits]\n\nTimed to the home page reel — same model as the \`flower\` prototype site.`,
+  },
 ];
