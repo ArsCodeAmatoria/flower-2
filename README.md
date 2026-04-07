@@ -15,9 +15,9 @@ Rose has no scent, can’t sync with the Bloom Equalizer, and every attempt to b
 | Area | Purpose |
 |------|---------|
 | **Home** | Project wall—logline, synopsis, tone, theme tags, opening credits experience |
-| **Script** | Full draft reader with scene context, navigation, notes |
+| **Script** | Full draft reader with Act 1 / 2A / 2B / 3 navigation, scene context, notes, and print-to-PDF export (full draft + per-scene) |
 | **Characters / Sets** | Dossiers and linked story material |
-| **Lyrics / PDFs** | Supplementary exhibition pages as needed |
+| **Lyrics / PDFs** | Supplementary exhibition pages; PDFs includes document cards plus per-scene script export links |
 
 ## Development
 

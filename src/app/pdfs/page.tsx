@@ -37,10 +37,8 @@ export default function PdfsPage() {
         </p>
         <h1 className="title-display">PDFs</h1>
         <p className="subtitle">
-          Static files live in{" "}
-          <code className="font-mono text-[0.9em] text-foreground/75">public/pdfs/</code> and are listed in{" "}
-          <code className="font-mono text-[0.9em] text-foreground/75">src/data/pdf-items.ts</code>. Every script scene
-          links to the reader so you can export that scene in the same typography (print / Save as PDF).
+          Browse downloadable packets and script-ready exports. Each scene card opens directly to that part of the
+          reader so you can save a clean PDF in the same visual style.
         </p>
       </header>
 
