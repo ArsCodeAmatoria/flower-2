@@ -1,0 +1,316 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --------------------------------------------------------------------------
+   Flower — global visual foundation
+   Cinematic, curated, museum-adjacent. Restrained motion and contrast.
+   -------------------------------------------------------------------------- */
+
+:root {
+  /* Palette: charcoal / stone / botanical */
+  --background: 42 14% 97%;
+  --foreground: 220 22% 9%;
+  --muted: 42 10% 92%;
+  --muted-foreground: 220 12% 40%;
+  --border: 42 8% 86%;
+  --ring: 152 22% 36%;
+  --accent: 152 20% 34%;
+  --accent-foreground: 42 20% 98%;
+  --accent-subtle: 152 18% 92%;
+  --surface: 42 12% 95%;
+  --surface-border: 42 7% 88%;
+
+  /* Spacing rhythm (exhibition pacing) */
+  --space-section: clamp(3rem, 8vw, 5.5rem);
+  --space-block: clamp(1.25rem, 3vw, 2rem);
+  --space-tight: 0.625rem;
+
+  /* Geometry */
+  --radius-hairline: 1px;
+  --radius-panel: 0.375rem;
+
+  /* Framing */
+  --shadow-frame-inset: inset 0 0 0 1px hsl(var(--foreground) / 0.06);
+  --shadow-frame-outer: 0 24px 48px -24px hsl(var(--foreground) / 0.12);
+
+  /* Motion — minimal */
+  --duration-subtle: 200ms;
+}
+
+.dark {
+  --background: 220 20% 6%;
+  --foreground: 42 12% 94%;
+  --muted: 220 14% 12%;
+  --muted-foreground: 42 8% 58%;
+  --border: 220 12% 18%;
+  --ring: 152 30% 45%;
+  --accent: 152 26% 42%;
+  --accent-foreground: 220 22% 8%;
+  --accent-subtle: 152 22% 14%;
+  --surface: 220 16% 9%;
+  --surface-border: 220 12% 16%;
+
+  --shadow-frame-inset: inset 0 0 0 1px hsl(var(--foreground) / 0.08);
+  --shadow-frame-outer: 0 28px 56px -28px hsl(0 0% 0% / 0.45);
+}
+
+@layer base {
+  html {
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans text-[15px] leading-[1.65] antialiased;
+  }
+
+  /* Editorial hierarchy: serif display for titles, sans for everything else */
+  h1,
+  h2,
+  h3 {
+    @apply font-display text-foreground font-medium;
+  }
+
+  h1 {
+    @apply text-display-xl tracking-tight;
+  }
+
+  h2 {
+    @apply text-display-lg tracking-tight;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl tracking-tight;
+  }
+
+  ::selection {
+    @apply bg-accent-subtle text-foreground;
+  }
+
+  .dark ::selection {
+    @apply bg-accent-subtle text-foreground;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Layout primitives
+   -------------------------------------------------------------------------- */
+
+@layer components {
+  /**
+   * Horizontal containment — use on main or section wrappers.
+   * Narrower than a typical dashboard; feels more like a catalogue raisonné.
+   */
+  .flower-container {
+    @apply mx-auto w-full max-w-exhibition px-4 sm:px-6 md:px-8 lg:px-10;
+  }
+
+  /**
+   * Vertical rhythm between major regions.
+   */
+  .flower-stack-section {
+    @apply space-y-section;
+  }
+
+  /**
+   * Small caps / letterspaced label above a section (catalogue number, room label).
+   */
+  .page-label {
+    @apply font-sans text-[0.625rem] font-medium uppercase tracking-[0.26em] text-muted-foreground;
+  }
+
+  .page-label--accent {
+    @apply text-accent;
+  }
+
+  /**
+   * Section title — serif, restrained scale.
+   */
+  .section-heading {
+    @apply font-display text-display-lg text-foreground;
+  }
+
+  .section-heading--sub {
+    @apply font-sans text-sm font-medium tracking-wide text-muted-foreground normal-case;
+  }
+
+  /**
+   * Wall text / caption blocks — quiet, readable metadata.
+   */
+  .metadata-block {
+    @apply font-sans text-xs leading-relaxed text-muted-foreground max-w-readable;
+  }
+
+  .metadata-block dt {
+    @apply mb-1 text-[0.65rem] font-medium uppercase tracking-[0.2em];
+    color: hsl(var(--muted-foreground) / 0.9);
+  }
+
+  .metadata-block dd {
+    @apply mb-4 text-sm last:mb-0;
+    color: hsl(var(--foreground) / 0.85);
+  }
+
+  .metadata-inline {
+    @apply flex flex-wrap items-baseline gap-x-3 gap-y-1 font-sans text-xs text-muted-foreground;
+  }
+
+  .metadata-inline__key {
+    @apply uppercase tracking-[0.18em] text-[0.65rem];
+  }
+
+  .metadata-inline__value {
+    color: hsl(var(--foreground) / 0.8);
+  }
+
+  /**
+   * Hairline or gradient dividers — no heavy rules.
+   */
+  .divider-quiet {
+    @apply h-px w-full border-0 bg-gradient-to-r from-transparent via-border to-transparent opacity-[0.72];
+  }
+
+  .divider-quiet--vertical {
+    @apply h-auto min-h-[2rem] w-px bg-gradient-to-b from-transparent via-border to-transparent opacity-[0.72];
+  }
+
+  /**
+   * Cinematic framing — plate / lightbox suggestion, not a heavy card.
+   */
+  .frame-cinematic {
+    @apply relative overflow-hidden rounded-panel border bg-surface shadow-frame-inset;
+    border-color: hsl(var(--border) / 0.35);
+  }
+
+  .frame-cinematic--lift {
+    box-shadow: var(--shadow-frame-inset), var(--shadow-frame-outer);
+  }
+
+  .frame-cinematic__mat {
+    @apply pointer-events-none absolute inset-0 z-[2] ring-1 ring-inset;
+    --tw-ring-color: hsl(var(--foreground) / 0.035);
+  }
+
+  /**
+   * Hero / landing display (replaces generic startup hero).
+   */
+  .title-display {
+    @apply font-display text-display-xl text-foreground font-medium;
+  }
+
+  .subtitle {
+    @apply font-sans text-base md:text-lg text-muted-foreground leading-relaxed max-w-readable;
+  }
+
+  /**
+   * Tags / chips — archival, not SaaS pill.
+   */
+  .pill {
+    @apply inline-flex items-center gap-1.5 rounded-sm border px-2.5 py-0.5 font-sans text-[0.6875rem] font-medium tracking-[0.04em] text-muted-foreground;
+    border-color: hsl(var(--border) / 0.55);
+    background-color: hsl(var(--surface) / 0.5);
+  }
+
+  .pill--accent {
+    @apply text-accent;
+    border-color: hsl(var(--accent) / 0.3);
+    background-color: hsl(var(--accent-subtle) / 0.45);
+  }
+
+  /**
+   * Links and interactive text — slow, quiet hover.
+   * (Opacity + hover use raw CSS — Tailwind @apply cannot resolve theme color /opacity utilities.)
+   */
+  .link-quiet {
+    text-underline-offset: 0.22em;
+    text-decoration-line: underline;
+    color: hsl(var(--foreground) / 0.78);
+    text-decoration-color: hsl(var(--border) / 0.8);
+    transition-property: color, text-decoration-color;
+    transition-duration: var(--duration-subtle);
+    transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .link-quiet:hover {
+    color: hsl(var(--foreground));
+    text-decoration-color: hsl(var(--accent) / 0.45);
+  }
+
+  /**
+   * Exhibition sidebar column — interpretive wall text, not a dashboard rail.
+   * Used by ExhibitionLayout; children inherit quiet caption typography.
+   */
+  .exhibition-sidebar-inner {
+    @apply font-sans text-sm leading-[1.65] text-muted-foreground;
+  }
+
+  /**
+   * Wall label — catalogue line, no rule (use under cards / in lists).
+   */
+  .wall-label {
+    @apply font-sans text-[0.65rem] font-medium uppercase tracking-[0.2em] text-muted-foreground;
+  }
+
+  /**
+   * Sidebar section title — hairline rule, not a heavy SaaS divider.
+   */
+  .wall-section-title {
+    @apply border-b pb-2.5 font-sans text-[0.65rem] font-medium uppercase tracking-[0.2em] text-muted-foreground;
+    border-color: hsl(var(--border) / 0.25);
+  }
+
+  /**
+   * Shared caption card for gallery sidebars (project, dossier, script context).
+   */
+  .wall-caption-card {
+    @apply rounded-panel border p-6 shadow-frame-inset md:p-7;
+    border-color: hsl(var(--border) / 0.4);
+    background-color: hsl(var(--surface) / 0.25);
+  }
+
+  .exhibition-sidebar-inner :where(strong, b) {
+    @apply font-medium;
+    color: hsl(var(--foreground) / 0.88);
+  }
+
+  .exhibition-sidebar-inner :where(a) {
+    @apply link-quiet;
+  }
+}
+
+@layer utilities {
+  .transition-subtle {
+    @apply transition-[color,background-color,border-color,opacity,box-shadow] duration-subtle ease-exhibition;
+  }
+
+  /**
+   * Optional vignette for full-bleed imagery (use sparingly).
+   */
+  .vignette-soft {
+    box-shadow: inset 0 0 120px hsl(var(--foreground) / 0.08);
+  }
+
+  .dark .vignette-soft {
+    box-shadow: inset 0 0 160px hsl(0 0% 0% / 0.35);
+  }
+
+}
+
+/* Credits backdrop — referenced by inline animation on homepage */
+@keyframes credits-petal-shimmer {
+  0% {
+    transform: translateX(-115%) skewX(-20deg);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.55;
+  }
+  55% {
+    opacity: 0.35;
+  }
+  100% {
+    transform: translateX(115%) skewX(-20deg);
+    opacity: 0;
+  }
+}

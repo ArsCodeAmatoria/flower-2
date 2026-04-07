@@ -1,0 +1,187 @@
+import type { Character } from "@/types";
+
+/**
+ * Writer room (global)
+ * — No one explains the theme; consequence and behavior do.
+ * — Dialogue stays short: no speeches, no monologues.
+ * — Emotion drives speech, not logic or exposition.
+ * — Rose is the only character who fully transforms; others shift slightly.
+ *
+ * Bloom Equalizer (system, non-character)
+ * — Treat like antagonist force: always reacts to Rose; escalates in steps; reads as pressure, not gadget talk.
+ * — Visual grammar: order → tension; disorder (post-truth) → release.
+ */
+
+const ROSE_SCENE_IDS = [
+  "scene-01",
+  "scene-02",
+  "scene-03",
+  "scene-04",
+  "scene-05",
+  "scene-06",
+  "scene-07",
+  "scene-08",
+  "scene-09",
+  "scene-10",
+  "scene-11",
+  "scene-12",
+  "scene-13",
+  "scene-14",
+  "scene-15",
+  "scene-16",
+  "scene-17",
+  "scene-18",
+  "scene-19",
+  "scene-20",
+  "scene-21",
+  "scene-22",
+  "scene-23",
+  "scene-24",
+  "scene-25",
+  "scene-26",
+] as const;
+
+export const characters: Character[] = [
+  {
+    id: "rose",
+    slug: "rose",
+    name: "Rose",
+    role: "Protagonist",
+    archetype:
+      "Emotional anchor of the film; embodiment of natural variation; the only role that moves performed identity → authentic identity.",
+    desire: "If I can just get it right, I’ll belong.",
+    flaw: "She equates belonging with perfect synchronization—so she keeps trying to perform her way into acceptance.",
+    lie: "The chaos is my fault; if I synchronize hard enough, I’ll fix it.",
+    truth: "She doesn’t need to get it right to belong. The Equalizer separated her; she wasn’t the problem.",
+    arc: "Performed sync → noticing the machine → real connection (Lemon) → wrong choice (suppression) → Dark Night → return → shutdown → simple, unforced presence.",
+    speechPattern:
+      "ACT 1 (sc. 1–6): frequent hesitations (“um,” “uh,” “I mean—”), self-corrections, rehearsed phrasing, over-explains small things · sc. 7 (Break into Two): still restarts and searches for words, but lands on certainty — “focus,” “I can fix it” · ACT 2A (sc. 8–12): fewer fillers with Lemon; still performs in structured spaces · ACT 2B (sc. 13–18): tightens under pressure; defensive; hesitations spike when emotional · DARK NIGHT (sc. 19): minimal speech, fragments · ACT 3 (sc. 20–26): no filler, no self-correction — e.g. “Hi. I’m Rose.” Never speeches; learns by experience; emotional truth > clever phrasing.",
+    notes:
+      "Personality: beginning — observant, earnest, wants to belong, slightly self-conscious; end — grounded, present, unforced confidence. External conflict: Equalizer separates her; others read that as her fault. Physical: Act 1 adjusts constantly; Act 2 controls movement; Act 3 moves naturally. Spine: ~100 pp. / ~1 min per page — key beats sc.1 VO mismatch · 4 catalyst · 7 Break into Two (chooses fit) · 11 waterfall — first unforced breath; nature responds (unseen) · 12 midpoint — ‘I’m not wrong’; false victory; fits into herself · 13 containment; reduction ‘works’ — dangerous · 14 Iris reframes Lemon; Rose proves hollow stability · 15 system destabilizes anyway; ‘not just her’ seeds · 16 wrong choice — double down; brief ‘success’; not herself · 17 public collapse; ‘I did this’ absolute · 18 All Is Lost — ‘I hurt everything I touch’; stay out of it · 19 Dark Night — almost leaves; Daisy’s truth; chooses return · 20 Break into Three — no suppression; ‘not just me’; toward source · 21 festival set piece — sees routing; triggers first crack; toward core · 22 Narcissa illusion breaks; ‘not holding’ with Lemon · 23 full public failure — ‘not me’; ‘breaking itself’; stop the core · 24 reset — part of not control; shutdown decision · 25 atrium core shutdown — presence vs machine · 26 final image — ‘Hi. I’m Rose’ / however it wants (lived).",
+    image16x9: "/characters/rose.png",
+    image2x1: "/characters/rose1.png",
+    linkedSceneIds: [...ROSE_SCENE_IDS],
+    linkedSetIds: ["flower-district", "flower-high-atrium", "wild-waterfall", "equalizer-core"],
+  },
+  {
+    id: "lemon",
+    slug: "lemon",
+    name: "Lemon",
+    role: "Deuteragonist / B story",
+    archetype:
+      "Emotional catalyst: freedom without full responsibility at first; teaches Rose to relax; must learn to stay and face pressure.",
+    desire: "If I don’t engage, I don’t have to fail.",
+    flaw: "Uses humor and motion to dodge depth; hides cost of the system on his body until he can’t.",
+    lie: "Keeping things light and outside the rules keeps me safe.",
+    truth: "He has to stay—even when it’s uncomfortable—and mean it.",
+    arc: "Deflecting guide → destabilized at waterfall → weakened when Rose suppresses (stakes land) → stabilizes after natural Bloom reconnects.",
+    speechPattern:
+      "Fast, casual, fluid; no hesitation; deflects seriousness with humor — e.g. “Or—we could not do that and instead do literally anything else.” Rare direct feeling: when it comes, keep it simple and honest.",
+    notes:
+      "Personality: playful, charming, avoidant, intuitive. Physical: always moving until story demands stillness. Key beats: sc.6 edge walkway — first real encounter · sc.7 Rose chooses district over his path; he walks out · sc.8 B-story expansion — ‘just walk’ / emotional beat; seeds Squeeze · 9 fun/games · 10 ‘expecting it now’ / Iris closes · sc.11 leads to waterfall; first unease at her effect · sc.12 enters her field — connection + physical instability; ‘Don’t’ stop · sc.14 strain at rehearsal; Iris reframes; can’t counter; less her when she stabilizes · sc.16 hollow Rose; steps back; nod not agreement · sc.17 festival collapse; knee; ‘Don’t’ suppress again · sc.18 can’t explain; ‘not scared’ too late; doesn’t follow · sc.20 return — ‘not just me’; follows toward core · sc.21 ‘Look at Me’ overload; follows Rose in · sc.22 Narcissa breaks; ‘not holding’ with Rose · sc.23 public system break; Lemon down; Rose toward core · sc.24 sees her reset; follows to shutdown · sc.25 atrium core — braces, stable after.",
+    image16x9: "/characters/lemon.png",
+    image2x1: "/characters/lemon.png",
+    linkedSceneIds: [
+      "scene-06",
+      "scene-07",
+      "scene-08",
+      "scene-09",
+      "scene-10",
+      "scene-11",
+      "scene-12",
+      "scene-14",
+      "scene-16",
+      "scene-17",
+      "scene-18",
+      "scene-20",
+      "scene-21",
+      "scene-22",
+      "scene-23",
+      "scene-24",
+      "scene-25",
+      "scene-26",
+    ],
+    linkedSetIds: ["wild-waterfall", "flower-district", "flower-high-atrium"],
+  },
+  {
+    id: "daisy",
+    slug: "daisy",
+    name: "Daisy",
+    role: "Best friend / grounded truth",
+    archetype:
+      "Internalized system belief made kind; she grounds Rose emotionally without resolving the whole arc herself.",
+    desire: "Fitting in keeps things stable—for her and everyone she loves.",
+    flaw: "Repeats ‘grow right’ logic as comfort until she sees the cost of Rose gone.",
+    lie: "Stability equals everyone matching the same rhythm.",
+    truth: "Maybe stability isn’t everything; the district is worse without Rose.",
+    arc: "Friendly pragmatist → delivers hard truth at Dark Night without preaching.",
+    speechPattern:
+      "Clear, simple, direct; no filler. Observations, not philosophy—never explains the theme.",
+    notes:
+      "Personality: friendly, practical, well-meaning, slightly conditioned by the system. Key lines: sc.2 fit-in seed · sc.3 atrium (aligned baseline vs Rose) · sc.9 Bloom node + hallway ‘or less’ · sc.14 ‘You’re steadier’ (sees containment, doesn’t push) · sc.16 ‘wasn’t just you’ vs ‘It’s… steadier’ (almost validates wrong choice) · sc.19 Dark Night — ‘worse without you’; quietly corrects Iris read on Lemon; ‘just come back.’",
+    image16x9: "/characters/daisy.png",
+    image2x1: "/characters/daisy1.png",
+    linkedSceneIds: ["scene-02", "scene-03", "scene-09", "scene-10", "scene-14", "scene-16", "scene-19"],
+    linkedSetIds: ["flower-district", "flower-high-atrium", "wild-waterfall"],
+  },
+  {
+    id: "edelweiss",
+    slug: "edelweiss",
+    name: "Edelweiss",
+    role: "Antagonist — system architect",
+    archetype: "Control through ideology; believes he is improving the system, not breaking souls.",
+    desire: "District-wide equilibrium—no variance that could read as threat.",
+    flaw: "Precision mistaken for compassion; separation framed as protection.",
+    lie: "Variation creates instability; sameness is safety.",
+    truth: "Imbalance wasn’t the enemy—variation was the missing ingredient.",
+    arc: "Measured authority → catalyst observation (sc.4) → atrium lab observation (sc.9) → sc.13 containment / variance / ‘reduction improves stability’ → sc.15 system strain; focus shifts off Rose → sc.16 watches Rose suppress; says nothing; machine rewards → sc.17 festival collapse; public link Rose ↔ failure → sc.25 witnesses atrium core shutdown → quiet realization (variation, not imbalance).",
+    speechPattern:
+      "Precise, structured sentences; no filler, no emotional vocabulary; speaks in conclusions — e.g. “Feeling is not an indicator of stability.” Never cartoon-villain; never raises voice.",
+    notes:
+      "Personality: calm, analytical, not performatively emotional. Key beats: sc.3 orientation · sc.4 watches system then Rose · sc.9 atrium lab ‘consistency’ · sc.13 Bad Guys Close In — containment, optimal range, technical satisfaction · sc.15 cascade failure; ‘increase stabilization’; watches machine not Rose · sc.16 atrium — notices minimal Rose; silent approval · sc.17 central courtyard — system then Rose; connection public · sc.21 festival max (not on page) · sc.25 atrium core space — aftermath; ‘variation’ line.",
+    image16x9: "/media/characters/edelweiss-16x9.jpg",
+    image2x1: "/media/characters/edelweiss-2x1.jpg",
+    linkedSceneIds: ["scene-03", "scene-04", "scene-09", "scene-13", "scene-15", "scene-16", "scene-17", "scene-25"],
+    linkedSetIds: ["flower-high-atrium", "equalizer-core", "flower-district"],
+  },
+  {
+    id: "narcissa",
+    slug: "narcissa",
+    name: "Narcissa",
+    role: "Image / social ideal",
+    archetype: "External perfection—the public face of ‘growing right’ until performance cracks.",
+    desire: "To be flawless in the open—seen, admired, untouchable.",
+    flaw: "Identity is load-bearing; when the Equalizer maxes, the mask shatters in public.",
+    lie: "If I’m perfect, I’m safe.",
+    truth: "Performance without connection is fragile—Bloom Festival exposes it.",
+    arc: "Social dominance (sc.9–10) → festival peak (sc.21) → sc.22 public perfection break — leads machine, then reacts; silence at center → system fights her; collapse at scale (sc.23) → sc.26 off-center; imperfect Bloom, real smile.",
+    speechPattern:
+      "Polished, declarative, slightly theatrical; always ‘on’; no hesitation in performance mode.",
+    notes:
+      "Personality: confident, controlled, performative. Dialogue: statements, not questions. Strong intro sc.9 courtyard; sc.10 atrium formation center; social dominance sc.9–10; sc.17 festival center — formation holds until cascade; sc.21 ‘Look at Me’ — system routes through her; sc.22 phased public collapse — slip, overcorrection, stop; sc.23 system fights her — precision useless; sc.26 epilogue — not center; imperfect okay.",
+    image16x9: "/characters/narcissa.png",
+    image2x1: "/characters/narcissa.png",
+    linkedSceneIds: ["scene-09", "scene-10", "scene-17", "scene-21", "scene-22", "scene-23", "scene-26"],
+    linkedSetIds: ["flower-district"],
+  },
+  {
+    id: "iris",
+    slug: "iris",
+    name: "Iris",
+    role: "Perception manipulator",
+    archetype: "Controls narrative, not reality—turns uncertainty into collective belief.",
+    desire: "Keep the story simple: fear attaches to the outlier, not the machine.",
+    flaw: "Calls spin ‘mercy’; plants ideas instead of owning harm.",
+    lie: "A kind lie is better than a destabilizing truth.",
+    truth: "Framing truth to wound is still violence—Daisy’s honesty breaks her spell (sc.19: what Lemon ‘meant’ corrected quietly).",
+    arc: "Observing (sc.4 catalyst) → sc.10 perception engine (introduced) → sc.14 Lemon reframed (‘he just reacted’) — framing only → sc.17 festival watches; says nothing (doesn’t need to) → sc.18 All Is Lost — still silent; earlier seeds complete Rose’s read → sc.21 festival; still watching → sc.22 spectacle breaks; no frame left → sc.26 watches; narrative obsolete.",
+    speechPattern:
+      "Calm, suggestive, indirect—never a bald lie; damages by framing — e.g. “I mean… he did pull back.” Plants, doesn’t argue.",
+    notes:
+      "Personality: observant, subtle, socially intelligent, soft-spoken. Never lies directly — frames. Sc.4: watches glitch, not surprised — narrative seed. Sc.10: ‘followed her,’ ‘maybe she’s just—,’ ‘no one thinks you’re doing it on purpose.’ Sc.14: repeats ‘noticeable’ with new weight; ‘happens around you,’ ‘he just reacted.’ Sc.17: silent witness; crowd does the work. Sc.18: no lines — ‘confirmation’ only; Rose supplies the verdict. Sc.19: not on stage — Daisy undoes the Lemon read quietly. Sc.21: off-center; watching Narcissa + crowd. Sc.22: Narcissa breaks publicly — nothing to say; truth visible. Sc.26: silent; nothing to frame.",
+    image16x9: "/characters/iris.png",
+    image2x1: "/characters/iris2.png",
+    linkedSceneIds: ["scene-04", "scene-10", "scene-14", "scene-17", "scene-18", "scene-21", "scene-22", "scene-26"],
+    linkedSetIds: ["flower-high-atrium", "flower-district"],
+  },
+];

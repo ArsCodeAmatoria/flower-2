@@ -1,0 +1,15 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "overrides": [
+    {
+      "files": [
+        "src/components/characters/character-card.tsx",
+        "src/components/sets/set-card.tsx",
+        "src/components/media/exhibition-still-plate.tsx"
+      ],
+      "rules": {
+        "@next/next/no-img-element": "off"
+      }
+    }
+  ]
+}
