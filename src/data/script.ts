@@ -1896,56 +1896,40 @@ CUT TO:`,
     pageStart: 25,
     pageEnd: 30,
     equalizerPresence: "implied",
-    beat: "ACT 2A · B story expansion + emotional contrast; continues sc.7 choice (Rose fitting in vs Lemon); first quiet opening between them; seeds ‘Squeeze’ via ‘just walk’ — no full number yet; avoidance + curiosity both on",
+    beat: "ACT 2A · B story — **relationship engine first**, not another corridor-sync tutorial. Rose finds Lemon after a **social** scrape (invitation / edge space), not a win-streak; ‘just walk’ lands as **intimacy + shame about relaxing**, not geometry homework.",
     summary:
-      "District tightens; Rose almost nails sync, then spots Lemon on the sidelines. They talk: system as self-fixing, not perfect; he walks across flow at an angle; she tries not matching—wobbles, stops fixing, sees no ripple. He almost says her problem isn’t hers—stops. They share a beat of real space; he leads toward looser paths; she follows, still unsure.",
+      "District busy for festival prep; Rose **doesn’t** chase another ‘clean merge’ beat — she peels off after a tiny group **excludes** her half-space (polite, fatal). She finds Lemon on the sidelines. They talk: self-fixing flow vs honesty; he crosses at an angle; she tries **not** matching — wobbles, stops fixing, no ripple. He almost says it isn’t her problem — stops. Breathing room; looser path; she follows, still unsure.",
     characters: ["rose", "lemon"],
     setId: "flower-district",
     notes:
-      "Tone: first emotional breath together. Lemon: reveal through movement, not lecture; truncate ‘isn’t—your problem.’ Rose: still performing until ledge / ‘don’t match.’ Musical: foundation only — ‘just walk’ pays off in number later.",
+      "**Anti-repeat:** do **not** open on ‘she almost nails sync.’ Humiliation here is **social**, not timing showcase. Lemon: movement, not lecture. Musical: ‘just walk’ seeds only.",
     content: `EXT. FLOWER HIGH DISTRICT — MID-DAY
 
-The district is more active now.
+The district is more active — festival prep hum in the air.
 
 Students move with sharper intent.
 
-Paths are tighter.
+Paths feel competitive — everyone angling toward **good spots**.
 
-Corrections quicker.
+Rose threads a group — almost fits —
 
-The Bloom Festival energy is building.
+Someone steps in ahead — friendly — **closes** the gap she was aiming for.
 
-Rose moves through the flow — more controlled than before.
+Not mean.
 
-Deliberate.
+Just… no room.
 
-Focused.
+She laughs once — tries to brush it off — the cluster doesn’t look back.
 
-She matches a group — holds it — almost clean.
+Small.
 
-Almost.
+She feels it anyway.
 
-She adjusts — just enough.
+She stops chasing the merge.
 
-It works longer this time.
+Looks up — scanning —
 
-She notices.
-
-ROSE
-(quiet)
-Okay…
-
-Encouraged.
-
-She keeps going.
-
-A group turns — she times it — enters — clean.
-
-For a moment — no correction.
-
-She allows herself a small smile.
-
-Then — she sees Lemon.
+Spots Lemon.
 
 Off to the side.
 
@@ -2318,14 +2302,30 @@ CUT TO:`,
     pageStart: 30,
     pageEnd: 40,
     equalizerPresence: "on",
-    beat: "ACT 2A · Promise of the premise — varied system pressure + escalation; Bloom node / festival performance / social rhythm / Lemon coda; Narcissa as ideal without exposition",
+    beat: "ACT 2A · Fun & Games — **four different failure types**, not four sync flavors: (1) **machine** node lab, (2) **public spectacle** status beside Narcissa, (3) **private** self-policing beat, (4) **social** invitation / clique airlock with Daisy; Lemon coda names ‘careful not trying’.",
     summary:
-      "Atrium lab: Rose destabilizes a Bloom node while others hold steady; Edelweiss clocks “consistency.” Courtyard prep: Rose’s Bloom display goes wild; system flattens it; Narcissa, pleasant and precise. Hallway: Daisy’s “or less”; Rose misses conversation timing. Side path: Lemon — she tried not trying carefully; hum deepens, unnoticed.",
+      "**(1)** Atrium lab: node destabilizes; Edelweiss clocks consistency. **(2)** Courtyard: Rose’s display overblooms; system flattens; Narcissa precise—**status** wound, not only tech. **(3)** Rose alone: mirror/room beat — practices neutral face; no audience; Bluebell dim. **(4)** Hallway: Daisy ‘or less’; Rose **not invited** into laughter—airlock, not late syllable only. Side path: Lemon — tried not-trying **safely**; hum deepens, unnoticed.",
     characters: ["rose", "daisy", "edelweiss", "narcissa", "lemon"],
     setId: "flower-district",
     notes:
-      "Montage: same math (act → react → correct), different arenas—not only walking. Iris absent here; perception escalates sc.10+. Keep Edelweiss observational, not cruel.",
-    content: `INT. BIOLOGY ATRIUM — LATER
+      "**Anti-repeat:** if two beats feel like ‘timing miss,’ cut one. Iris absent; sc.10 = rumor without new physics. Edelweiss observational.",
+    content: `INT. ROSE’S ROOM — RESIDENTIAL PETAL — EARLY THAT DAY
+
+Mirror.
+
+Rose holds a **neutral** face — releases — tries again.
+
+Softer eyes. Less hope showing.
+
+No one watching.
+
+Bluebell on the sill — **dim** — patient.
+
+She exhales — grabs bag — **leaves the performance in the glass.**
+
+CUT TO:
+
+INT. BIOLOGY ATRIUM — LATER
 
 The space is active now.
 
@@ -2540,6 +2540,8 @@ The group re-forms.
 
 Perfect again.
 
+**The exclusion is clean — that’s the wound.**
+
 INT. HALLWAY — MOMENTS LATER
 
 Students move between spaces.
@@ -2571,30 +2573,25 @@ Rose looks at her.
 
 Unsure what that means.
 
-They pass a group laughing.
+They approach a cluster laughing — **tight circle**.
 
-The timing is perfect.
-
-No overlap.
-
-No interruption.
-
-Rose tries to join in —
+Rose slows — **doesn’t break the ring**.
 
 ROSE
-Oh — what was —
+(quiet)
+Hey — what was —
 
-She enters half a beat late.
+The circle doesn’t open.
 
-The group adjusts.
+A girl she half-knows catches her eye — **almost** makes space — then doesn’t.
 
-Someone stops speaking early.
+The laugh continues — **without** a door.
 
-Another fills the gap.
+Rose and Daisy pass through.
 
-Conversation continues — without her.
+The story doesn’t need a mean girl — **just gravity.**
 
-She falls out of it.
+She falls out of it — **not late — unwelcome.**
 
 Again.
 
@@ -2713,13 +2710,13 @@ CUT TO:`,
     pageStart: 40,
     pageEnd: 45,
     equalizerPresence: "implied",
-    beat: "ACT 2A · Rising pressure — perception shifts; Iris introduced (indirect, never lying); reputation forms; Narcissa + Iris dynamic; social narrative + system merge; no repeat of sc.9 mechanics",
+    beat: "ACT 2A · Rising pressure — **Iris = perception / rumor evolution**, not sc.4/9 physics; Rose edged by **board + whispers**, not another atrium Bloom half-beat; Iris reframes without lying; no duplicate ‘sequence stutter’ set piece.",
     summary:
-      "Festival prep hardens: Rose is edged in groupings; atrium rehearsal stutters on her half-beat; glances target her, not the machine. Iris lets ‘it followed her’ and ‘maybe she’s just—’ land without owning them. Hallway pre-adjustment; Lemon names expectation; Iris delivers ‘no one thinks you’re doing it on purpose’ — worse than blame.",
+      "Festival prep hardens: outer-ring placement on the petal-board; **administrative / narrative** pressure — ‘pattern,’ ‘twice,’ thread without fresh lab glitch. Courtyard: Daisy timing talk; Iris plants ‘followed her’ / ‘maybe,’ lets others finish the story. Hallway pre-adjustment; Lemon names expectation; Iris delivers ‘no one thinks you’re doing it on purpose’ — worse than blame.",
     characters: ["rose", "daisy", "narcissa", "iris", "lemon"],
     setId: "flower-district",
     notes:
-      "Iris: plant only; shrug, ‘Maybe,’ unfinished sentences. No petal-UI lecture — social physics. STUDENT lines anonymous. Arc beat: confusion → awareness → self-consciousness.",
+      "**Anti-repeat:** no INT atrium **rehearsal stutter** here — that’s sc.9’s job. Iris: shrug, ‘Maybe,’ unfinished sentences. STUDENT lines anonymous.",
     content: `EXT. COURTYARD — AFTERNOON
 
 Festival prep continues.
@@ -2764,73 +2761,39 @@ ROSE
 (quiet)
 Okay…
 
-INT. ATRIUM — CONTINUOUS
+INT. ATRIUM — LATER
 
-Students rehearse coordinated Bloom responses.
+**No rehearsal pulse on page** — **slot day.**
 
-Short sequences.
+Clipboards bloom.
 
-Call and response.
+Names redistribute overnight: Rose’s handle sits **outer ring** — revised without her in the room.
 
-Controlled bursts.
+Narcissa’s block holds **center sightline** — leadership printed, not argued.
 
-Rose steps into position with her group.
+Whispers stack a **story**, not a waveform.
 
-Daisy nearby.
+STUDENT
+(quiet)
+Twice now, though —
 
-Narcissa at the center of a larger formation across the room.
+Another student — **doesn’t** look at the board — looks at **Rose**.
 
-Leading.
+STUDENT #2
+(soft, trailing)
+Maybe…
 
-Effortless.
+Nobody **finishes** it out loud.
 
-A signal is given.
+They don’t need to.
 
-The group begins.
+The **narrative** already did.
 
-Students raise their hands in sequence — Bloom pulses follow.
+Rose sees it.
 
-Clean.
+Says nothing.
 
-Timed.
-
-Rose prepares.
-
-Watches carefully.
-
-Counts it — enters — half a beat off.
-
-Her Bloom response comes early.
-
-Slightly stronger.
-
-The sequence stutters.
-
-Not a full break — but noticeable.
-
-A student next to her compensates — late.
-
-Another adjusts — too sharply.
-
-The sequence completes — but uneven.
-
-A pause.
-
-Not long.
-
-Just enough.
-
-The instructor nods.
-
-Moves on.
-
-But — a glance.
-
-Then another.
-
-Not at the system.
-
-At Rose.
+Takes the slot.
 
 EXT. COURTYARD — LATER
 
@@ -4265,13 +4228,13 @@ CUT TO:`,
     pageStart: 60,
     pageEnd: 65,
     equalizerPresence: "implied",
-    beat: "ACT 2B · Emotional distortion — perception becomes reality; Iris frames only (no lies); midpoint/waterfall reaction reinterpreted; Rose doubt deepens; social narrative shapes what ‘happened’; no new system mechanics — perception pressure",
+    beat: "ACT 2B · **Perception / rumor engine** — Iris reframes waterfall + courtyard without new ‘sequence waver’ in atrium; Rose approaches Lemon because **his approval felt wrong** (praising the small version), not because lab choreography failed again.",
     summary:
-      "Rose holds smaller after sc.13; Daisy notes she’s steadier. Rehearsal: Rose nails timing until Lemon’s strain breaks her focus slightly. Iris joins: ‘happens around you,’ ‘he just reacted,’ echoes ‘not on purpose’ / ‘noticeable.’ Lemon can’t counter cleanly; Rose reads pullback as proof; doubles down—smaller, hollow—stability up, connection down.",
+      "Rose holds smaller; Daisy says steadier. **Courtyard-only:** eyeline with Lemon — his nod lands **cold** — she crosses **before** any atrium beat. Iris: ‘happens around you,’ ‘he just reacted,’ ‘not on purpose.’ Lemon can’t counter cleanly; Rose doubles down — hollow stability, thinner connection.",
     characters: ["rose", "daisy", "lemon", "iris"],
     setId: "flower-district",
     notes:
-      "Pure framing beat—no Equalizer exposition. Iris: gentle, reasonable, exit early. Lemon: honest uncertainty reads as confirmation. Rose: fewer words, faster ‘I can fix it.’",
+      "**Anti-repeat:** cut sc.4/9-style **atrium stutter** as trigger. Pure framing; Iris gentle, exit early. Lemon’s hesitation = evidence to Rose.",
     content: `EXT. COURTYARD — EARLY EVENING
 
 Festival prep continues.
@@ -4335,53 +4298,13 @@ Not natural.
 
 The moment passes.
 
-INT. ATRIUM — CONTINUOUS
+Rose **doesn’t** wait for another lab stumble to authorize this.
 
-Groups rotate through performance positions.
+She clocks Lemon’s nod — **polite pride in the tightened version of her.**
 
-Rose’s group steps forward.
+Wrong kind of win.
 
-Sequence begins.
-
-Controlled Bloom pulses.
-
-Measured.
-
-Rose enters on time.
-
-Holds it.
-
-The system stays stable.
-
-No ripple.
-
-No disruption.
-
-For the first time — it works.
-
-Rose notices.
-
-A small, restrained relief.
-
-Then — at the edge of the space — Lemon shifts.
-
-Subtle.
-
-But enough.
-
-His posture tightens.
-
-He’s feeling it again.
-
-The pressure.
-
-Rose sees him.
-
-Loses focus — just slightly.
-
-The sequence wavers — tiny delay — corrected quickly.
-
-But — she saw it.
+She crosses **now** — before she can perform her way out of the feeling.
 
 EXT. COURTYARD — MOMENTS LATER
 
@@ -4962,9 +4885,9 @@ CUT TO:`,
     pageStart: 70,
     pageEnd: 75,
     equalizerPresence: "implied",
-    beat: "ACT 2B · Protagonist chooses wrong path — conscious double-down on suppression despite sc.15; emotional reasoning; brief stabilization reinforces lie; connection thins (Lemon); primes All Is Lost",
+    beat: "ACT 2B · **Wrong choice = new moral trade** — stability vs connection (‘don’t pull him into the fault line’ / ‘stay steady alone’), not ‘smaller Rose again’ as the only lever; she **names** the trade; atrium win confirms the lie; Lemon names the cost in attachment, not technique.",
     summary:
-      "Daisy: ‘wasn’t just you’ / ‘everywhere’—Rose blames herself anyway, tightens into ‘what it needs.’ Atrium: minimal Rose; hum softens; sequences hold; Daisy says ‘steadier’ (not quite yes). Courtyard: Rose demos control to Lemon—no ripple; he feels less pressure, less her; she reads his retreat as proof. Hum smooth; she’s aligned and hollow.",
+      "Daisy: wasn’t just you / everywhere — Rose blames herself, commits **explicit trade:** festival week clean, won’t center Lemon in the risk; ‘he stays clear, I stay steady.’ Atrium: minimal Rose — hum softens; Daisy ‘steadier’ (not quite yes). Courtyard: demo control — no ripple; Lemon feels less pressure **and** less **her**; callback to the trade; she reads retreat as proof. Hollow alignment.",
     characters: ["rose", "daisy", "edelweiss", "lemon"],
     setId: "flower-district",
     notes:
@@ -5069,6 +4992,21 @@ Even smaller.
 
 ROSE (CONT’D)
 That’s what it needs.
+
+She bites — **decides** — something concrete.
+
+ROSE (CONT’D)
+Festival week — I hold it **clean**. I don’t pull him into the center of… whatever this is.
+
+DAISY
+Rose — that’s not what I meant—
+
+ROSE
+**Trade.** He stays off the fault line. I stay **steady.**
+
+Daisy doesn’t get to finish.
+
+Rose is already moving — **sure**.
 
 She takes a step into the rehearsal space.
 
@@ -5242,11 +5180,22 @@ Less pressure.
 But also — less connection.
 
 LEMON
-You’re not —
+You **promised** you’d keep me out of it.
 
-He stops.
+Beat.
 
-Doesn’t know how to say it.
+LEMON (CONT’D)
+You did.
+
+ROSE
+I am.
+
+Too fast.
+
+LEMON
+You’re not **here.**
+
+He stops — hating how that sounds.
 
 ROSE
 I’m fine.
@@ -6762,9 +6711,9 @@ CUT TO:`,
     pageStart: 88,
     pageEnd: 92,
     equalizerPresence: "on",
-    beat: "ACT 3 · Finale setup — system at max pressure; ‘Look at Me’ spectacle; over-centralization on Narcissa; spectacle masks strain; Rose + Lemon push inward; first cracks; momentum to sc.22",
+    beat: "ACT 3 · **Night 1 — spectacle / routing / attention:** finale setup; ‘Look at Me’ as **mass distraction + credit sink**; system **funnels** load through Narcissa (not generic chaos); Rose + Lemon read the architecture; first cracks; momentum to sc.22 **mask break**.",
     summary:
-      "Festival full: uneven lights, crowds straining. Narcissa on platform — ‘Look at Me’; system routes through her, hum syncs; brief relief then edge delays. Rose and Lemon clock the funnel; overload as Rose enters at capacity—Narcissa falters; music slips; Rose moves toward core, Lemon follows despite pressure.",
+      "Festival full: uneven lights, crowds straining. Narcissa — ‘Look at Me’; UI/credit language — **success posts**, canopy ribbons, every clean beat **attributed** to her node; hum syncs; brief relief then edge delays. Rose and Lemon name **narrowing**; overload when Rose enters at capacity — Narcissa falters; music slips; toward core, Lemon follows.",
     characters: ["rose", "lemon", "narcissa", "iris"],
     setId: "flower-district",
     notes:
@@ -6892,6 +6841,16 @@ Beat.
 
 ROSE (CONT’D)
 It’s narrowing it.
+
+Overhead — a **canopy readout** — friendly, catastrophic:
+
+**Stability trace → Narcissa.**
+
+Every resolved flicker credits her.
+
+The crowd **wants** a face.
+
+The machine **gives** one.
 
 The performance intensifies.
 
@@ -7084,9 +7043,9 @@ CUT TO:`,
     pageStart: 92,
     pageEnd: 94,
     equalizerPresence: "implied",
-    beat: "ACT 3 · Illusion break — continuous from sc.21; Narcissa’s perfection fails in public; system lags/overcorrects; Iris has nothing to frame; crowd emotional turn; Rose + Lemon witness — bridges to sc.23 total collapse",
+    beat: "ACT 3 · **Night 2 — mask / identity break** (continuous from sc.21); performed perfection **fractures on her face** before the geometry does; system lags; Iris nothing to frame; crowd pity; bridges sc.23 **teardown**.",
     summary:
-      "Strained ‘Look at Me’: Narcissa tightens as Equalizer lags; first visible slip, overcorrection, then she reacts instead of leads; Bloom misfires, geometry breaks, music desyncs, she stops in silence. Crowd sees the mask fail; Iris silent—truth is visible; at edge Rose and Lemon: ‘not holding.’ Narcissa alone, system won’t answer.",
+      "Strained ‘Look at Me’: smile **locked** a half-count too long; first slip, overcorrection, then **following** the machine; Bloom misfires, geometry breaks; **face** finally drops — public loss of Narcissa-the-symbol. Iris silent; Rose + Lemon: ‘not holding.’ Alone at center.",
     characters: ["rose", "lemon", "narcissa", "iris"],
     setId: "flower-district",
     notes:
@@ -7110,6 +7069,8 @@ But now — it takes effort.
 PHASE 1 — HOLDING IT TOGETHER
 
 She continues her performance.
+
+**The joy on her face is still performing — even as the lag hits.**
 
 Movements sharp.
 
@@ -7298,9 +7259,9 @@ CUT TO:`,
     pageStart: 94,
     pageEnd: 96,
     equalizerPresence: "on",
-    beat: "ACT 3 · Finale escalation — full collapse after sc.21–22; public, scaled failure; Narcissa vs machine; Lemon hit again; Rose: ‘not me’ / system breaks itself; goal = stop core; moves in—no self-blame",
+    beat: "ACT 3 · **Night 3 — system teardown / ethical scale:** full public collapse after spectacle + mask break; **forced ‘balance’ as violence** — overcorrection, dead zones, spikes; Rose clears **‘not me’**; names self-destruct; decision to stop core.",
     summary:
-      "Fractured performance: music off, Bloom misfires, Narcissa precise but system fights her. Equalizer erratic—flat spikes, crowd scatters. Lemon drops at inner ring; Rose watches, clear it’s not her fault. Hum stutters; courtyard fragments; both see it self-destruct. She decides to stop it, doesn’t know how; crowd parts as she heads core-ward.",
+      "Fractured performance: music off, Bloom misfires; Equalizer **punishes** lag — flat sectors, overload sectors, students caught in cross-correction. Lemon hit at inner ring; Rose **observes first** — it’s not her fault. Courtyard fragments; ‘breaking itself.’ She heads core-ward; crowd parts without choreography.",
     characters: ["rose", "lemon", "narcissa"],
     setId: "flower-district",
     notes:
@@ -7547,18 +7508,22 @@ CUT TO:`,
     pageStart: 96,
     pageEnd: 97,
     equalizerPresence: "implied",
-    beat: "ACT 3 · Emotional alignment before final action — pause in chaos; release not suppression; remembers waterfall truth; names separation as the bug; decides shutdown; Lemon follows — intention into sc.25",
+    beat: "ACT 3 · **Small quiet reset** after 21–23 — low volume, thin crowd, wide space; emotional alignment before final action; release not suppression; waterfall memory; names separation; shutdown intention; Lemon follows into sc.25.",
     summary:
-      "Post-collapse courtyard: Rose still, sees wrong isn’t her. Side path: natural breath, organic response—she gets ‘part of’ not ‘control of.’ Bluebell on her wrist through the release—quiet witness. Names Equalizer as separator. Lemon, recovering, checks in; she states shutdown calmly; they return to center to break it.",
+      "**Volume down:** scattered few, distant sirens of broken light — not packed panic. Rose still; wrong isn’t her. Side path: breath, ‘part of.’ Bluebell witness. Names Equalizer as separator. Lemon checks in; shutdown stated calmly; return toward center.",
     characters: ["rose", "lemon", "bluebell"],
     setId: "flower-district",
     notes:
       "Contrast chaos/stillness; no return to waterfall location—memory only. Act 3 diction: clean, no um. Bridges sc.23 damage to sc.25 core. **Bluebell:** present during remembrance—ties body memory to choice.",
     content: `EXT. CENTRAL COURTYARD — NIGHT
 
-Chaos.
+Chaos — but **emptier** than the festival crush.
 
 Not violent — but broken.
+
+Most of the crowd has **bled outward** — afraid of the next pulse.
+
+The courtyard feels **wide** — too much space, too little sound.
 
 The system flickers.
 
@@ -7580,7 +7545,7 @@ Petal structures no longer holding shape.
 
 Light channels flickering.
 
-Rose stands in the center of it.
+Rose stands in the open — **almost alone** in the wreckage.
 
 Still.
 

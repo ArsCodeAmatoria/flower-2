@@ -35,6 +35,9 @@ export function CharacterSidebar({ character: c, sceneLinks, setLinks, className
         <WallDefinitionRow term="Truth">{c.truth}</WallDefinitionRow>
         <WallDefinitionRow term="Arc">{c.arc}</WallDefinitionRow>
         <WallDefinitionRow term="Speech pattern">{c.speechPattern}</WallDefinitionRow>
+        {c.moodLighting ? (
+          <WallDefinitionRow term="Mood & light">{c.moodLighting}</WallDefinitionRow>
+        ) : null}
         <WallDefinitionRow term="Notes">{c.notes}</WallDefinitionRow>
       </dl>
 

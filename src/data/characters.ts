@@ -58,6 +58,8 @@ export const characters: Character[] = [
       "ACT 1 (sc. 1–6): frequent hesitations (“um,” “uh,” “I mean—”), self-corrections, rehearsed phrasing, over-explains small things · sc. 7 (Break into Two): still restarts and searches for words, but lands on certainty — “focus,” “I can fix it” · ACT 2A (sc. 8–12): fewer fillers with Lemon; still performs in structured spaces · ACT 2B (sc. 13–18): tightens under pressure; defensive; hesitations spike when emotional · DARK NIGHT (sc. 19): minimal speech, fragments · ACT 3 (sc. 20–26): no filler, no self-correction — e.g. “Hi. I’m Rose.” Never speeches; learns by experience; emotional truth > clever phrasing.",
     notes:
       "Personality: beginning — observant, earnest, wants to belong, slightly self-conscious; end — grounded, present, unforced confidence. External conflict: Equalizer separates her; others read that as her fault. Physical: Act 1 adjusts constantly; Act 2 controls movement; Act 3 moves naturally. **Bluebell:** her luminous blue butterfly familiar — never speaks; emotional barometer; hides/dims under Equalizer pressure; full brightness off-system at waterfall; absent at All Is Lost; returns Dark Night forward. Spine: ~100 pp. / ~1 min per page — key beats sc.1 VO mismatch · 4 catalyst · 7 Break into Two (chooses fit) · 11 waterfall — first unforced breath; nature responds (unseen) · 12 midpoint — ‘I’m not wrong’; false victory; fits into herself · 13 containment; reduction ‘works’ — dangerous · 14 Iris reframes Lemon; Rose proves hollow stability · 15 system destabilizes anyway; ‘not just her’ seeds · 16 wrong choice — double down; brief ‘success’; not herself · 17 public collapse; ‘I did this’ absolute · 18 All Is Lost — ‘I hurt everything I touch’; stay out of it · 19 Dark Night — almost leaves; Daisy’s truth; chooses return · 20 Break into Three — no suppression; ‘not just me’; toward source · 21 festival set piece — sees routing; triggers first crack; toward core · 22 Narcissa illusion breaks; ‘not holding’ with Lemon · 23 full public failure — ‘not me’; ‘breaking itself’; stop the core · 24 reset — part of not control; shutdown decision · 25 atrium core shutdown — presence vs machine · 26 final image — ‘Hi. I’m Rose’ / however it wants (lived).",
+    moodLighting:
+      "When Rose’s truth leads without performance: warmer overall keys; let gentle red live in skin tones, practicals, and natural bloom bounce—vitality, not “danger” or alarm red. Establish warmth off-system first (Lemon/waterfall) so her read stays kind. Suppression or blame: pull warmth back, cooler ambient, her chroma footprint smaller. Reserve harsh red for machine panic / redline grammar, not her win.",
     image16x9: "/characters/rose.png",
     image2x1: "/characters/rose1.png",
     linkedSceneIds: [...ROSE_SCENE_IDS],
@@ -87,6 +89,8 @@ export const characters: Character[] = [
       "Fast, casual, fluid; no hesitation; deflects seriousness with humor — e.g. “Or—we could not do that and instead do literally anything else.” Rare direct feeling: when it comes, keep it simple and honest.",
     notes:
       "Personality: playful, charming, avoidant, intuitive. Physical: always moving until story demands stillness. Key beats: sc.6 edge walkway — first real encounter · sc.7 Rose chooses district over his path; he walks out · sc.8 B-story expansion — ‘just walk’ / emotional beat; seeds Squeeze · 9 fun/games · 10 ‘expecting it now’ / Iris closes · sc.11 leads to waterfall; first unease at her effect · sc.12 enters her field — connection + physical instability; ‘Don’t’ stop · sc.14 strain at rehearsal; Iris reframes; can’t counter; less her when she stabilizes · sc.16 hollow Rose; steps back; nod not agreement · sc.17 festival collapse; knee; ‘Don’t’ suppress again · sc.18 can’t explain; ‘not scared’ too late; doesn’t follow · sc.20 return — ‘not just me’; follows toward core · sc.21 ‘Look at Me’ overload; follows Rose in · sc.22 Narcissa breaks; ‘not holding’ with Rose · sc.23 public system break; Lemon down; Rose toward core · sc.24 sees her reset; follows to shutdown · sc.25 atrium core — braces, stable after.",
+    moodLighting:
+      "Edge paths and off-grid air: chartreuse and yellow-green in foliage bounce, wardrobe accents, sun through leaves—photosynthetic counterweight to Iris purple and machine cyan. Reads “outside the score” without feeling villainous.",
     image16x9: "/characters/lemon.png",
     image2x1: "/characters/lemon.png",
     linkedSceneIds: [
@@ -127,6 +131,8 @@ export const characters: Character[] = [
       "Clear, simple, direct; no filler. Observations, not philosophy—never explains the theme.",
     notes:
       "Personality: friendly, practical, well-meaning, slightly conditioned by the system. Key lines: sc.2 fit-in seed · sc.3 atrium (aligned baseline vs Rose) · sc.9 Bloom node + hallway ‘or less’ · sc.14 ‘You’re steadier’ (sees containment, doesn’t push) · sc.16 ‘wasn’t just you’ vs ‘It’s… steadier’ (almost validates wrong choice) · sc.19 Dark Night — ‘worse without you’; quietly corrects Iris read on Lemon; ‘just come back.’",
+    moodLighting:
+      "Neutral-warm daylight and honest faces—low stylization. Emotional baseline when the scene needs a clean read without Iris haze or machine cold.",
     image16x9: "/characters/daisy.png",
     image2x1: "/characters/daisy1.png",
     linkedSceneIds: ["scene-02", "scene-03", "scene-09", "scene-10", "scene-14", "scene-16", "scene-19"],
@@ -147,6 +153,8 @@ export const characters: Character[] = [
       "Precise, structured sentences; no filler, no emotional vocabulary; speaks in conclusions — e.g. “Feeling is not an indicator of stability.” Never cartoon-villain; never raises voice.",
     notes:
       "Personality: calm, analytical, not performatively emotional. Key beats: sc.3 orientation · sc.4 watches system then Rose · sc.9 atrium lab ‘consistency’ · sc.13 Bad Guys Close In — containment, optimal range, technical satisfaction · sc.15 cascade failure; ‘increase stabilization’; watches machine not Rose · sc.16 atrium — notices minimal Rose; silent approval · sc.17 central courtyard — system then Rose; connection public · sc.21 festival max (not on page) · sc.25 atrium core space — aftermath; ‘variation’ line.",
+    moodLighting:
+      "Machine authority: sterile whites, glassy cyan, clinical green diagnostics—precision and instrument, not whisper-purple. Separates ideology from Iris framing.",
     image16x9: "/characters/edelweiss.png",
     image2x1: "/characters/edelweiss.png",
     linkedSceneIds: ["scene-03", "scene-04", "scene-09", "scene-13", "scene-15", "scene-16", "scene-17", "scene-25"],
@@ -167,6 +175,8 @@ export const characters: Character[] = [
       "Polished, declarative, slightly theatrical; always ‘on’; no hesitation in performance mode.",
     notes:
       "Personality: confident, controlled, performative. Dialogue: statements, not questions. Strong intro sc.9 courtyard; sc.10 atrium formation center; social dominance sc.9–10; sc.17 festival center — formation holds until cascade; sc.21 ‘Look at Me’ — system routes through her; sc.22 phased public collapse — slip, overcorrection, stop; sc.23 system fights her — precision useless; sc.26 epilogue — not center; imperfect okay.",
+    moodLighting:
+      "Spectacle winning: magenta-gold follow-spot and bloom trim—admired, load-bearing shine. When perfection cracks: drain toward ash-rose and desaturated pink—tired glamour, not moral green.",
     image16x9: "/characters/narcissa2.png",
     image2x1: "/characters/narcissa2.png",
     linkedSceneIds: ["scene-09", "scene-10", "scene-17", "scene-21", "scene-22", "scene-23", "scene-26"],
@@ -187,6 +197,8 @@ export const characters: Character[] = [
       "Calm, suggestive, indirect—never a bald lie; damages by framing — e.g. “I mean… he did pull back.” Plants, doesn’t argue.",
     notes:
       "Personality: observant, subtle, socially intelligent, soft-spoken. Never lies directly — frames. Sc.4: watches glitch, not surprised — narrative seed. Sc.10: ‘followed her,’ ‘maybe she’s just—,’ ‘no one thinks you’re doing it on purpose.’ Sc.14: repeats ‘noticeable’ with new weight; ‘happens around you,’ ‘he just reacted.’ Sc.17: silent witness; crowd does the work. Sc.18: no lines — ‘confirmation’ only; Rose supplies the verdict. Sc.19: not on stage — Daisy undoes the Lemon read quietly. Sc.21: off-center; watching Narcissa + crowd. Sc.22: Narcissa breaks publicly — nothing to say; truth visible. Sc.26: silent; nothing to frame.",
+    moodLighting:
+      "When Iris’s framing leads: deep desaturated purple in shadow bias — plum, bruised petal, ink violet. Cooler contrast, night-inside-day; velvet suggestion, not neon villain. Keep it pretty enough for family tone.",
     image16x9: "/characters/iris.png",
     image2x1: "/characters/iris2.png",
     linkedSceneIds: ["scene-04", "scene-10", "scene-14", "scene-17", "scene-18", "scene-21", "scene-22", "scene-26"],
@@ -207,6 +219,8 @@ export const characters: Character[] = [
     speechPattern: "Does not speak. Flutter, land, hide, brighten—action only.",
     notes:
       "Screen rules: no dialogue from Bluebell; Rose may whisper to it (private, habitual). Others rarely notice; never explain magic on-screen. Glow tracks Rose’s safety/truth: suppressed = dim/absent; off-system = full. Key art TBD — placeholder stills until butterfly plates exist.",
+    moodLighting:
+      "Accent only: luminous blue in the familiar’s emissive read—a barometer beat, not a scene-wide wash. Never replace Iris/Rose/machine grammar with butterfly fill.",
     image16x9: "/characters/bluebell1.png",
     image2x1: "/characters/bluebell1.png",
     linkedSceneIds: [

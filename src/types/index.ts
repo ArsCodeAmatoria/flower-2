@@ -5,3 +5,4 @@ export type { FilmSet } from "./set";
 export type { StoryLink } from "./story-link";
 export type { Song } from "./song";
 export type { PdfItem } from "./pdf-item";
+export type { VisualGrammar, VisualGrammarSection } from "./visual-grammar";

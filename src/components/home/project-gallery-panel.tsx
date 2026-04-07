@@ -1,5 +1,6 @@
 import type { Project } from "@/types";
 import { WallDefinitionRow } from "@/components/exhibition/wall-definition-row";
+import { visualGrammar } from "@/data/visual-grammar";
 import { cn } from "@/lib/utils";
 
 export type ProjectGalleryPanelProps = {
@@ -24,6 +25,21 @@ export function ProjectGalleryPanel({ project: p, className }: ProjectGalleryPan
         <section className="space-y-2">
           <h2 className="wall-label">Synopsis</h2>
           <p className="text-sm leading-relaxed text-muted-foreground">{p.synopsis}</p>
+        </section>
+
+        <section className="space-y-4 border-t border-border/30 pt-6">
+          <h2 className="wall-label">Colour & light grammar</h2>
+          <p className="text-sm leading-relaxed text-muted-foreground">{visualGrammar.intro}</p>
+          <ul className="space-y-4">
+            {visualGrammar.sections.map((s) => (
+              <li key={s.title}>
+                <p className="mb-1 font-sans text-[0.68rem] font-medium uppercase tracking-[0.14em] text-foreground/80">
+                  {s.title}
+                </p>
+                <p className="text-sm leading-relaxed text-muted-foreground">{s.body}</p>
+              </li>
+            ))}
+          </ul>
         </section>
 
         <dl className="space-y-5 border-t border-border/30 pt-6">
