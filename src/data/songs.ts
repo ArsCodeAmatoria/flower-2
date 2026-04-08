@@ -92,7 +92,11 @@ If you let it lead the way
 You don't need to taste like sweet
 You don't need to be cliché
 All the parts you tried to beat
-Are the ones that make you stay`,
+Are the ones that make you stay
+
+[Staging — screenplay]
+
+**Single cue in script:** sc.9 — post-**Just Fit In** / **Nettles** — **montage:** Rose **tracks** Lemon’s vocal — **quiet classroom** (“we’re not doing a musical”) — **drama studio** — skull + **spotlight** — **biology lab** — vial **oops** — **harmless** smoke **wipe** — **hallway** — lands **EXT. side path** — spoken **tried not trying** / **hum lying**. Dossier: /lyrics/squeeze-the-day.`,
   },
   {
     id: "song-lam",

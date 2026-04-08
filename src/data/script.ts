@@ -2156,8 +2156,8 @@ CUT TO:`,
     id: "scene-08",
     act: 2,
     sceneNumber: "8",
-    title: "B Story Development (Lemon / “Squeeze the Day” Setup)",
-    slug: "squeeze-setup",
+    title: "B Story Development (See It My Way)",
+    slug: "b-story-see-it-my-way",
     heading: "EXT. FLOWER HIGH DISTRICT — MID-DAY",
     pageStart: 25,
     pageEnd: 30,
@@ -2421,20 +2421,22 @@ CUT TO:`,
     id: "scene-09",
     act: 2,
     sceneNumber: "9",
-    title: "Fun & Games (System vs Rose Expands)",
+    title: "Fun & Games (System vs Rose Expands) — Just Fit In + Squeeze the Day",
     slug: "fun-games",
     heading: "INT. BIOLOGY ATRIUM — LATER",
     pageStart: 30,
     pageEnd: 40,
     equalizerPresence: "on",
-    beat: "ACT 2A · Fun & Games — **four different failure types**, not four sync flavors: (1) **machine** node lab, (2) **public spectacle** status beside Narcissa, (3) **private** self-policing beat, (4) **social** invitation / clique airlock with Daisy + **MUSICAL — JUST FIT IN** (one cue; diegetic **chorus = tight circle**; **bridge = Daisy** to Rose after cold close); Lemon coda names ‘careful not trying’.",
+    beat: "ACT 2A · **Fun & Games** (Save the Cat) — **sc.8** = **See It My Way** (duet) → **this** scene = **four failure types** + **JUST FIT IN** (hallway) + **SQUEEZE THE DAY** (Lemon **solo** — **classroom montage** — **drama** / **lab** — Rose **tracks** — lands **EXT. side path**) + **spoken** Lemon/Rose (**tried not trying** / **hum lying**).",
     summary:
-      "**(1)** Atrium lab: node destabilizes; Edelweiss clocks consistency; **Lotus** on floor + tablet pass. **(2)** Courtyard: Rose’s display overblooms; system flattens; Narcissa precise—**status** wound, not only tech. **(3)** Rose alone: mirror/room beat — practices neutral face; no audience; Bluebell dim. **(4)** Hallway: **Just Fit In** (only script placement) — vocal O.S. → cluster chorus — Rose **Hey —** no door — cut — Daisy bridge — **Nettles** brush. Side path: Lemon.",
+      "**(1)** Atrium lab; **Lotus** tablet. **(2)** Courtyard; Narcissa. **(3)** Mirror room. **(4)** Hallway: **Just Fit In** — **Nettles**. **(5)** **Squeeze the Day** — **montage** (odd class → **drama / skull** → **lab / smoke**) — Rose **follows** — **EXT. side path** land — spoken (**tried not trying** / hum).",
     characters: ["rose", "daisy", "edelweiss", "lotus", "narcissa", "lemon", "nettles"],
     setId: "flower-district",
     notes:
-      "**Anti-repeat:** if two beats feel like ‘timing miss,’ cut one. Iris absent; sc.10 = rumor without new physics. Edelweiss observational. **Lotus:** floor runner — nods, checklist kindness — hands Edelweiss tablet when he passes. **Music:** **Just Fit In** — **this** scene’s hallway cue; lyric **`/lyrics/just-fit-in`**. (Rose/Lemon duet **See It My Way** = **sc.8** — **`/lyrics/see-it-my-way`**.) **Nettles:** hallway margin—watching, brush-past—not a speech villain. **Humour:** mirror = **wing asymmetry** on sill (insect, not mimic); courtyard = **wrong UI credit** flash; hallway = **chorus wall** vs Rose + Daisy **nobody’s counting** vs toe-mark **on the hook**; Lemon = **timer** absurdism.",
+      "**Anti-repeat:** if two beats feel like ‘timing miss,’ cut one. Iris absent; sc.10 = rumor without new physics. Edelweiss observational. **Lotus:** floor runner — hands Edelweiss tablet when he passes. **Music:** **Just Fit In** — hallway; **`/lyrics/just-fit-in`**. **Squeeze the Day** — **only** script placement; **`/lyrics/squeeze-the-day`** — **classroom montage** (quiet class meta-**odd**; **drama** skull + spot; **bio lab** vial + **harmless** smoke wipe); lands **EXT. side path**. **See It My Way** = **sc.8**. **Nettles:** hallway margin. **Humour:** wrong UI / toe-mark **on hook**; **Hamlet** bit; lab **oops**.",
     content: `INT. ROSE’S ROOM — RESIDENTIAL PETAL — EARLY THAT DAY
+
+*Scene beat order: mirror room → atrium lab → courtyard / Narcissa → **Just Fit In** (INT. hallway) → **Squeeze the Day** (**classroom montage** — Lemon solo — Rose **tracks**) → **EXT.** **side path** — Lemon / Rose dialogue.*
 
 Mirror.
 
@@ -2835,19 +2837,87 @@ She falls out of it — **not late — unwelcome.**
 
 Again.
 
+INT. HALLWAY / CLASSROOM WINDOWS — CONTINUOUS
+
+Rose **emerges** — **alone** — **breath** — **hallway** **still** ringing —
+
+**Music** **finds** her — **not** the **Just Fit In** hook — **different** pocket — **acoustic** **spine** — **Lemon’s** **voice** — **O.S.** — **moving** —
+
+She **follows** — **curious** — **unmoored** —
+
+MUSICAL NUMBER — **SQUEEZE THE DAY** — Lemon — **solo** — **single cue** — **palate** after **Just Fit In** — full lyric in dossier /lyrics/squeeze-the-day — **montage** — **one** song — **many** rooms —
+
+INT. QUIET CLASSROOM — SAME (THROUGH DOOR GLASS)
+
+**Seats** — **worksheets** — **dead** **air**.
+
+The **music** **shouldn’t** **be** **here**.
+
+STUDENTS **freeze** — **one** **snaps** **binder** **shut** — **this** **is** **odd** —
+
+TEACHER (40s)
+(beat — **under** the song **bleed**)
+…We’re not doing a **musical** unit.
+
+**Nobody** **answers** — **because** **nobody** **knows** **why** **the** **hall** **sounds** **like** **that** —
+
+Rose **peeks** — **doesn’t** **enter** — **keeps** **moving** **after** **the** **sound** —
+
+INT. DRAMA STUDIO — SAME
+
+**Warm** **amber** — **empty** **seats** **banked** — **proper** **class** — **but** **spotlight** **steals** **it** —
+
+**LOOSE** **SINGLE** — **down** **on** —
+
+LEMON — **skull** **(prop)** **in** **hand** — **Hamlet** **posture** — **half** **serious** — **half** **grin** —
+
+He **sings** **into** **the** **bone** — **Shakespeare** **sold** **as** **acid** —
+
+**Music** **fits** **the** **room** **for** **once** — **even** **if** **the** **assignment** **didn’t** **ask** **for** **this** —
+
+DRAMA TEACHER (O.S.)
+(protest — **too** **late** — **lost** **to** **melody**)
+
+Lemon **doesn’t** **break** — **committed** **bit** —
+
+Rose — **door** **ajar** — **one** **breath** — **half** **smile** **she** **hates** **that** **she** **feels** —
+
+She **goes** —
+
+INT. BIOLOGY LAB — SAME
+
+**Pair** **at** **bench** — **not** **Rose**’s **cluster** — **routine** **until** —
+
+LEMON — **slides** **through** — **still** **in** **song** — **still** **holding** **energy** —
+
+**Vial** — **too** **much** **reagent** — **student** **hands** — **wrong** **count** —
+
+**POP** — **hiss** — **not** **violent** — **embarrassing** —
+
+**Smoke** — **sweet** **wrong** **color** — **fills** **the** **lower** **third** — **harmless** — **think** **pollen** **/** **vapor** — **not** **blood** —
+
+BIOLOGY TEACHER
+What — **what**
+
+**Visibility** **goes** — **wipe** — **next** **beat** **through** **smoke** —
+
+INT. HALLWAY — CONTINUOUS
+
+Rose **coughs** **once** — **laugh** **once** — **wrong** — **she** **steals** **it** **back** —
+
+The **song** **thins** — **guitar** **and** **hum** **only** —
+
 EXT. SIDE PATH — CONTINUOUS
 
-Lemon walks along the outer edge.
+Lemon **spills** **out** — **skull** **gone** — **prop** **left** **with** **drama** — **or** **tucked** **in** **bag** —
 
-Kicks lightly at the ground.
+He **kicks** lightly at the ground.
 
 Unstructured.
 
 Free.
 
-Rose approaches.
-
-Frustrated.
+He **sees** her — **already** **there** — **caught** **up** —
 
 ROSE
 I tried not trying.
