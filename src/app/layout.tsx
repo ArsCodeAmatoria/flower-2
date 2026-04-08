@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, DM_Sans, Style_Script } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/layout/site-header";
+import { ThemeInitScript } from "@/components/layout/theme-init-script";
 import { HOME_OG_IMAGE, SITE_DESCRIPTION, getMetadataBaseUrl } from "@/lib/site-metadata";
 
 const fontDisplay = Cormorant_Garamond({
@@ -59,6 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       suppressHydrationWarning
     >
       <body className="min-h-dvh bg-background text-foreground antialiased">
+        <ThemeInitScript />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded-sm focus:border focus:border-border focus:bg-background focus:px-4 focus:py-2 focus:shadow-frame-outer"

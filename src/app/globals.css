@@ -8,6 +8,8 @@
    -------------------------------------------------------------------------- */
 
 :root {
+  color-scheme: light;
+
   /* Palette: charcoal / stone / botanical */
   --background: 42 14% 97%;
   --foreground: 220 22% 9%;
@@ -38,16 +40,19 @@
   --duration-subtle: 200ms;
 }
 
+/* Dark mode — same token values as trashpandas site (near-black exhibition skin). */
 .dark {
-  --background: 220 20% 6%;
-  --foreground: 42 12% 94%;
+  color-scheme: dark;
+
+  --background: 0 0% 4%;
+  --foreground: 0 0% 96%;
   --muted: 220 14% 12%;
-  --muted-foreground: 42 8% 58%;
+  --muted-foreground: 0 0% 62%;
   --border: 220 12% 18%;
-  --ring: 152 30% 45%;
-  --accent: 152 26% 42%;
+  --ring: 152 30% 48%;
+  --accent: 152 28% 46%;
   --accent-foreground: 220 22% 8%;
-  --accent-subtle: 152 22% 14%;
+  --accent-subtle: 152 22% 16%;
   --surface: 220 16% 9%;
   --surface-border: 220 12% 16%;
 
