@@ -328,6 +328,127 @@ It's my magic
 **Single cue in script:** sc.24 side path — **subjective scale** (orchestra/choir on mix; **physical** district stays thin/quiet); **Lemon** enters before **Verse 2** — hears — doesn't interrupt; **growth beat** during **Final Chorus**; **Bluebell + clarity** after **Outro**; dossier: /lyrics/red-magic.`,
   },
   {
+    id: "song-like-every-flower",
+    slug: "like-every-flower",
+    title: "Like Every Flower",
+    credit: "Performed by Rose · Flower",
+    audioSrc:
+      "/songs/\u201CLike Every Flower\u201D \u2014 I WANT SONG (ROSE).wav",
+    lyrics: `[INTRO — soft, minimal, rhythmic pulse]
+
+They glow before they even speak
+Light up every room they reach
+You can tell just what they are
+From across the hall, afar
+
+I stand where the colors fade
+Like a shadow someone made
+No one looks, no one knows
+What I am… or what I'm supposed to be
+
+[VERSE 1]
+
+They move like they understand
+Every step is part of a plan
+Every scent a signal sent
+Like they're born to represent
+
+I try copying what they do
+Hold my breath, change my hue
+But the mirror never lies
+I'm the only one they can't define
+
+[PRE-HOOK]
+
+They say every flower blooms in time
+But what if mine never arrives?
+
+[HOOK — I WANT STATEMENT]
+
+I just wanna be like every flower
+Feel that light, feel that power
+Be seen when I walk in the room
+Know I belong when I bloom
+
+I don't need to shine the brightest
+Just don't wanna feel like this
+Like I'm something no one chose
+
+I just wanna be…
+Like every flower grows
+
+[VERSE 2 — builds, more rhythm]
+
+They don't have to try at all
+It just happens when they call
+Like the world already knows
+How to make them beautiful
+
+I've been waiting, standing still
+Hoping something, hoping I will
+Wake up different, wake up right
+Wake up glowing in their light
+
+[PRE-HOOK 2 — stronger]
+
+They say every flower finds its place
+But what if I don't have a space?
+
+[HOOK — BIGGER]
+
+I just wanna be like every flower
+Feel that light, feel that power
+Be more than a question mark
+Be a spark inside the dark
+
+I don't need to be perfection
+Just a little reflection
+Of the way they always know
+
+I just wanna be…
+Like every flower grows
+
+[BRIDGE — emotional turn, quieter → build]
+
+What if I'm not meant to be this way
+What if something's missing in me?
+
+What if I'm the one that never changes
+While the whole world moves so easily?
+
+Would they see me if I faded out?
+Would it matter if I disappeared?
+
+Or am I just the space between
+Everything they celebrate and everything they cheer?
+
+[FINAL HOOK — full, cinematic lift]
+
+I just wanna be like every flower
+Feel that light, feel that power
+Not invisible, not alone
+Not a place that no one's known
+
+I don't need to be the brightest
+I just wanna feel like I exist
+Like I'm something someone chose
+
+I just wanna be…
+Like every flower grows
+
+[OUTRO — soft, unresolved]
+
+They glow before they even try…
+I don't know the reason why…
+
+But if there's a place for me…
+I just hope… I'll find it in time
+
+[Staging — screenplay]
+
+**Main title / opening credits:** sc.1 — crane **up** to aerial / **cloud-level read**; **cards** over intro–hook; **I Want** lands as Rose **steps into frame**; **V.O.** **duck** or **defer** until post-title so lyric + misdirect still fair. **End credits** stay **Flower** (reel). Dossier: /lyrics/like-every-flower.`,
+  },
+  {
     id: "song-just-fit-in",
     slug: "just-fit-in",
     title: "Just Fit In",

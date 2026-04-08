@@ -24,13 +24,13 @@ export const scriptScenes: ScriptScene[] = [
     pageStart: 1,
     pageEnd: 3,
     equalizerPresence: "implied",
-    beat: "Structural bloom; Rose’s first arrival on the ground—awkward, half-beat misses. **Audio misdirect:** V.O. reads as composed peer / orientation-style welcome + self-assurance; audience assumes confidence-vs-reality or polished narrator. **Reveal reserved for sc.26:** same words are **next-year orientation speech** laid over past pictures—wrong-time track until sync.",
+    beat: "Structural bloom; **optional MAIN TITLE** — crane to aerial / cloud read + **Like Every Flower** (intro→hook) over cards; Rose’s first arrival on the ground—awkward, half-beat misses. **Audio misdirect:** V.O. reads as composed peer / orientation-style welcome + self-assurance; **duck / defer V.O.** vs song per mix. **Reveal reserved for sc.26:** same words are **next-year orientation speech** laid over past pictures—wrong-time track until sync.",
     summary:
-      "Bird’s-eye + district geometry. On the ground: proximity sync only; Rose steps in, almost matches, misses by a breath. **V.O.: future orientation welcome (do not label on screen)—warm, structured, ‘I’ve got this’ cadence.** Picture: honest first-day body. Bluebell on cuff. No past-tense spoilers (‘last year I stood here’) in V.O.",
+      "Bird’s-eye → **main title / credits** — **Like Every Flower** (intro→hook; **lyric in dossier** / `/lyrics/like-every-flower`, **not** in script) — **release** — Rose steps in — **spoken V.O.** resumes. Proximity sync; almost matches, misses by a breath. **V.O. (spoken):** future orientation welcome (do not label on screen)—warm, structured, ‘I’ve got this’ cadence. Bluebell on cuff. No past-tense spoilers in V.O.",
     characters: ["rose", "bluebell"],
     setId: "flower-district",
     notes:
-      "World-first: wide shots sell layout, not crowd sim. **District flow:** staggered arcs / garden-bed rows at distance; bird’s-eye completes bloom via **paths + drift**, not extras ‘drawing petals.’ **Trick:** V.O. must **not** tip future (no ‘when I welcomed you,’ no ‘this year’). Fair play: host-register is **plausible** as earnest inner voice. Post: opening track **matches** sc.26 live delivery for sync payoff. **Bluebell:** hide from passing bodies; **humour = wings/antenna/glow only**—no anthropomorphic face or ‘character’ depth.",
+      "World-first: wide shots sell layout, not crowd sim. **Main title / opening credits:** crane **up** toward aerial / **cloud-level** read; **Like Every Flower** (see `/lyrics/like-every-flower`) — **intro** over rise; **Hook / I Want** timed to **Rose steps in**; mix **ducks** sc.1 V.O. until cards clear or weave **sparse** (lyric carries want; V.O. carries place-name beat). **District flow:** staggered arcs / garden-bed rows at distance; bird’s-eye completes bloom via **paths + drift**, not extras ‘drawing petals.’ **Trick:** V.O. must **not** tip future (no ‘when I welcomed you,’ no ‘this year’). Fair play: host-register is **plausible** as earnest inner voice. Post: opening stem **matches** sc.26 live delivery for sync payoff. **Bluebell:** hide from passing bodies; **humour = wings/antenna/glow only**—no anthropomorphic face or ‘character’ depth.",
     content: `FADE IN:
 
 FROM ABOVE —
@@ -65,11 +65,19 @@ Morning repeats in soft choreography: hoses, curtains, steps down stoops — tim
 
 From here the living pattern reads: **concentric drift** — arcs of bodies and stoops **yielding** into the next — a garden rhythm more than a crowd.
 
+MAIN TITLE SEQUENCE — **OPENING CREDITS** — **crane** holds — then **rises** — **cloud-level read** — the district **small** beneath — **title card** — **key cast / crew** — **rose motif** —
+
+MUSICAL NUMBER — **LIKE EVERY FLOWER** — **single opening cue** — Rose’s vocal **score** (not yet “in-world” dialogue); **full lyric** in dossier /lyrics/like-every-flower — **spoken V.O. thins** until **post-hook** —
+
+*Structure: **intro** → **verse 1** → **pre-hook** → **hook — I want** — **over** **credits** + aerial; **hook** **lands** as **picture** **releases** —*
+
+*Music **thins** — **first spoken V.O. eligible** —*
+
 Then — the view releases —
 
 At the edge of the district —
 
-ROSE (16) steps in.
+ROSE (16) steps in — **on the last beat of the hook** — **or** the **silence** after — **cut** for pace.
 
 She pauses just a fraction too long.
 
