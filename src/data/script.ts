@@ -406,7 +406,7 @@ CUT TO:`,
     pageStart: 6,
     pageEnd: 10,
     equalizerPresence: "on",
-    beat: "ACT 1 · Catalyst setup — concourse → atrium → **Equalize the Bloom** orientation duet (Edelweiss + **Lotus**, Bollywood-inflected) → spoken law returns → first controlled instability",
+    beat: "ACT 1 · Catalyst setup — concourse → atrium → **Equalize the Bloom** orientation duet (Edelweiss + **Lotus**, big ensemble / call-and-response) → spoken law returns → first controlled instability",
     summary:
       "Concourse: band / drama / gym promise. Atrium: **Lotus** co-leads sung orientation with Edelweiss; crowd arcs into sync choreography. Then dry lecture resumes; Equalizer + Rose’s near field tightens; first instability.",
     characters: ["rose", "daisy", "edelweiss", "lotus"],
@@ -514,7 +514,7 @@ Rose tries to match where others are standing — slightly off — adjusts — s
 
 At the center, a raised platform.
 
-PROFESSOR EDELWEISS (50s) stands calmly — **Indian** — linen-neat —
+PROFESSOR EDELWEISS (50s) stands calmly — linen-neat —
 
 Beside him — **LOTUS** (17) — teaching assistant — one step back — **bright** — **already loved** by this room before she opens her mouth.
 
@@ -546,7 +546,7 @@ Beat.
 
 The lights **lift** — informal — orientation as **promise** —
 
-MUSICAL NUMBER — **EQUALIZE THE BLOOM** — Bollywood-inflected — claps on off-beats, call-and-response, arcs of students threading like **garden rows** —
+MUSICAL NUMBER — **EQUALIZE THE BLOOM** — ensemble energy — claps on off-beats, call-and-response, arcs of students threading like **garden rows** —
 
 *Opening — rhythmic spoken-sung, playful teacher energy — Disney-audible diction.*
 

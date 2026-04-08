@@ -15,8 +15,8 @@ export const sets: FilmSet[] = [
       "High-key daylight, candy-glass reflections; failure states drain saturation locally and throw sick green diagnostic wash from Equalizer overlays.",
     notes:
       "Spine ~100 pp.: opening, debate, B-story launch, fun/games, escalation, suppression, collapse, return (sc.20 night re-entry — strained system), festival, system failure, final image. Bookend sc.1 / sc.26 — morning district, variation without collapse, tag in reality.",
-    image16x9: "/sets/flower-district-16x9.png",
-    image2x1: "/sets/flower-district-2x1.png",
+    image16x9: "/sets/flower-district.png",
+    image2x1: "/sets/flower-district.png",
     linkedSceneIds: [
       "scene-01",
       "scene-02",
@@ -53,8 +53,8 @@ export const sets: FilmSet[] = [
       "Sun through glass, soft caustics; Equalizer activation adds a thin lattice of projection across skin and leaves.",
     notes:
       "Script setId: sc.3–4 (concourse → atrium), sc.13 (containment), sc.25 (core + shutdown). Montage beats in sc.9–10 use atrium action but are tagged district in data—see those scenes. Act 1: concourse sells layout without crowd sim.",
-    image16x9: "/sets/flower-high-atrium-16x9.png",
-    image2x1: "/sets/flower-high-atrium-2x1.png",
+    image16x9: "/sets/flower-high-atrium.png",
+    image2x1: "/sets/flower-high-atrium.png",
     linkedSceneIds: ["scene-03", "scene-04", "scene-13", "scene-25", "scene-26"],
   },
   {
@@ -71,8 +71,8 @@ export const sets: FilmSet[] = [
       "Natural bounce, sparkle, shadows that don’t match anyone else’s—each face can have its own key.",
     notes:
       "Sc.11 approach (path/tree line/clearing) — hum fades, no correction; subtle environment response to Rose; Lemon clocks it. Sc.12 midpoint — full organic connection; Lemon destabilizes in her field; distant district pulse (in-scene, no HUD cut). Sc.19 Dark Night — Rose walks out, clearing; Daisy; choice to return (not performing). Sc.24 transformation beat lives in district (courtyard + side path)—waterfall recalled, not revisited.",
-    image16x9: "/sets/wild-waterfall-16x9.png",
-    image2x1: "/sets/wild-waterfall-2x1.png",
+    image16x9: "/sets/wild-waterfall.png",
+    image2x1: "/sets/wild-waterfall.png",
     linkedSceneIds: ["scene-11", "scene-12", "scene-19"],
   },
   {
@@ -89,8 +89,8 @@ export const sets: FilmSet[] = [
       "Soft bounce off painted petals; Equalizer hum felt more than heard when windows open.",
     notes:
       "Act 1: sc.2 passage through housing; sc.5 opens in Rose’s bedroom before debate sequence across district.",
-    image16x9: "/sets/residential-petal-ring-16x9.png",
-    image2x1: "/sets/residential-petal-ring-2x1.png",
+    image16x9: "/sets/residential-petal-ring.png",
+    image2x1: "/sets/residential-petal-ring.png",
     linkedSceneIds: ["scene-02", "scene-05"],
   },
   {
@@ -107,8 +107,8 @@ export const sets: FilmSet[] = [
       "Construction daylight; first hints of festival wash; Act 1 reads as looming, seductive, heavy.",
     notes:
       "Sc.5 debate courtyard background; sc.7 Break into Two — auditorium dominates mid-distance as festival pressure mounts.",
-    image16x9: "/sets/bloom-festival-auditorium-16x9.png",
-    image2x1: "/sets/bloom-festival-auditorium-2x1.png",
+    image16x9: "/sets/bloom-festival-auditorium.png",
+    image2x1: "/sets/bloom-festival-auditorium.png",
     linkedSceneIds: ["scene-05", "scene-07"],
   },
   {
@@ -125,8 +125,8 @@ export const sets: FilmSet[] = [
       "Natural green-gold; hum drop-off as Rose walks away from core.",
     notes:
       "Act 1 sc.6: Lemon leads; not the waterfall clearing yet—tease only.",
-    image16x9: "/sets/woodland-fringe-path-16x9.png",
-    image2x1: "/sets/woodland-fringe-path-2x1.png",
+    image16x9: "/sets/woodland-fringe-path.png",
+    image2x1: "/sets/woodland-fringe-path.png",
     linkedSceneIds: ["scene-06"],
   },
   {
@@ -143,8 +143,8 @@ export const sets: FilmSet[] = [
       "Bioluminescent UI, redline warnings, then sudden dim when the lie loses power—hand off to natural Bloom light from above.",
     notes:
       "Narrative climax (core shutdown) plays in Biology Atrium — see Flower High — Biology Atrium, sc.25. This set remains the symbolic ‘machine beneath’ gallery for design refs.",
-    image16x9: "/sets/equalizer-core-16x9.png",
-    image2x1: "/sets/equalizer-core-2x1.png",
+    image16x9: "/sets/equalizer-core.png",
+    image2x1: "/sets/equalizer-core.png",
     linkedSceneIds: ["scene-05"],
   },
 ];

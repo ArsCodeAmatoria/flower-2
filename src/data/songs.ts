@@ -146,7 +146,7 @@ When everything aligns
 There is nothing left to fear
 
 [Staging — screenplay]
-Bollywood-inflected orientation: Edelweiss + Lotus duet; call-and-response; claps; crowd arcs into garden-row choreography; bridge warmer / clearer diction for family audience; unease under the final mix.`,
+Ensemble orientation number: Edelweiss + Lotus duet; call-and-response; claps; crowd arcs into garden-row choreography; bridge warmer / clearer diction for family audience; unease under the final mix.`,
   },
   {
     id: "song-flower-opening",

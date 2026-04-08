@@ -7,7 +7,7 @@ const setsIndexSet = sets.find((s) => s.slug === "flower-district") ?? sets[0];
 const setsOgImage = setsIndexSet.image16x9;
 
 const description =
-  "Production design archive — spaces as narrative instruments, light as dramaturgy, and the symbolic load of each built environment.";
+  "Production design archive — spaces as narrative instruments, light as dramaturgy, and the symbolic load of each built environment. Each dossier is a room in the film’s world: where it lives, what it means, and how it should feel under light.";
 
 export const metadata: Metadata = {
   title: "Sets",
@@ -32,12 +32,7 @@ export default function SetsPage() {
       <header className="max-w-2xl space-y-4">
         <p className="page-label">Index / world design</p>
         <h1 className="title-display">Sets</h1>
-        <p className="subtitle">
-          Production design archive — spaces as narrative instruments, light as dramaturgy, and the
-          symbolic load of each built environment. Stills resolve under{" "}
-          <span className="whitespace-nowrap font-mono text-[0.92em] text-foreground/80">public/sets/</span>{" "}
-          using the 16∶9 and 2∶1 names on each dossier.
-        </p>
+        <p className="subtitle">{description}</p>
       </header>
 
       <ul
