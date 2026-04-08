@@ -910,11 +910,11 @@ CUT TO:`,
     equalizerPresence: "on",
     beat: "ACT 1 · Catalyst payoff — Equalizer squeezes Rose; **few adjacent bodies** misstep; she reads cause in her eyeline; **same pod** reads culprit — scalable, no crowd sim",
     summary:
-      "Continuous atrium. Rose’s miss → tight local pressure: **2–3 students** near her lose timing (trip, bump, murmur). Equalizer hammers; Bluebell dims. Iris clocks; Edelweiss watches machine then Rose. Stabilizes; **nearest faces** peel away — separation social, not district-wide chaos.",
+      "Continuous atrium. Rose’s miss → she **chooses** one deliberate fix (re-seat on her mark); Equalizer punishes **that** move; **2–3 students** near her lose timing. Equalizer hammers; Bluebell dims. Iris logs (no public pile-on); Edelweiss watches machine → Rose → **one tight line** (worldview pin). Stabilizes; **nearest faces** peel away — separation social, not district-wide chaos.",
     characters: ["rose", "daisy", "iris", "edelweiss", "bluebell"],
     setId: "flower-high-atrium",
     notes:
-      "Continuous; **animate hero pod only** (Rose, Daisy, 2–3 named STUDENT slots, Iris, Edelweiss). No ripple through rows. Misattribution via **looks in her radius**. **Humour:** Rose micro-**yes** before pulse; **sorry** to wrong object. **Bluebell:** dim + **wings latched flat**; antennae **forward**—no face jokes.",
+      "Continuous; **animate hero pod only** (Rose, Daisy, 2–3 named STUDENT slots, Iris, Edelweiss). No ripple through rows. Misattribution via **looks Rose’s radius**. **Nearest faces (readability):** S1: catch/recover glance down; S2: folio hug + glare flick to Rose; third nearby: chin tuck, won’t meet her eyes. **Lattice:** pulse tightens **subjective / Rose-only** (not projected to room—shared UI stays generic). **Humour:** Rose micro-**yes** before pulse; **sorry** to wrong object. **Bluebell:** dim + **wings latched flat**; antennae **forward**—no face jokes.",
     content: `INT. BIOLOGY ATRIUM — CONTINUOUS
 
 The room holds in near-perfect stillness.
@@ -1007,6 +1007,14 @@ What was that?
 STUDENT #2
 Did you feel that?
 
+Rose — chooses —
+
+She **finds her floor mark** — one deliberate step — *re-seating* the beat — **giving the correction to her body, not theirs** —
+
+The Equalizer **slams** a second pulse — **on that choice** —
+
+STUDENT #2 — **jarred** — folio **slips** — she saves it — **barely** —
+
 Rose — automatic —
 
 ROSE
@@ -1031,7 +1039,7 @@ Except her.
 She inhales — too fast — tries to stop — can’t —
 
 ROSE
-I’m — I’m sorry — I didn’t —
+I’m — I’m sorry — I didn’t — I was trying to **fit the mark** —
 
 She tries to freeze.
 
@@ -1039,14 +1047,14 @@ But her timing is still off.
 
 Another pulse — stronger.
 
-Light lattice **tightens across her chest** — visible only to us —
+Light lattice **tightens across her chest** — **subjective — Rose-only** — visible only to us —
 
 Daisy turns to Rose.
 
 Concerned.
 
 DAISY
-Hey —
+Hey — I saw the line stutter **before** your foot landed —
 
 Rose looks at her — panicked.
 
@@ -1063,13 +1071,15 @@ At her.
 
 A beat.
 
-Iris, across the atrium, watches.
+STUDENT #1 — small **down-glance** at her own shoes — shame-flinch —
+
+STUDENT #2 — **clutches folio — eyes flick** Rose — accusation without volume —
+
+Iris, across the atrium — **same cool eyeline she’s held since bell** — watches.
 
 Calm.
 
-Observing.
-
-Not surprised.
+**Logging** — not selling surprise to anyone.
 
 Edelweiss stands at the center.
 
@@ -1078,6 +1088,10 @@ Still.
 Precise.
 
 Watching the system — then — briefly — Rose.
+
+EDELWEISS
+(quiet — almost to himself)
+The room doesn’t grade intentions.
 
 The Equalizer pulses again — then — stabilizes.
 
@@ -1109,9 +1123,11 @@ Separation.
 
 DAISY
 (quiet)
-It’s okay.
+It’s okay. **Stay small till the hum steadies.**
 
 Rose nods — but she knows it’s not.
+
+**She searches Daisy’s eyes — finds them — half-beat — then has to look away — shame won’t let her hold it.**
 
 ROSE
 I just — I was trying to —
@@ -1152,13 +1168,13 @@ CUT TO:`,
     pageStart: 13,
     pageEnd: 18,
     equalizerPresence: "implied",
-    beat: "ACT 1 · Debate — bedroom prep (private = same law) → district tries: movement + band class miss + social courtyard (festival shell BG) + suppression on walkway (roots grille tease); three escalating attempts; self-blame",
+    beat: "ACT 1 · Debate — bedroom prep (private = same law) → **near-bail / opt-out flicker** (door + quiet path) → district tries: movement (**outdoor tick braid**, not atrium grid) + band miss + social courtyard (**countdown BG**) + suppression on walkway; **Bluebell thread** (bag mesh); self-blame; ‘get it right.’",
     summary:
-      "INT: Rose’s room — prep. (1) Path past gym: match **one** walker; neighbour behind compensates once; bail. (2) Band: late count, exit. (3) Courtyard cluster: **four or five**; re-forms without her. (4) Walkway: suppression; **one** ahead jerks wrong when she slips. Ends: ‘get it right.’",
+      "INT: Rose’s room — prep; almost stays — chooses **out**. (1) Path: **luminescent third-step ticks** / main braid vs quiet branch; match + neighbour compensates; **Bluebell faint through bag**; bail. (2) Band: late count, exit. (3) Courtyard: **load-in countdown** BG; cluster; **present-moment** reach fails; re-forms. (4) Walkway: suppression; **hum thins / Bluebell steadies** — then slip; **one** ahead tired look. Ends: ‘get it right.’",
     characters: ["rose", "bluebell"],
     setId: "flower-district",
     notes:
-      "Locks: debate function; distinct attempts; Rose um / restart / self-correction; system = pressure + overcorrection. **World:** bedroom (Disney intimacy) + specialty class (STC promise) + festival shell (ticking fun) + roots tease (no explanation). **Humour:** sill **wing-tent** Bluebell; walkway **sorry** to rail.",
+      "Locks: debate function; **internal debate** = opt-out flicker vs compliance; distinct attempts; Rose um / restart / self-correction; system = pressure + overcorrection. **World:** bedroom + **path ticks** (outdoor law, not atrium) + band + courtyard **countdown strip** + roots tease. **Bluebell:** wing-tent room; **bag-mesh** glances: dim after path fail; **one notch brighter** when walkway sync lands — **dips** on cost beat. **Humour:** sill wing-tent; band door; walkway **sorry** to rail.",
     content: `INT. FLOWER HIGH DISTRICT — VARIOUS — LATER
 
 INT. ROSE’S ROOM — RESIDENTIAL PETAL — LATER
@@ -1183,7 +1199,9 @@ She exhales.
 
 Reaches for the door—
 
-Hesitates—
+Hesitates — **thumb on the frame — she could stay in the petal** —
+
+**No.**
 
 One more adjustment.
 
@@ -1207,13 +1225,19 @@ Studying.
 
 Trying to understand it.
 
+She almost peels toward a **quieter side petal** — **fewer feet** — a branch with **soft luminescent ticks** every **third slab** —
+
+**Half a beat — she could wait it out —**
+
+**No.** She **commits** — turns into the **main braid** instead.
+
 ATTEMPT 1 — MOVEMENT (PAST THE GYM SKIN)
 
 Glass wall — GYM / STADIUM — interior visible.
 
 Lines of bodies — counting — snap — hold.
 
-Rose steps into the outdoor flow again.
+Rose steps into the outdoor flow again — **underfoot: third-step ticks pulsing faint — outdoor law, not the atrium grid.**
 
 Careful.
 
@@ -1258,6 +1282,8 @@ The two others re-find their gap without looking at her.
 
 Rose steps out of the path.
 
+Through the bag mesh — Bluebell’s glow **thread-thin** — keeping her shame-slow pace.
+
 ATTEMPT 2 — BAND (WRONG DOOR)
 
 INT. BAND ROOM — MOMENTS LATER
@@ -1278,11 +1304,15 @@ She freezes — backs out before the exhale completes —
 
 Like she was never there.
 
+Rose — bag hugged — Bluebell inside — **antennae still flat** through the weave —
+
 ATTEMPT 3 — SOCIAL
 
 EXT. COURTYARD — CONTINUOUS
 
 Past the far curve — the BLOOM FESTIVAL AUDITORIUM rises — skeleton and petals — workers on scaffolds — a stage throat opening to the sky.
+
+Nearest scaffold — a strip holo: **LOAD-IN** — numbers **eating down** — nobody looks; they already live in it.
 
 Students gather in small clusters.
 
@@ -1316,7 +1346,9 @@ The group continues talking — around her.
 Not including her.
 
 ROSE (CONT’D)
-I just — I was in the — atrium earlier —
+Sorry — **volunteer check-in** — is this the **Bloom crew** cluster or am I —
+
+Wrong **kind** of missing — they weren’t waiting on her.
 
 No response.
 
@@ -1399,6 +1431,8 @@ Less pressure.
 
 Rose feels it.
 
+The knot behind her ears **loosens** — the hum **thins** — almost **room to breathe**.
+
 ROSE (CONT’D)
 Okay… okay —
 
@@ -1409,6 +1443,8 @@ Keeps everything small.
 Contained.
 
 She almost disappears into the rhythm.
+
+Through the mesh — **Bluebell steadies — one shade brighter.**
 
 For a moment — it works.
 
@@ -1429,6 +1465,8 @@ Stumbles — catches it —
 Shoots Rose a look — not mean — **tired**
 
 — worse than the first attempt because now she **sees** the cost.
+
+The hum **rushes back** — **thick** — Bluebell’s glow inside the bag **dips**.
 
 Rose freezes.
 
@@ -2116,13 +2154,13 @@ CUT TO:`,
     pageStart: 25,
     pageEnd: 30,
     equalizerPresence: "implied",
-    beat: "ACT 2A · B story — **relationship engine first**, not another corridor-sync tutorial. Rose finds Lemon after a **social** scrape (invitation / edge space), not a win-streak; ‘just walk’ lands as **intimacy + shame about relaxing**, not geometry homework.",
+    beat: "ACT 2A · B story — **relationship engine first** — **MUSICAL — SEE IT MY WAY** (Rose + Lemon, **one cue**): social scrape → ledge; worldview vs invisibility; **angle-cross** → **just walk** → **no-ripple** pass; lands **quieter** than spoken debate; **Come on** / follow.",
     summary:
-      "District busy for festival prep; Rose **doesn’t** chase another ‘clean merge’ beat — she peels off after a tiny group **excludes** her half-space (polite, fatal). She finds Lemon on the sidelines. They talk: self-fixing flow vs honesty; he crosses at an angle; she tries **not** matching — wobbles, stops fixing, no ripple. He almost says it isn’t her problem — stops. Breathing room; looser path; she follows, still unsure.",
+      "Festival prep; Rose **excluded** from merge; finds Lemon. **See It My Way:** his **lines/frame** vs her **whispers / unseen**; duet **wrong way** → **reshape**; clouds / **let go**; **fall/land**; bridge **closer than you’ve been**; final chorus **see it your way / find my own** — then quiet beat, **Come on**, she follows.",
     characters: ["rose", "lemon"],
     setId: "flower-district",
     notes:
-      "**Anti-repeat:** do **not** open on ‘she almost nails sync.’ Humiliation here is **social**, not timing showcase. Lemon: movement, not lecture. Musical: ‘just walk’ seeds only.",
+      "**Anti-repeat:** do **not** open on ‘she almost nails sync.’ Humiliation here is **social**, not timing showcase. **Music:** **See It My Way** — **only** duet placement in script; lyric + audio **`/lyrics/see-it-my-way`**. Staging: ledge + **readable paths**; **angle-cross**; **first just-walk** + **no ripple**; keep **Come on** after number. Lemon: movement, not lecture.",
     content: `EXT. FLOWER HIGH DISTRICT — MID-DAY
 
 The district is more active — festival prep hum in the air.
@@ -2218,265 +2256,124 @@ Still slightly off.
 
 Gives up.
 
+MUSICAL NUMBER — **SEE IT MY WAY** — Rose + Lemon — **single cue** — fringe ledge → **angle-cross** through flow → **first just-walk** / **no ripple**; dossier: /lyrics/see-it-my-way
+
+*She beside him — crooked on the curve — hands give up fixing —*
+
+*Verse 1 — Male —*
+
 LEMON
-You look tired.
+You’re looking at the world like it’s already decided
+Like every road’s been drawn and you’ve been neatly divided
+But what if all the lines that you’ve been told to obey
+Are just suggestions you can wash away
+
+You keep your head down, play it safe, stay quiet
+But safe ain’t living it’s just being compliant
+There’s a whole sky sitting right above your place
+And you’re still staring at the frame
+
+*He leans back — district below — paths readable.*
+
+*Verse 2 — Female —*
 
 ROSE
-I’m just — trying to stay with it.
+It’s easy for you when you don’t feel it
+When you don’t hear every whisper repeated
+They don’t look twice, they don’t care if I’m there
+I’m just less than the air
 
-She gestures to the movement.
+You say there’s something I’m not seeing
+But I’ve been looking my whole life believing
+If there was something more in me
+Wouldn’t someone else have seen
 
-ROSE (CONT’D)
-If I stop — I lose it.
+*Pre-Chorus — Duet —*
+
+LEMON & ROSE
+Maybe they don’t know where to start
+Or maybe there’s just nothing in my heart
+Or maybe you’ve been looking the wrong way
+
+*Chorus — Duet —*
+
+LEMON & ROSE
+What if you could see it my way
+What if I don’t like what I find
+What if all the things you’ve been hiding
+Are the best parts you left behind
+
+What if I’m just not what they need
+What if they’re wrong and you’re free
+What if the world isn’t fixed in place
+And it’s waiting for you to reshape
+If you could just see it my way
+
+*He stands — down from the ledge — cuts across the flow — at an angle — light adjustments — no escalation.*
+
+*Verse 3 — Male — walking loose —*
 
 LEMON
-Or you stop trying.
+You ever notice how the clouds don’t try
+To match each other as they pass on by
+They just exist and somehow that’s enough
+No one’s calling their bluff
 
-Rose glances at him.
+*Verse 4 — Female —*
 
 ROSE
-That’s not — how this works.
-
-LEMON
-It’s how I work.
-
-He leans back.
-
-Looks out over the district.
-
-A few paths cross in the distance — **readable**, not teeming.
-
-LEMON (CONT’D)
-You ever notice —
-
-He points.
-
-**Four kids** round a bend — one lands late — the next catches it — no drama.
-
-LEMON (CONT’D)
-It’s not perfect.
-
-Rose watches.
-
-Trying to see it.
-
-ROSE
-It is.
-
-LEMON
-No.
-
-Beat.
-
-LEMON (CONT’D)
-It’s just good at fixing itself.
-
-That lands differently.
-
-Rose studies the movement again.
-
-Now — she sees the corrections.
-
-Small.
-
-Constant.
-
-ROSE
-So I just need to —
-
-LEMON
-(interrupting, gentle)
-No.
-
-Beat.
-
-LEMON (CONT’D)
-You don’t need to do anything.
-
-Rose frowns slightly.
-
-ROSE
-Then what am I supposed to —
-
-She trails off.
-
-He stands.
-
-Steps down from the ledge.
-
-Moves — not into the flow — but across it.
-
-At an angle.
-
-Students adjust around him — but lightly.
-
-No pressure.
-
-No escalation.
-
-Rose watches.
-
-Confused again.
-
-ROSE (CONT’D)
-How are you not —
-
-She gestures.
-
-ROSE (CONT’D)
-—doing that thing.
-
-LEMON
-Because I’m not trying to match it.
-
-He keeps walking.
-
-Loose.
-
-Uncontrolled.
-
-Free.
-
-He turns — walking backward again.
-
-LEMON (CONT’D)
-You want to try something?
-
-Rose hesitates.
-
-Looks back at the main flow.
-
-Then at him.
-
-ROSE
-What?
-
-LEMON
-Don’t match anything.
-
-Beat.
-
-LEMON (CONT’D)
-Just walk.
-
-Simple.
-
-Rose stands slowly.
-
-Steps down.
-
-Careful at first — then tries to just walk.
-
-No timing.
-
-No adjustment.
-
-It feels wrong.
-
-Unstable.
-
-ROSE
-This feels —
-
-She wobbles slightly.
-
-Corrects — instinctively.
-
-Stops herself.
-
-ROSE (CONT’D)
-—like I’m going to mess something up.
-
-LEMON
-You probably will.
-
-Casual.
-
-Rose looks at him — half annoyed.
-
-Half uncertain.
-
-ROSE
-That’s not helpful.
-
-LEMON
-It’s true.
-
-Beat.
-
-LEMON (CONT’D)
-But it’s also not the end of anything.
-
-That lands.
-
-Rose takes another step.
-
-Still unsure.
-
-Still uneven.
-
-But not correcting.
-
-A student passes — adjusts slightly — keeps going.
-
-No ripple.
-
-No escalation.
-
-Rose notices.
-
-ROSE
-That didn’t —
-
-She gestures behind her.
-
-LEMON
-Yeah.
-
-ROSE
-Why didn’t it —
-
-She can’t finish.
-
-LEMON
-Because you didn’t try to fix it.
-
-Beat.
-
-Rose processes that.
-
-Slowly.
-
-LEMON (CONT’D)
-You’re trying to solve something that isn’t —
-
-He stops himself.
-
-Shrugs.
-
-LEMON (CONT’D)
-—your problem.
-
-Rose looks back at the district.
-
-Still moving.
-
-Still correcting.
-
-Still… controlled.
-
-Then back at him.
-
-ROSE
-It feels like my problem.
-
-LEMON
-Yeah.
-
-Beat.
-
-LEMON (CONT’D)
-That’s how it works.
+You make it sound like it’s so simple
+Simple’s just the hard part without the wrinkles
+I don’t know how to just let go
+Then don’t just take it slow
+
+*Pre-Chorus — Duet —*
+
+LEMON & ROSE
+What if I fall when I try to stand
+Then I’ll be right there when you land
+You say it like it’s guaranteed
+No just likely
+
+*Chorus — Duet —*
+
+LEMON & ROSE
+What if you could see it my way
+What if I’m more than I’ve known
+What if the parts you’ve been afraid of
+Are the ones that make you your own
+
+What if I don’t have to change
+What if you’re already that way
+What if the world isn’t what they say
+And it bends when you choose to stay
+And you finally see it your way
+
+*Bridge — tight —*
+
+LEMON & ROSE
+If I believed you what would that mean
+It’d mean you’re closer than you’ve ever been
+To what
+To everything
+
+*Rose moves — tries **just walk** — wobbles — stops the fix — a student passes — adjusts — **no ripple**.*
+
+*Final Chorus — Duet —*
+
+LEMON & ROSE
+Maybe I can see it your way
+Or maybe I’ll find my own
+Maybe all the things I’ve been hiding
+Are the seeds I’ve never grown
+
+Maybe I don’t need to be changed
+Maybe I’ve been okay this way
+Maybe the world isn’t fixed in place
+Maybe it’s mine to reshape
+If I can just see it that way
+
+*The music thins —*
 
 A quiet moment between them.
 
@@ -2522,13 +2419,13 @@ CUT TO:`,
     pageStart: 30,
     pageEnd: 40,
     equalizerPresence: "on",
-    beat: "ACT 2A · Fun & Games — **four different failure types**, not four sync flavors: (1) **machine** node lab, (2) **public spectacle** status beside Narcissa, (3) **private** self-policing beat, (4) **social** invitation / clique airlock with Daisy; Lemon coda names ‘careful not trying’.",
+    beat: "ACT 2A · Fun & Games — **four different failure types**, not four sync flavors: (1) **machine** node lab, (2) **public spectacle** status beside Narcissa, (3) **private** self-policing beat, (4) **social** invitation / clique airlock with Daisy + **MUSICAL — JUST FIT IN** (one cue; diegetic **chorus = tight circle**; **bridge = Daisy** to Rose after cold close); Lemon coda names ‘careful not trying’.",
     summary:
-      "**(1)** Atrium lab: node destabilizes; Edelweiss clocks consistency; **Lotus** on floor + tablet pass. **(2)** Courtyard: Rose’s display overblooms; system flattens; Narcissa precise—**status** wound, not only tech. **(3)** Rose alone: mirror/room beat — practices neutral face; no audience; Bluebell dim. **(4)** Hallway: Daisy ‘or less’; Rose **not invited** into laughter—airlock, not late syllable only; **Nettles** at the margin—shoulder brush, sting-on-contact. Side path: Lemon — tried not-trying **safely**; hum deepens, unnoticed.",
+      "**(1)** Atrium lab: node destabilizes; Edelweiss clocks consistency; **Lotus** on floor + tablet pass. **(2)** Courtyard: Rose’s display overblooms; system flattens; Narcissa precise—**status** wound, not only tech. **(3)** Rose alone: mirror/room beat — practices neutral face; no audience; Bluebell dim. **(4)** Hallway: **Just Fit In** (only script placement) — vocal O.S. → cluster chorus — Rose **Hey —** no door — cut — Daisy bridge — **Nettles** brush. Side path: Lemon.",
     characters: ["rose", "daisy", "edelweiss", "lotus", "narcissa", "lemon", "nettles"],
     setId: "flower-district",
     notes:
-      "**Anti-repeat:** if two beats feel like ‘timing miss,’ cut one. Iris absent; sc.10 = rumor without new physics. Edelweiss observational. **Lotus:** floor runner — nods, checklist kindness — hands Edelweiss tablet when he passes. **Nettles:** hallway margin—watching, brush-past—not a speech villain. **Humour:** mirror = **wing asymmetry** on sill (insect, not mimic); courtyard = **wrong UI credit** flash; hallway = Daisy **nobody’s counting** vs toe-mark student; Lemon = **timer** absurdism.",
+      "**Anti-repeat:** if two beats feel like ‘timing miss,’ cut one. Iris absent; sc.10 = rumor without new physics. Edelweiss observational. **Lotus:** floor runner — nods, checklist kindness — hands Edelweiss tablet when he passes. **Music:** **Just Fit In** — **this** scene’s hallway cue; lyric **`/lyrics/just-fit-in`**. (Rose/Lemon duet **See It My Way** = **sc.8** — **`/lyrics/see-it-my-way`**.) **Nettles:** hallway margin—watching, brush-past—not a speech villain. **Humour:** mirror = **wing asymmetry** on sill (insect, not mimic); courtyard = **wrong UI credit** flash; hallway = **chorus wall** vs Rose + Daisy **nobody’s counting** vs toe-mark **on the hook**; Lemon = **timer** absurdism.",
     content: `INT. ROSE’S ROOM — RESIDENTIAL PETAL — EARLY THAT DAY
 
 Mirror.
@@ -2788,15 +2685,38 @@ Timing.
 
 Flow.
 
-Rose walks beside Daisy.
+**FROM UP HALL — PRACTICE ARCH — doors cracked — air moving with work —**
+
+MUSICAL NUMBER — **JUST FIT IN** — **diegetic** Bloom vocal block — festival stock — **not** orientation polish — **kid-led**.
+
+*O.S. — Verse 1 — light —*
+
+STUDENT VOICE (O.S.)
+Keep your head up, keep it light —
+Don’t say too much, don’t start a fight —
+Smile just enough, don’t overdo —
+They’ll like you more if you stay you —
+
+**Passersby join the hum — habit — not applause.**
+
+But not too loud and not too bright —
+Don’t stand too far outside the line —
+There’s a way to get it right —
+You just follow every sign —
+
+Rose walks beside Daisy — **music in the architecture** —
 
 ROSE
 I think I just need to — control it more.
+
+**Underscore ducks — thin pulse.**
 
 DAISY
 Maybe.
 
 Beat.
+
+**Daisy almost mouths the next line — catches herself.**
 
 DAISY (CONT’D)
 Or less.
@@ -2808,9 +2728,56 @@ Rose looks at her.
 
 Unsure what that means.
 
-They approach a cluster laughing — **tight circle**.
+**Pre-Chorus — O.S. swells —*
 
-**Background** — one BOY **marks a floor seam** with his toe — **one-two-three** — whisper — **eyes on his shoes** — not performing — just **doing math the lane taught him.**
+STUDENT VOICE (O.S.)
+It’s not so hard if you try —
+Just don’t ask too many whys —
+
+They approach a cluster — **tight circle** — **already chanting** — **not** random cruelty — **rehearsed belonging** —
+
+STUDENTS (CLUSTER)
+Just fit in, just fit in —
+That’s the safest way to win —
+Don’t be first and don’t be last —
+Stay somewhere in the middle mass —
+
+Just fit in, just fit in —
+Let the edges soften in —
+If you match the shape they see —
+You’ll be who you’re meant to be —
+
+**Verse 2 — CLUSTER — Daisy mirrors — knows the geometry —*
+
+STUDENTS (CLUSTER)
+Watch the way they move and speak —
+Learn the patterns, keep it neat —
+If you blend, you’ll never fall —
+No one notices at all —
+
+And that’s okay, it’s kinda nice —
+Not to roll the risky dice —
+If you stay inside the frame —
+You won’t have to feel the blame —
+
+STUDENTS (CLUSTER)
+It’s not so bad, it’s just the way —
+Everyone learns how to play —
+
+**Second chorus — **louder** — the ring **seals** —*
+
+STUDENTS (CLUSTER)
+Just fit in, just fit in —
+That’s the safest way to win —
+Don’t be first and don’t be last —
+Stay somewhere in the middle mass —
+
+Just fit in, just fit in —
+Let the edges soften in —
+If you match the shape they see —
+You’ll be who you’re meant to be —
+
+**Background — one BOY marks a floor seam with his toe — one-two-three — in time with the hook — eyes on his shoes —**
 
 Rose slows — **doesn’t break the ring**.
 
@@ -2818,13 +2785,35 @@ ROSE
 (quiet)
 Hey — what was —
 
-The circle doesn’t open.
+**The chorus doesn’t yield — wall of sound — no door —**
 
 A girl she half-knows catches her eye — **almost** makes space — then doesn’t.
 
-The laugh continues — **without** a door.
+**Cluster rides the downbeat — joy threaded with exclusion —**
 
-**Nettles** leans on the arch — **not in the laugh** — **watching** Rose — **small smile** — not for her.
+**MUSIC CUTS — hard — ringout —**
+
+**Silence — uncomfortable —**
+
+**Only Daisy — softer — to Rose — Bridge — not for them —**
+
+DAISY
+(sotto — ashamed she’s singing)
+Sometimes I wonder quietly —
+What it’s like to just be me —
+But that feels a little far —
+And I don’t know where to start —
+
+So I smooth it, shape it right —
+Keep it tucked and out of sight —
+Maybe someday I’ll begin —
+But for now… I’ll just fit in —
+
+**She stops — mad at herself for making it a performance —**
+
+**Beat.**
+
+**Nettles** leans on the arch — **not in the cluster** — **watching** Rose — **small smile** — not for her.
 
 He pushes off — **passes close** — **shoulder brush** — **accidental** if anyone asked.
 
@@ -7788,13 +7777,13 @@ CUT TO:`,
     pageStart: 96,
     pageEnd: 97,
     equalizerPresence: "implied",
-    beat: "ACT 3 · **Small quiet reset** after 21–23 — low volume, thin crowd, wide space; emotional alignment before final action; release not suppression; waterfall memory; names separation; shutdown intention; Lemon follows into sc.25.",
+    beat: "ACT 3 · Reset after 21–23 — wide broken courtyard → **side path**; **MUSICAL — RED MAGIC** (Rose): **subjective** Disney-scale release on **quiet** stage; **Lemon** present for **Verse 2** “you”; growth answers on **Final Chorus**; post-song: names separator / shutdown; Lemon follows sc.25.",
     summary:
-      "**Volume down:** scattered few, distant sirens of broken light — not packed panic. Rose still; wrong isn’t her. Side path: breath, ‘part of.’ Bluebell witness. Names Equalizer as separator. Lemon checks in; shutdown stated calmly; return toward center.",
+      "**Volume down** in frame; Rose peels to side path — **Red Magic** — not suppression, **part of** / rare / **magic**; Bluebell; **environment answers**; clarity against Equalizer. **Lemon** — heard her before **You good?** Shutdown calm; return center.",
     characters: ["rose", "lemon", "bluebell"],
     setId: "flower-district",
     notes:
-      "Contrast chaos/stillness; no return to waterfall location—memory only. Act 3 diction: clean, no um. Bridges sc.23 damage to sc.25 core. **Bluebell:** present during remembrance—ties body memory to choice.",
+      "Contrast chaos/stillness; no waterfall **location** — lyric carries **memory**. **Music:** **Red Magic** — **only** Rose-led anthem in script; mix carries **full** read, **world** stays **thin/quiet** (not second festival SPL); lyric **`/lyrics/red-magic`**. **Lemon:** steps in **before Verse 2** — still — witness — **no** duet. Act 3 diction: clean post-song. **Bluebell:** landing + witness after outro.",
     content: `EXT. CENTRAL COURTYARD — NIGHT
 
 Chaos — but **emptier** than the festival crush.
@@ -7877,21 +7866,132 @@ She closes her eyes.
 
 The noise of the system fades — not physically — but for her.
 
-She remembers:
+**Memory-flash — waterfall — not a cut — heat on skin —**
 
-The waterfall.
+MUSICAL NUMBER — **RED MAGIC** — Rose — **single cue** — **subjective scale**: orchestra/choir **swell on the track**; **physical** district stays **thin — side path — almost alone**; dossier: /lyrics/red-magic
 
-The movement.
+*Verse 1 — soft — piano + light ambient — she doesn’t move —*
 
-The growth.
+ROSE
+(singing — intimate)
+I tried to hide between the leaves
+Where no one looks, where no one sees
+They bloom so bright, they shine so free
+But something’s missing inside of me
 
-The absence of control.
+They say a flower’s meant to shine
+To fill the air, to be defined
+By sweet perfume and perfect hue
+But what if I don’t fit that view
 
-She lets go.
+*Pre-Chorus — strings edge in —*
 
-Not suppression.
+ROSE
+I held my breath, I stayed so small
+Afraid to rise, afraid to fall
+But maybe there’s a light in me
+That no one else can really see
 
-Release.
+*Chorus — release — world **stays quiet** — emotion fills the frame —*
+
+ROSE
+Maybe I’m not broken
+Maybe I’m just rare
+Maybe what I’m missing
+Was never meant to be there
+
+If I don’t smell like roses
+If I don’t shine the same
+Maybe there’s a reason
+For every part of me that changed
+
+Oh I’ve been hiding long enough
+Inside this quiet static
+What if being different is
+My kind of magic
+
+*Footsteps stop — **Lemon** — few paces back — **still recovering** — **doesn’t interrupt** — **hears** —*
+
+*Verse 2 — light percussion — she **senses** him — sings **to** the presence —*
+
+ROSE
+You saw a spark I couldn’t find
+You pulled the clouds out of my mind
+You said the sky was full of dreams
+Just waiting there for me to reach
+
+And every doubt I used to hold
+Is turning into something bold
+A color no one else can see
+But somehow feels like home to me
+
+*Pre-Chorus — stronger —*
+
+ROSE
+I hear it now, it calls my name
+A quiet fire, a steady flame
+And maybe I was always meant
+To be the light I never sent
+
+*Chorus — bigger — confident —*
+
+ROSE
+Maybe I’m not broken
+Maybe I’m just rare
+Maybe what I’m missing
+Was never meant to be there
+
+If I don’t smell like roses
+If I don’t shine the same
+Maybe there’s a reason
+I was never meant to change
+
+Oh I’ve been hiding long enough
+Inside this quiet static
+What if being different is
+My kind of magic
+
+*Bridge — drop to piano — then swell —*
+
+ROSE
+What if the thing they laughed about
+Is what the world needs now
+What if the part I tried to lose
+Is what will pull me through
+
+Beat — then **rise**.
+
+ROSE (CONT’D)
+I’m done with shrinking, done with fear
+The light I need is already here
+
+*Final Chorus — anthem — **under**: petals **shift** — a vine **lifts** — **uneven** — **alive** —*
+
+ROSE
+I’m not broken
+I was just rare
+Everything I needed
+Was already there
+
+I don’t need to be like roses
+I don’t need to be the same
+Every flaw they tried to name
+Is now my flame
+
+No more hiding, no more static
+I can feel it, I can have it
+Being different isn’t tragic
+
+It’s my magic
+
+*Outro — piano + light strings — **mix thins** —*
+
+ROSE
+(soft)
+Yeah…
+It’s my magic
+
+*Silence returns — side path — real air —*
 
 Bluebell flutters once — settles on her wrist.
 
@@ -7909,31 +8009,11 @@ Open.
 
 Present.
 
-A subtle shift —
-
-Around her — nearby growth responds.
-
-A small cluster of petals opens.
-
-A vine lifts slightly.
-
-The environment reacts — not forced — not symmetrical —
-
-Alive.
-
 Rose opens her eyes.
 
-Sees it.
+Sees the small answer in the growth — **still uneven** — **true**.
 
-This time — she understands.
-
-ROSE (CONT’D)
-It’s not something I control.
-
-Beat.
-
-ROSE (CONT’D)
-It’s something I’m part of.
+This time — she understands — **without** reaching for control.
 
 That lands.
 
@@ -7951,16 +8031,12 @@ It’s forcing it.
 
 And breaking it.
 
-Lemon appears behind her.
-
-Still recovering.
-
-He watches — sees the shift in her.
+**Lemon — same witness — hasn’t stepped closer — still recovering.**
 
 LEMON
 You good?
 
-She turns.
+She turns — **fully** — sees him.
 
 ROSE
 Yeah.
