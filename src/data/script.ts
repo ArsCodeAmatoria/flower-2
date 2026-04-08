@@ -198,11 +198,11 @@ CUT TO:`,
     equalizerPresence: "implied",
     beat: "Theme stated + social integration — varied ‘corrections’ (avoidance, pocket, smile); Daisy misreads kindly; comfort lands then lane contradicts; Bluebell near-miss; second VO brittle; Rose optimizes timing over what pulls at her senses",
     summary:
-      "Rose threads petal-homes and tighter paths—errors cost: brushed-off gaze, reshaped pack, stuck pocket, sharp apology to air. Courtyard: brief railed-down beat—crowd reads as staggered curved beds. Daisy delivers ‘you will’ then the lane flexes before Rose speaks again. Daisy frames nerves as mis-read; theme lands—fit in, grow right—via habit lines. Bluebell: warmth + **wing V / snap**; passerby glances cuff. Atrium: Rose forces steps, half-hears hum, misses anyway.",
-    characters: ["rose", "daisy", "bluebell"],
+      "Rose threads petal-homes and tighter paths—errors cost: brushed-off gaze, reshaped pack, stuck pocket, sharp apology to air. Courtyard: brief railed-down beat—crowd reads as staggered curved beds. Daisy delivers ‘you will’ then the lane flexes before Rose speaks again. Daisy frames nerves as mis-read; theme lands—fit in, grow right—via habit lines. Bluebell: warmth + **wing V / snap**; passerby glances cuff. **Nettles:** shoulder past + ‘watch the lane’—sting without ceremony. Atrium: Rose forces steps, half-hears hum, misses anyway.",
+    characters: ["rose", "daisy", "bluebell", "nettles"],
     setId: "flower-district",
     notes:
-      "Theme Stated; extras still don’t *perform* emotion—but beats vary (evasion, manufactured smile, recycled faces). **District flow:** one **Tier B** railed beat at courtyard—rows/stagger read from height; paths finish the shape. Daisy: one wrong-kindly read (not evil). After ‘You will’: silent half-beat miss, no Daisy comment. **Bluebell:** warmth + **wing snap shut** + passerby glance—**no face**; humour is geometry + Rose panic. Second VO shorter / performative. Tie hum to sc.3 only as tease.",
+      "Theme Stated; extras still don’t *perform* emotion—but beats vary (evasion, manufactured smile, recycled faces). **District flow:** one **Tier B** railed beat at courtyard—rows/stagger read from height; paths finish the shape. Daisy: one wrong-kindly read (not evil). After ‘You will’: silent half-beat miss, no Daisy comment. **Bluebell:** warmth + **wing snap shut** + passerby glance—**no face**; humour is geometry + Rose panic. **Nettles:** one contact sting before atrium mouth—not a set piece; establishes bully register early. Second VO shorter / performative. Tie hum to sc.3 only as tease.",
     content: `EXT. FLOWER HIGH DISTRICT — INNER PATH — MORNING
 
 The deeper Rose walks — the more intricate it becomes.
@@ -385,6 +385,15 @@ The flow bends — corrects — like nothing happened.
 
 They approach the entrance.
 
+A boy — **NETTLES** (17) — shoulders through the gap — **too close** — not quite a shove — **enough**.
+
+NETTLES
+Watch the lane.
+
+He doesn’t slow — doesn’t look back — **like it’s weather.**
+
+Rose’s jaw tightens — Daisy already ahead — **no witness** worth naming.
+
 CUT TO:`,
   },
   {
@@ -507,7 +516,7 @@ At the center, a raised platform.
 
 PROFESSOR EDELWEISS (50s) stands calmly — **Indian** — linen-neat —
 
-Beside him — **JASMINE** (17) — teaching assistant — one step back — **bright** — **already loved** by this room before she opens her mouth.
+Beside him — **LOTUS** (17) — teaching assistant — one step back — **bright** — **already loved** by this room before she opens her mouth.
 
 Still.
 
@@ -544,13 +553,13 @@ MUSICAL NUMBER — **EQUALIZE THE BLOOM** — Bollywood-inflected — claps on o
 EDELWEISS
 Ahh—welcome, welcome, my dear students —
 
-JASMINE
+LOTUS
 Come come —
 
 EDELWEISS (CONT’D)
 Today we make your future… very, very optimum.
 
-JASMINE
+LOTUS
 No tension, no confusion, no botanical doom —
 
 EDELWEISS
@@ -564,7 +573,7 @@ BOTH
 EDELWEISS
 Petal going left? — we gently make it right —
 
-JASMINE
+LOTUS
 Too much shadow? — we adjust the light —
 
 BOTH
@@ -576,7 +585,7 @@ Soon it’s perfect everywhere —
 EDELWEISS
 You are saying “wild,” you are saying “free” —
 
-JASMINE
+LOTUS
 I am saying hmm… inconsistency —
 
 EDELWEISS
@@ -611,19 +620,19 @@ You are best in town —
 EDELWEISS
 One leaf leaning—then another also —
 
-JASMINE
+LOTUS
 Small-small problem becomes big, you know —
 
 EDELWEISS
 Tiny drift becomes full confusion —
 
-JASMINE
+LOTUS
 We are offering simple solution —
 
 EDELWEISS
 You are saying “this is who I am” —
 
-JASMINE
+LOTUS
 Very good—but we improve the plan —
 
 BOTH
@@ -653,19 +662,19 @@ See what we become —
 
 *Bridge — softer; charm becomes persuasive; Disney-clear delivery.*
 
-JASMINE
+LOTUS
 You are feeling it, yes…
 
 EDELWEISS
 That small tension —
 
-JASMINE
+LOTUS
 That little pull —
 
 EDELWEISS
 Something not fitting…
 
-JASMINE
+LOTUS
 Why you carry this —
 
 BOTH
@@ -2515,11 +2524,11 @@ CUT TO:`,
     equalizerPresence: "on",
     beat: "ACT 2A · Fun & Games — **four different failure types**, not four sync flavors: (1) **machine** node lab, (2) **public spectacle** status beside Narcissa, (3) **private** self-policing beat, (4) **social** invitation / clique airlock with Daisy; Lemon coda names ‘careful not trying’.",
     summary:
-      "**(1)** Atrium lab: node destabilizes; Edelweiss clocks consistency; **Lotus** on floor + tablet pass. **(2)** Courtyard: Rose’s display overblooms; system flattens; Narcissa precise—**status** wound, not only tech. **(3)** Rose alone: mirror/room beat — practices neutral face; no audience; Bluebell dim. **(4)** Hallway: Daisy ‘or less’; Rose **not invited** into laughter—airlock, not late syllable only. Side path: Lemon — tried not-trying **safely**; hum deepens, unnoticed.",
-    characters: ["rose", "daisy", "edelweiss", "lotus", "narcissa", "lemon"],
+      "**(1)** Atrium lab: node destabilizes; Edelweiss clocks consistency; **Lotus** on floor + tablet pass. **(2)** Courtyard: Rose’s display overblooms; system flattens; Narcissa precise—**status** wound, not only tech. **(3)** Rose alone: mirror/room beat — practices neutral face; no audience; Bluebell dim. **(4)** Hallway: Daisy ‘or less’; Rose **not invited** into laughter—airlock, not late syllable only; **Nettles** at the margin—shoulder brush, sting-on-contact. Side path: Lemon — tried not-trying **safely**; hum deepens, unnoticed.",
+    characters: ["rose", "daisy", "edelweiss", "lotus", "narcissa", "lemon", "nettles"],
     setId: "flower-district",
     notes:
-      "**Anti-repeat:** if two beats feel like ‘timing miss,’ cut one. Iris absent; sc.10 = rumor without new physics. Edelweiss observational. **Lotus:** floor runner — nods, checklist kindness — hands Edelweiss tablet when he passes. **Humour:** mirror = **wing asymmetry** on sill (insect, not mimic); courtyard = **wrong UI credit** flash; hallway = Daisy **nobody’s counting** vs toe-mark student; Lemon = **timer** absurdism.",
+      "**Anti-repeat:** if two beats feel like ‘timing miss,’ cut one. Iris absent; sc.10 = rumor without new physics. Edelweiss observational. **Lotus:** floor runner — nods, checklist kindness — hands Edelweiss tablet when he passes. **Nettles:** hallway margin—watching, brush-past—not a speech villain. **Humour:** mirror = **wing asymmetry** on sill (insect, not mimic); courtyard = **wrong UI credit** flash; hallway = Daisy **nobody’s counting** vs toe-mark student; Lemon = **timer** absurdism.",
     content: `INT. ROSE’S ROOM — RESIDENTIAL PETAL — EARLY THAT DAY
 
 Mirror.
@@ -2554,7 +2563,7 @@ Small Bloom nodes pulsing faintly.
 
 The Equalizer hum is present — subtle — constant.
 
-JASMINE moves **along** the arc — **smiling** — checklist kind — she **half-waves** at Rose’s cluster — inclusion as **procedure** — then keeps rolling.
+LOTUS moves **along** the arc — **smiling** — checklist kind — she **half-waves** at Rose’s cluster — inclusion as **procedure** — then keeps rolling.
 
 Rose stands at a station with Daisy and two other students.
 
@@ -2637,7 +2646,7 @@ Then at Rose.
 EDELWEISS
 Consistency.
 
-JASMINE falls in beside him — slips him a **slim tablet** — he **doesn’t look at her** — she **doesn’t mind** — **trained**.
+LOTUS falls in beside him — slips him a **slim tablet** — he **doesn’t look at her** — she **doesn’t mind** — **trained**.
 
 He moves on.
 
@@ -2815,6 +2824,12 @@ A girl she half-knows catches her eye — **almost** makes space — then doesn�
 
 The laugh continues — **without** a door.
 
+**Nettles** leans on the arch — **not in the laugh** — **watching** Rose — **small smile** — not for her.
+
+He pushes off — **passes close** — **shoulder brush** — **accidental** if anyone asked.
+
+Rose doesn’t react — **learns the sting** without a name.
+
 Rose and Daisy pass through.
 
 The story doesn’t need a mean girl — **just gravity.**
@@ -2951,11 +2966,11 @@ CUT TO:`,
     equalizerPresence: "implied",
     beat: "ACT 2A · Rising pressure — **Iris = perception / rumor evolution**, not sc.4/9 physics; Rose edged by **board + whispers**, not another atrium Bloom half-beat; Iris reframes without lying; no duplicate ‘sequence stutter’ set piece.",
     summary:
-      "Festival prep hardens: outer-ring placement on the petal-board; **administrative / narrative** pressure — ‘pattern,’ ‘twice,’ thread without fresh lab glitch. Courtyard: Daisy timing talk; Iris plants ‘followed her’ / ‘maybe,’ lets others finish the story. Hallway pre-adjustment; Lemon names expectation; Iris delivers ‘no one thinks you’re doing it on purpose’ — worse than blame.",
-    characters: ["rose", "daisy", "narcissa", "iris", "lemon"],
+      "Festival prep hardens: outer-ring placement on the petal-board; **administrative / narrative** pressure — ‘pattern,’ ‘twice,’ thread without fresh lab glitch. Courtyard: Daisy timing talk; Iris plants ‘followed her’ / ‘maybe,’ lets others finish the story. **Nettles** already reads outer ring as natural law—smirk without dialogue. Hallway pre-adjustment; Lemon names expectation; Iris delivers ‘no one thinks you’re doing it on purpose’ — worse than blame.",
+    characters: ["rose", "daisy", "narcissa", "iris", "lemon", "nettles"],
     setId: "flower-district",
     notes:
-      "**Anti-repeat:** no INT atrium **rehearsal stutter** here — that’s sc.9’s job. Iris: shrug, ‘Maybe,’ unfinished sentences. STUDENT lines anonymous.",
+      "**Anti-repeat:** no INT atrium **rehearsal stutter** here — that’s sc.9’s job. Iris: shrug, ‘Maybe,’ unfinished sentences. STUDENT lines anonymous. **Nettles:** one beat on the outer edge—presence, not a subplot.",
     content: `EXT. COURTYARD — AFTERNOON
 
 Festival prep continues.
@@ -2995,6 +3010,8 @@ Her position shifts to the outer edge.
 She notices.
 
 Pretends not to.
+
+**Nettles** — outer ring — **already there** — **doesn’t look up** — **like the slot is natural law.**
 
 ROSE
 (quiet)
@@ -4143,7 +4160,7 @@ Edelweiss stands at the center.
 
 Watching.
 
-JASMINE — secondary mark — board **clipped** — smile **held** small — **inventory** face — she **tracks** Rose’s entry — **not accusation** — **habit**.
+LOTUS — secondary mark — board **clipped** — smile **held** small — **inventory** face — she **tracks** Rose’s entry — **not accusation** — **habit**.
 
 Rose enters.
 
@@ -5535,11 +5552,11 @@ CUT TO:`,
     equalizerPresence: "on",
     beat: "ACT 2B · Escalation peak — false solution (sc.16 suppression) collapses under max control; public cascade; Lemon emotional + physical hit; Rose’s ‘I am the problem’ locks; Edelweiss + crowd link her to failure",
     summary:
-      "Bloom Festival night: phased sequence holds until strain fractures elsewhere; Rose shrinks further; Lemon, too close, buckles; she breaks formation to reach him—surge, collapse. Brief suppress eases him; he whispers don’t. System fails messy; silence broken. All eyes; Iris silent; Edelweiss connects Rose to the break. She believes ‘I did this’ absolutely.",
-    characters: ["rose", "lemon", "narcissa", "iris", "edelweiss"],
+      "Bloom Festival night: phased sequence holds until strain fractures elsewhere; Rose shrinks further; Lemon, too close, buckles; she breaks formation to reach him—surge, collapse. Brief suppress eases him; he whispers don’t. System fails messy; silence broken. All eyes; Iris silent; Edelweiss connects Rose to the break. **Nettles** in the outer ring—panic smirk under polish—she believes ‘I did this’ absolutely.",
+    characters: ["rose", "lemon", "narcissa", "iris", "edelweiss", "nettles"],
     setId: "flower-district",
     notes:
-      "Phases on page as rhythm guides only. Consequence of sc.16. No speechifying from Iris—presence. Edelweiss: look, not lecture.",
+      "Phases on page as rhythm guides only. Consequence of sc.16. No speechifying from Iris—presence. Edelweiss: look, not lecture. **Nettles:** outer formation—bully energy when the night still pretends it’s under control.",
     content: `EXT. FLOWER HIGH DISTRICT — NIGHT
 
 The Bloom Festival is underway.
@@ -5581,6 +5598,8 @@ Completely contained.
 Every movement reduced.
 
 Every response controlled.
+
+**Nettles** — two rows out — **smirk** — **not** at her — **at the night** — **like he called it.**
 
 She looks — perfect.
 
@@ -7520,11 +7539,11 @@ CUT TO:`,
     equalizerPresence: "on",
     beat: "ACT 3 · **Night 3 — system teardown / ethical scale:** full public collapse after spectacle + mask break; **forced ‘balance’ as violence** — overcorrection, dead zones, spikes; Rose clears **‘not me’**; names self-destruct; decision to stop core.",
     summary:
-      "Fractured performance: music off, Bloom misfires; Equalizer **punishes** lag — flat sectors, overload sectors, students caught in cross-correction. Lemon hit at inner ring; Rose **observes first** — it’s not her fault. Courtyard fragments; ‘breaking itself.’ She heads core-ward; crowd parts without choreography.",
-    characters: ["rose", "lemon", "narcissa"],
+      "Fractured performance: music off, Bloom misfires; Equalizer **punishes** lag — flat sectors, overload sectors, students caught in cross-correction. Lemon hit at inner ring; Rose **observes first** — it’s not her fault. **Nettles** caught in cross-correction—panic bully energy, wrong target. Courtyard fragments; ‘breaking itself.’ She heads core-ward; crowd parts without choreography.",
+    characters: ["rose", "lemon", "narcissa", "nettles"],
     setId: "flower-district",
     notes:
-      "Phases = editorial rhythm. Rose does not rush to Lemon like sc.17—observes first. Bridges sc.21 overload + sc.22 crack into sc.24 emotional reset.",
+      "Phases = editorial rhythm. Rose does not rush to Lemon like sc.17—observes first. Bridges sc.21 overload + sc.22 crack into sc.24 emotional reset. **Nettles:** one beat of scramble—system violence wearing a human face.",
     content: `EXT. CENTRAL COURTYARD — NIGHT
 
 The performance is still in motion — but fractured.
@@ -7591,6 +7610,8 @@ Formations break.
 Students step away from the center.
 
 Not in sync — not coordinated — just reacting.
+
+**Nettles** — **spun** by a correction he didn’t earn — **grabs** a sleeve — **lets go** — **laugh** that isn’t funny — **panic** wearing a smirk.
 
 STUDENT #1
 What’s happening —
@@ -8275,7 +8296,7 @@ Edelweiss stands at the edge of the space.
 
 Watching.
 
-JASMINE — upper rail — **hands empty** — **no tablet** — **first time** there’s nothing to **tick** —
+LOTUS — upper rail — **hands empty** — **no tablet** — **first time** there’s nothing to **tick** —
 
 She **breathes** — **doesn’t** look away —
 

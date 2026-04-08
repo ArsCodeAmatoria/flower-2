@@ -206,6 +206,29 @@ export const characters: Character[] = [
     linkedSetIds: ["flower-district"],
   },
   {
+    id: "nettles",
+    slug: "nettles",
+    name: "Nettles",
+    role: "Student — edge bully",
+    archetype:
+      "Proximity harm: sting-on-contact pressure; rough dominance that sells ‘natural order’ without Narcissa’s polish—weed at the garden edge.",
+    desire: "Keep his lane clear and his status felt—outliers are easy proof he’s winning.",
+    flaw: "Escalates when the machine wobbles—panic bullying when blame needs a body.",
+    lie: "Someone has to enforce the rhythm—I’m just not fake about it.",
+    truth: "Cruelty isn’t gravity; it’s a choice he keeps making.",
+    arc: "District friction (sc.2) → hallway / formation edges (sc.9–10) → festival outer ring (sc.17) → chaos scramble (sc.23); witness to pressure, not the thesis.",
+    speechPattern:
+      "Short, flat, amused cruelty; deflects with a laugh or ‘what?’; no speeches—contact does the work.",
+    notes:
+      "**Nettle logic:** humiliation lingers like a rash—small contact, lasting sting. Placements: sc.2 path/atrium approach; sc.9 hallway airlock + tight-circle margin; sc.10 outer-ring slot; sc.17 festival formation; sc.23 cross-correction. Look: teenage male, alien-plant world; faint green undertone, spiky hair, guarded smirk; layered streetwear (canvas, denim, olive/dark greens). Pixar-adjacent 3D read; key art `public/characters/nettles.png`.",
+    moodLighting:
+      "Muted olive and desaturated green in wardrobe bounce; daylight grime—keep him out of Narcissa’s magenta-gold spectacle grammar unless they share a frame by accident.",
+    image16x9: "/characters/nettles.png",
+    image2x1: "/characters/nettles.png",
+    linkedSceneIds: ["scene-02", "scene-09", "scene-10", "scene-17", "scene-23"],
+    linkedSetIds: ["flower-district", "flower-high-atrium"],
+  },
+  {
     id: "iris",
     slug: "iris",
     name: "Iris",

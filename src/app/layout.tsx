@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     template: "%s · Flower",
   },
   description: SITE_DESCRIPTION,
+  icons: {
+    icon: [{ url: "/favicon.ico", sizes: "any" }, { url: "/icon.svg", type: "image/svg+xml" }],
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
