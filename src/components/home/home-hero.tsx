@@ -11,30 +11,27 @@ export type HomeHeroProps = {
 };
 
 /**
- * Home entry — Rose still plate (16∶9 → 2∶1 by breakpoint) plus story spine (logline + emotional hook).
+ * Home entry — wordmark, genre line, Rose still plate (16∶9 → 2∶1) and emotional hook.
  */
 export function HomeHero({ className }: HomeHeroProps) {
   if (!rose) return null;
 
   return (
     <section className={cn("space-y-5", className)} aria-labelledby="home-hero-title">
-      <p className="page-label">Film entry</p>
-
       <div
         className={cn(
           "frame-cinematic space-y-6 p-5 transition-[box-shadow] duration-[520ms] ease-exhibition md:p-7",
           "shadow-frame-inset hover:shadow-[inset_0_0_0_1px_hsl(var(--accent)/0.1),0_20px_40px_-24px_hsl(var(--foreground)/0.08)]",
         )}
       >
-        <div className="space-y-3 text-center sm:text-left">
-          <div className="space-y-1">
-            <h1 id="home-hero-title" className="font-display text-[1.85rem] font-medium tracking-tight text-foreground md:text-[2.1rem]">
-              {project.title}
-            </h1>
-            <p className="font-sans text-xs text-muted-foreground md:text-[0.8125rem]">{project.genre}</p>
-          </div>
-
-          <p className="font-sans text-[0.9375rem] leading-[1.7] text-foreground/90 md:text-[15px]">{project.logline}</p>
+        <div className="space-y-2 text-center sm:text-left">
+          <h1
+            id="home-hero-title"
+            className="font-logo text-[2.75rem] font-bold leading-[0.95] tracking-normal text-foreground sm:text-[3.25rem] md:text-[3.5rem]"
+          >
+            {project.title}
+          </h1>
+          <p className="font-sans text-sm text-muted-foreground md:text-[0.9375rem]">{project.genre}</p>
         </div>
 
         <Link

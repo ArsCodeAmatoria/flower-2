@@ -16,11 +16,21 @@ export function ProjectGalleryPanel({ project: p, className }: ProjectGalleryPan
     <div className={cn("wall-caption-card", className)}>
       <div className="space-y-8">
         <header className="space-y-3 border-b border-border/30 pb-6">
-          <h1 className="font-display text-2xl font-medium tracking-tight text-foreground md:text-3xl">
-            {p.title}
-          </h1>
+          <div className="space-y-2">
+            <h1 className="font-logo text-[2.25rem] font-bold leading-[0.95] tracking-normal text-foreground sm:text-[2.5rem]">
+              {p.title}
+            </h1>
+            <p className="font-sans text-sm text-muted-foreground">{p.genre}</p>
+          </div>
           <p className="font-sans text-sm font-normal leading-relaxed text-foreground/85">{p.logline}</p>
         </header>
+
+        {p.exhibitionIntro ? (
+          <section className="space-y-2">
+            <h2 className="wall-label">On this site</h2>
+            <p className="text-sm leading-relaxed text-muted-foreground">{p.exhibitionIntro}</p>
+          </section>
+        ) : null}
 
         <section className="space-y-2">
           <h2 className="wall-label">Synopsis</h2>
@@ -43,7 +53,6 @@ export function ProjectGalleryPanel({ project: p, className }: ProjectGalleryPan
         </section>
 
         <dl className="space-y-5 border-t border-border/30 pt-6">
-          <WallDefinitionRow term="Genre">{p.genre}</WallDefinitionRow>
           <WallDefinitionRow term="Tone">{p.tone}</WallDefinitionRow>
           <WallThemes themes={p.themes} />
           {p.phase ? <WallDefinitionRow term="Project status">{p.phase}</WallDefinitionRow> : null}

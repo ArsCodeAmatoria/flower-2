@@ -11,4 +11,6 @@ export type Project = {
   themes: string[];
   /** Production / exhibition status line */
   phase?: string;
+  /** Homepage sidebar — how this site serves the film (script, songs, dossiers, etc.) */
+  exhibitionIntro?: string;
 };

@@ -6,7 +6,7 @@ import type { VisualGrammar } from "@/types/visual-grammar";
  */
 export const visualGrammar: VisualGrammar = {
   intro:
-    "Three tiers: district default (harmonized satire surface), Iris shift (framing wins), Rose shift (truth without performance). Favour shadow bias and skintone paths over full-frame washes so the satire stays bright and family-legible.",
+    "Built for Flower’s district-wide comedy and musical scale: three read-tiers (harmonized district, Iris framing, Rose truth), then character keys and machine cold. Shadow bias and skin paths keep the satire bright and legible—washes stay earned, not wallpaper.",
   sections: [
     {
       title: "District default",
