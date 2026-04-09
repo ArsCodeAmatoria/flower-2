@@ -6,6 +6,7 @@ export const SITE_NAV: readonly SiteNavItem[] = [
   { href: "/characters", label: "Characters" },
   { href: "/sets", label: "Sets" },
   { href: "/lyrics", label: "Lyrics" },
+  { href: "/archive", label: "Archive" },
   { href: "/pdfs", label: "PDFs" },
 ] as const;
 

@@ -16,6 +16,7 @@ export const exhibitionPageLabels = {
   set: { suite: "SET", facet: "WORLD DESIGN" },
   lyrics: { suite: "SOUND", facet: "LYRICS" },
   pdfs: { suite: "ROOM", facet: "DOCUMENTS" },
+  archive: { suite: "VISUAL", facet: "ARCHIVE" },
 } as const satisfies Record<string, ExhibitionPageLabelSpec>;
 
 /** Sticky sidebar column on character / set / script detail layouts (desktop). */

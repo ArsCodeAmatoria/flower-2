@@ -3,7 +3,7 @@
 import { useEffect, useId, useRef } from "react";
 import Link from "next/link";
 import type { LucideIcon } from "lucide-react";
-import { FileText, Home, Landmark, Music, ScrollText, Users, X } from "lucide-react";
+import { Archive, FileText, Home, Landmark, Music, ScrollText, Users, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { SiteNavItem } from "./site-nav";
 import { isSiteNavActive } from "./site-nav";
@@ -14,6 +14,7 @@ const MOBILE_ICONS: Partial<Record<string, LucideIcon>> = {
   "/characters": Users,
   "/sets": Landmark,
   "/lyrics": Music,
+  "/archive": Archive,
   "/pdfs": FileText,
 };
 

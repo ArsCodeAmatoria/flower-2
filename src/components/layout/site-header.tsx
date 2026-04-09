@@ -62,7 +62,6 @@ export function SiteHeader() {
 
           <div className="flex shrink-0 items-center gap-2 sm:gap-3">
             <ThemeToggle />
-            <p className="page-label hidden text-[0.6rem] tracking-[0.24em] sm:block">Archive</p>
 
             <button
               type="button"
