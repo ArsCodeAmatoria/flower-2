@@ -7,6 +7,7 @@ import type { ScriptScene } from "@/types";
  *
  * **District flow (shared exterior):** In public movement, bodies yield into curved lanes and **staggered rows**—garden beds,
  * not parade ground—until groups read as tended from **height** (paths complete the bloom; never on-the-nose “form a flower”).
+ * **Bloom Equalizer** = district-scale **tending** (modern gardener: hum, light, correction—**name the metaphor sparingly on page**). Crowd sync reads as **learned choreography** / stems in a bed, not drill.
  * Street tier = slotting/yielding verbs; railed height = arcs resolve; aerial = rare payoff. Rose fails on **phase / radius**, not malice.
  *
  * **Humour:** pressure-valve gags—Rose’s body vs the polite machine; Daisy deadpan kindness; Lemon dry timing; Narcissa **dignity under siege**
@@ -26,7 +27,7 @@ export const scriptScenes: ScriptScene[] = [
     equalizerPresence: "implied",
     beat: "Structural bloom; **optional MAIN TITLE** — crane to aerial / cloud read + **Like Every Flower** (intro→hook) over cards; Rose’s first arrival on the ground—awkward, half-beat misses. **Audio misdirect:** V.O. reads as composed peer / orientation-style welcome + self-assurance; **duck / defer V.O.** vs song per mix. **Reveal reserved for sc.26:** same words are **next-year orientation speech** laid over past pictures—wrong-time track until sync.",
     summary:
-      "Bird’s-eye → **main title / credits** — **Like Every Flower** (intro→hook; **lyric in dossier** / `/lyrics/like-every-flower`, **not** in script) — **release** — Rose steps in — **spoken V.O.** resumes. Proximity sync; almost matches, misses by a breath. **V.O. (spoken):** future orientation welcome (do not label on screen)—warm, structured, ‘I’ve got this’ cadence. Bluebell on cuff. No past-tense spoilers in V.O.",
+      "Bird’s-eye → **main title / credits** — **Like Every Flower** (intro→hook; **lyric in dossier** / `/lyrics/like-every-flower`, **not** in script) — **release** — Rose steps in — **spoken V.O.** resumes. Proximity sync; **curved rows / stems in bed / shared-count drift** (garden-in-motion, not named every beat); almost matches, misses by a breath. **V.O. (spoken):** future orientation welcome (do not label on screen)—warm, structured, ‘I’ve got this’ cadence. Bluebell on cuff. No past-tense spoilers in V.O.",
     characters: ["rose", "bluebell"],
     setId: "flower-district",
     songSlugs: ["like-every-flower"],
@@ -46,7 +47,7 @@ Pathways branch like veins in a leaf.
 
 Nothing rigid. Everything intentional.
 
-Distant movement — figures resolve into **curved rows** along the paths: threes and fours, **half-step stagger**, like lines in a bed — not lockstep, not drill.
+Distant movement — figures resolve into **curved rows** along the paths: threes and fours, **half-step stagger**, like **stems** in a bed — **one slow phrase** repeated block to block — not lockstep, not drill — **a dance nobody rehearses out loud**.
 
 On the path under Rose: same habit as elsewhere.
 
@@ -64,7 +65,7 @@ Smaller dwellings near the core — larger homes on the outer rise — every win
 
 Morning repeats in soft choreography: hoses, curtains, steps down stoops — timed like habit, not clock.
 
-From here the living pattern reads: **concentric drift** — arcs of bodies and stoops **yielding** into the next — a garden rhythm more than a crowd.
+From here the living pattern reads: **concentric drift** — arcs of bodies and stoops **yielding** into the next — **rows** **swaying** on a **shared count** — a garden rhythm more than a crowd.
 
 MAIN TITLE SEQUENCE — **OPENING CREDITS** — **crane** holds — then **rises** — **cloud-level read** — the district **small** beneath — **title card** — **key cast / crew** — **rose motif** —
 
@@ -207,11 +208,11 @@ CUT TO:`,
     equalizerPresence: "implied",
     beat: "Theme stated + social integration — varied ‘corrections’ (avoidance, pocket, smile); Daisy misreads kindly; comfort lands then lane contradicts; Bluebell near-miss; second VO brittle; Rose optimizes timing over what pulls at her senses",
     summary:
-      "Rose threads petal-homes and tighter paths—errors cost: brushed-off gaze, reshaped pack, stuck pocket, sharp apology to air. Courtyard: brief railed-down beat—crowd reads as staggered curved beds. Daisy delivers ‘you will’ then the lane flexes before Rose speaks again. Daisy frames nerves as mis-read; theme lands—fit in, grow right—via habit lines. Bluebell: warmth + **wing V / snap**; passerby glances cuff. **Nettles:** shoulder past + ‘watch the lane’—sting without ceremony. Atrium: Rose forces steps, half-hears hum, misses anyway.",
+      "Rose threads petal-homes and tighter paths—errors cost: brushed-off gaze, reshaped pack, stuck pocket, sharp apology to air. Courtyard: brief railed-down beat—crowd reads as staggered curved beds. Daisy delivers ‘you will’ then the lane flexes before Rose speaks again. Daisy frames nerves as mis-read; theme lands—fit in, grow right—via habit lines. Bluebell: warmth + **wing V / snap**; passerby glances cuff. **Nettles:** shoulder past + ‘watch the lane’ + bored **‘you don’t read’** (scent/signal)—sting without ceremony; Rose **shame** + **scan** for who noticed. Atrium: Rose forces steps, half-hears hum, misses anyway.",
     characters: ["rose", "daisy", "bluebell", "nettles"],
     setId: "flower-district",
     notes:
-      "Theme Stated; extras still don’t *perform* emotion—but beats vary (evasion, manufactured smile, recycled faces). **District flow:** one **Tier B** railed beat at courtyard—rows/stagger read from height; paths finish the shape. Daisy: one wrong-kindly read (not evil). After ‘You will’: silent half-beat miss, no Daisy comment. **Bluebell:** warmth + **wing snap shut** + passerby glance—**no face**; humour is geometry + Rose panic. **Nettles:** one contact sting before atrium mouth—not a set piece; establishes bully register early. Second VO shorter / performative. Tie hum to sc.3 only as tease.",
+      "Theme Stated; extras still don’t *perform* emotion—but beats vary (evasion, manufactured smile, recycled faces). **District flow:** one **Tier B** railed beat at courtyard—rows/stagger read from height; paths finish the shape. Daisy: one wrong-kindly read (not evil). After ‘You will’: silent half-beat miss, no Daisy comment. **Bluebell:** warmth + **wing snap shut** + passerby glance—**no face**; humour is geometry + Rose panic. **Nettles:** contact + lane line + **register** jab (plants scentless / no-signal shame); Rose **wariness** of being clocked—**not** a set piece. Second VO shorter / performative. Tie hum to sc.3 only as tease.",
     content: `EXT. FLOWER HIGH DISTRICT — INNER PATH — MORNING
 
 The deeper Rose walks — the more intricate it becomes.
@@ -325,7 +326,7 @@ You just have to fit in.
 
 They walk.
 
-Bluebell inside the cuff — glow barely there — wings ** sealed flat**.
+Bluebell inside the cuff — glow barely there — wings **sealed flat**.
 
 A **thread of warmth** climbs Rose’s wrist — one instant — wings **part** — a brief **open V** — insect cooling, not a smile —
 
@@ -364,6 +365,8 @@ Throwaway.
 DAISY (CONT’D)
 You just have to grow right.
 
+Around them — the stream **finishes** **her** **sentence** in **motion**: **yield**, **slot**, **half-beat** **sway** — **same** **choreography** **as** **the** **courtyard** **beds** — **Rose** **the** **only** **stem** **out** **of** **line**.
+
 Rose nods — doesn’t own it yet.
 
 ROSE
@@ -378,7 +381,7 @@ Daisy glances — almost sympathetic — **doesn’t fix her.**
 
 Ahead — BIOLOGY ATRIUM — larger, grown into the petals.
 
-Entrants as **one current** — Daisy belongs; Rose rides the edge.
+Entrants as **one current** — **rows** of bodies **spilling** **into** **the** **mouth** **like** **one** **breath** — Daisy belongs; Rose rides the edge.
 
 Rose almost hears something — **hum under the morning** — she tunes it out — **wrong dial.**
 
@@ -399,9 +402,21 @@ A boy — **NETTLES** (17) — shoulders through the gap — **too close** — n
 NETTLES
 Watch the lane.
 
-He doesn’t slow — doesn’t look back — **like it’s weather.**
+He doesn’t slow — **doesn’t** look back —
 
-Rose’s jaw tightens — Daisy already ahead — **no witness** worth naming.
+NETTLES (CONT’D)
+*(bored; over shoulder)*
+You don’t read.
+
+Gone — **like it’s weather.**
+
+Rose **flushes** — **shame** — **hot** — wrong —
+
+She **scans** the stream **one** beat — **who heard** — **who’s** **looking** —
+
+Passersby **slide** past — **no** name for it — **everyone** **might** have —
+
+Her jaw tightens — Daisy already ahead — **no witness** worth naming — only the **hollow** after **no ping**.
 
 CUT TO:`,
   },
@@ -417,7 +432,7 @@ CUT TO:`,
     equalizerPresence: "on",
     beat: "ACT 1 · Catalyst setup — concourse → atrium → **Equalize the Bloom** orientation duet (Edelweiss + **Lotus**, big ensemble / call-and-response) → spoken law returns → first controlled instability",
     summary:
-      "Concourse: band / drama / gym promise. Atrium: **Lotus** co-leads sung orientation with Edelweiss; crowd arcs into sync choreography. Then dry lecture resumes; Equalizer + Rose’s near field tightens; first instability.",
+      "Concourse: band / drama / gym promise. Atrium: **Lotus** co-leads sung orientation with Edelweiss; crowd arcs into sync choreography — **bed / row** grammar. **Equalizer** introduced as **visible tending** (gardener metaphor **once** on page). Then dry lecture resumes; Equalizer + Rose’s near field tightens; first instability.",
     characters: ["rose", "daisy", "edelweiss", "lotus"],
     setId: "flower-high-atrium",
     songSlugs: ["equalize-the-bloom"],
@@ -476,13 +491,15 @@ Petal-like forms overlapping.
 
 Soft light pulsing through branching channels — like veins.
 
+The district already trained the **rows**; the Equalizer only **makes** **the** **tending** **honest** — **modern** **gardener**: **hum** and **light**, **no** **shears**.
+
 Students flow into the space from multiple entrances.
 
 They don’t stop.
 
 They settle.
 
-Position themselves naturally.
+Position themselves naturally — **each** **arc** **finding** **its** **row** **in** **the** **bed** — **not** **military** — **worse** — **muscle** **memory**.
 
 Rose and Daisy enter with the stream.
 
@@ -957,6 +974,8 @@ The Bloom Equalizer hums softly overhead.
 
 Everything is aligned.
 
+The **near** **rings** **move** **as** **one** **learned** **phrase** — **stems** **in** **a** **bed** — **until** **her** **radius** **slips**.
+
 Except — Rose.
 
 A fraction off.
@@ -1221,7 +1240,7 @@ She stands before a narrow mirror — adjusts her collar — her shoulders — a
 
 Checks her bag — twice.
 
-A petal-shaped window looks out on the inner ring — distant movement already in sync.
+A petal-shaped window looks out on the inner ring — distant movement already in sync — **curved** **rows** **like** **trays** **on** **a** **bench** — **same** **silent** **dance**.
 
 On the sill — BLUEBELL — glow low — wings **tented** over its back like a tiny tent.
 
@@ -1269,7 +1288,7 @@ ATTEMPT 1 — MOVEMENT (PAST THE GYM SKIN)
 
 Glass wall — GYM / STADIUM — interior visible.
 
-Lines of bodies — counting — snap — hold.
+Lines of bodies — counting — snap — hold — **nursery** **neat** — **every** **stem** **knows** **the** **beat**.
 
 Rose steps into the outdoor flow again — **underfoot: third-step ticks pulsing faint — outdoor law, not the atrium grid.**
 
@@ -2715,6 +2734,8 @@ Timing.
 
 Flow.
 
+The corridor still **wants** **a** **row** — passersby **fall** **into** **the** **same** **soft** **phrase** — **not** **lockstep** — **learned** — **flowers** **in** **line** **without** **anyone** **saying** **dance**.
+
 **FROM UP HALL — PRACTICE ARCH — doors cracked — air moving with work —**
 
 Festival prep vocal bleed — **kid-led** — **not** orientation polish — **catchy** first — **rule** second — nobody says *police* — **muscle memory** —
@@ -2857,7 +2878,13 @@ But for now… I’ll just fit in —
 
 He pushes off — **passes close** — **shoulder brush** — **accidental** if anyone asked.
 
-Rose doesn’t react — **learns the sting** without a name.
+NETTLES
+*(quiet; for her ear only)*
+Still nothing.
+
+Rose **freezes** half a frame — **shame** — then **laughs** wrong — **tiny** — **cuts** it —
+
+Her eyes **flick** — **did** **they** **hear** — **cluster** already **turning** — **nobody** **cares** **enough** **to** **say** — **worse**.
 
 Rose and Daisy pass through.
 
@@ -3137,7 +3164,11 @@ She notices.
 
 Pretends not to.
 
+The **formation** **breathes** — **in** **out** **in** — **one** **bed** **adjusting** **around** **her** **like** **she’s** **the** **weed** **they’re** **polite** **about**.
+
 **Nettles** — outer ring — **already there** — **doesn’t look up** — **like the slot is natural law.**
+
+Rose **won’t** linger on him — **eyes** away — **don’t** feed **the** read — **his** quiet barb **already** living **in** her **head**.
 
 ROSE
 (quiet)
@@ -3850,7 +3881,7 @@ CUT TO:`,
     equalizerPresence: "off",
     beat: "ACT 2A · Midpoint — truth revealed (she’s not wrong; organic connection undeniable), stakes double (her effect strengthens; Lemon destabilizes); false victory (fits into herself, cost unseen); emotional peak + undertow; system awareness seeded in-scene (distant pulse)—no cutaway",
     summary:
-      "Warmer light; Rose moves unforced, names ‘I’m not trying’ / ‘it’s working.’ Clearing responds openly—she sees it’s her. Bluebell traces her orbit—bright, obvious, unruly. Lemon enters her space; his body can’t quite adjust; she pulls back, he says don’t. A faint district pulse—barely heard—something noticed. She owns the space; he’s awe, connection, unease; no UI cut—everything works without the machine here.",
+      "Warmer light; Rose moves unforced, names ‘I’m not trying’ / ‘it’s working.’ Clearing responds openly—she sees it’s her. Bluebell traces her orbit—bright, obvious, unruly. **Contrast:** district = **tended rows** / assigned choreography; here = **no bed**, **wild answer**. Lemon enters her space; his body can’t quite adjust; she pulls back, he says don’t. A faint district pulse—barely heard—something noticed. She owns the space; he’s awe, connection, unease; no UI cut—everything works without the machine here.",
     characters: ["rose", "lemon", "bluebell"],
     setId: "wild-waterfall",
     notes:
@@ -4145,6 +4176,8 @@ They stand there — in something real.
 Not controlled.
 
 Not balanced by rules — but working.
+
+Back there — **the** **district** **still** **moves** **as** **one** **tended** **bed** — **rows** **and** **corrections** **she** **can’t** **see** **from** **here** — **no** **assigned** **line** **in** **this** **clearing** — **only** **wild** **answer**.
 
 In the distance — barely audible — a faint pulse.
 
@@ -6831,7 +6864,7 @@ CUT TO:`,
     equalizerPresence: "implied",
     beat: "ACT 3 · Break into Three — re-entry with truth; new behavior (no filler, no suppression); ‘not just me’; system worse/strained; stakes urgent; Rose + Lemon toward source (core next)",
     summary:
-      "Rose returns at night: festival light uneven, hum strained. Bluebell rides her shoulder—steady glow—claimed again. She walks without matching or fixing; reactions are messier. Courtyard unstable; she finds Lemon—plain ‘Hey,’ ‘It’s worse,’ names that leaving didn’t stop it and she didn’t start it alone. ‘It’s forcing it’; they head in together toward where it starts.",
+      "Rose returns at night: festival light uneven, hum strained. Bluebell rides her shoulder—steady glow—claimed again. She walks without matching or fixing; reactions are messier — **public rows fray**, **tending** **desperate**. Courtyard unstable; she finds Lemon—plain ‘Hey,’ ‘It’s worse,’ names that leaving didn’t stop it and she didn’t start it alone. ‘It’s forcing it’; they head in together toward where it starts.",
     characters: ["rose", "lemon", "bluebell"],
     setId: "flower-district",
     notes:
@@ -6873,6 +6906,8 @@ Less smooth.
 Students move — but not naturally.
 
 More like — holding something together.
+
+The **rows** **are** **fraying** — **still** **trying** **to** **dance** **the** **old** **shape** — **tending** **turned** **desperate**.
 
 Rose walks through it.
 
@@ -7101,7 +7136,7 @@ CUT TO:`,
     equalizerPresence: "on",
     beat: "ACT 3 · **Night 1 — spectacle / routing / attention:** **MUSICAL NUMBER — LOOK AT ME** — Narcissa **talent-show / pageant brag** on **thrust**; **Bloom** as **backup**; **credit sink**; Rose + Lemon read **routing**; overload when Rose hits capacity — **crack** — sc.22 **mask break**.",
     summary:
-      "Festival: Narcissa **Look at Me** — **HSM-style beauty brag**, runway, **fixed marks**, ribbons / **harmony** as **chorus**; UI credits her **node**; wrong-credit gag. Rose + Lemon at **edge**; **narrowing**; Rose steps in — **capacity** — Narcissa **falters**; music **slips**; toward core.",
+      "Festival: Narcissa **Look at Me** — **HSM-style beauty brag**, runway, **fixed marks**, ribbons / **harmony** as **chorus**; crowd as **festival rows** / **one** **night** **choreography**; UI credits her **node**; wrong-credit gag. Rose + Lemon at **edge**; **narrowing**; Rose steps in — **capacity** — Narcissa **falters**; music **slips**; **bed** **tears**; toward core.",
     characters: ["rose", "lemon", "narcissa", "iris"],
     setId: "flower-district",
     songSlugs: ["look-at-me"],
@@ -7128,6 +7163,8 @@ Crowds gather.
 Students fill the space.
 
 Not perfectly aligned — but trying to be.
+
+**Thousands** **of** **stems** **nudged** **into** **festival** **rows** — **the** **night** **wants** **one** **choreography**.
 
 Holding it together.
 
@@ -7469,6 +7506,8 @@ Each fix — creates another delay.
 
 The perfect symmetry begins to break.
 
+The **bed** **tears** — **one** **row** **out** **of** **phase** — **then** **another** — **the** **tending** **hum** **can’t** **cover** **it**.
+
 The music continues — but now — slightly off.
 
 Auto-harmony **snaps** at her held vowel — **one syllable** goes **thin** — **chip-edge** — almost comic —
@@ -7652,6 +7691,8 @@ Light flickers across the courtyard — uneven.
 
 The geometry breaks.
 
+The **rows** **lose** **the** **dance** — **stumble** **and** **freeze** **in** **the** **same** **breath**.
+
 The music — falls out of sync completely.
 
 Narcissa stops.
@@ -7790,6 +7831,8 @@ The Equalizer pulses — erratically.
 No longer smooth.
 
 It attempts correction — but overcompensates.
+
+**Pruning** **panic** — **too** **much** **trim** — **then** **too** **much** **feed** — **the** **bed** **can’t** **recover**.
 
 A section of the courtyard goes still — completely flat.
 
@@ -8017,6 +8060,8 @@ Students stand scattered.
 No formations.
 
 No control.
+
+**No** **choreographed** **bed** — **just** **people** — **messy** — **alive** — **wrong** **by** **yesterday’s** **rules**.
 
 The Equalizer above — misaligned.
 
@@ -8364,6 +8409,8 @@ Exposed now.
 
 Lowered slightly from its suspended position.
 
+The **tending** **engine** — **stripped** — **still** **trying** **to** **straighten** **every** **row** **at** **once**.
+
 Not designed to be seen like this.
 
 Its structure is strained — petal layers overlapping incorrectly — light pulsing unevenly through its channels.
@@ -8657,7 +8704,7 @@ CUT TO:`,
     equalizerPresence: "implied",
     beat: "ACT 3 · Resolution — messy-alive district; character codas; Rose + Lemon plain. **Button:** next year’s Orientation—Rose **live** delivers **sc.1 V.O. verbatim**; picture and sound **sync**; audience realizes opening was **wrong-time audio**. Bit of speech **before credits** (roll over continuation optional).",
     summary:
-      "Looser district life; Narcissa / Iris coda; walkway kindness. Rose and Lemon at edge—‘Hi. I’m Rose.’ / ‘I know.’ Bluebell unhidden. Overlook: ‘…however it wants.’ **Cut to Biology Atrium — Orientation (following year):** Rose welcomes newcomers; **same lines as sc.1 V.O.** now **synced** to her mouth and posture—opening **recontextualized**. Credits.",
+      "Looser district life — **same** **paths**, **messy-right** **rows**, **no** **forced** **sync**; Narcissa / Iris coda; walkway kindness. Rose and Lemon at edge—‘Hi. I’m Rose.’ / ‘I know.’ Bluebell unhidden. Overlook: ‘…however it wants.’ **Cut to Biology Atrium — Orientation (following year):** Rose welcomes newcomers; **same lines as sc.1 V.O.** now **synced** to her mouth and posture—opening **recontextualized**. Credits.",
     characters: ["rose", "lemon", "narcissa", "iris", "bluebell"],
     setId: "flower-district",
     notes:
@@ -8677,6 +8724,8 @@ But — it’s different.
 Students move through the space — not in perfect sync.
 
 Not correcting constantly.
+
+**Same** **paths** — **new** **agreement** — **rows** **still** **happen** — **but** **nobody’s** **counting** **beats** **out** **loud** — **the** **garden** **keeps** **growing** **messy-right**.
 
 They adjust — but naturally.
 
