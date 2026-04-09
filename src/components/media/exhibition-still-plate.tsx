@@ -3,6 +3,7 @@
 import { useId, useState } from "react";
 import { AspectFrame } from "@/components/media/aspect-frame";
 import { AspectToggle } from "@/components/media/aspect-toggle";
+import { ExhibitionImageLightbox } from "@/components/media/exhibition-image-lightbox";
 import type { AspectRatioPreset } from "@/lib/aspect";
 import { cn } from "@/lib/utils";
 
@@ -17,6 +18,8 @@ export type ExhibitionStillPlateProps = {
   caption: string;
   /** Passed to the aspect toggle radiogroup */
   aspectToggleAriaLabel: string;
+  /** Detail pages: click plate to open full-size lightbox (index cards stay link-only). */
+  lightbox?: boolean;
   className?: string;
 };
 
@@ -30,12 +33,14 @@ export function ExhibitionStillPlate({
   kicker,
   caption,
   aspectToggleAriaLabel,
+  lightbox = false,
   className,
 }: ExhibitionStillPlateProps) {
   const headingId = useId();
   const [ratio, setRatio] = useState<AspectRatioPreset>("16:9");
   const [failed16, setFailed16] = useState(false);
   const [failed21, setFailed21] = useState(false);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
 
   const src = ratio === "16:9" ? image16x9 : image2x1;
   const failed = ratio === "16:9" ? failed16 : failed21;
@@ -57,12 +62,25 @@ export function ExhibitionStillPlate({
       <AspectFrame ratio={ratio} variant="media" elevated mat>
         <div className="relative h-full min-h-0 w-full">
           {!failed ? (
-            <img
-              src={src}
-              alt={`${subjectName} — ${ratioLabel} reference plate`}
-              className="absolute inset-0 h-full w-full object-cover object-center"
-              onError={() => (ratio === "16:9" ? setFailed16(true) : setFailed21(true))}
-            />
+            <>
+              <img
+                src={src}
+                alt={`${subjectName} — ${ratioLabel} reference plate`}
+                className="absolute inset-0 h-full w-full object-cover object-center"
+                onError={() => (ratio === "16:9" ? setFailed16(true) : setFailed21(true))}
+              />
+              {lightbox ? (
+                <button
+                  type="button"
+                  onClick={() => setLightboxOpen(true)}
+                  className={cn(
+                    "absolute inset-0 z-[5] cursor-zoom-in bg-transparent",
+                    "transition-colors hover:bg-foreground/[0.04] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background",
+                  )}
+                  aria-label={`View larger — ${subjectName}`}
+                />
+              ) : null}
+            </>
           ) : null}
           {failed ? (
             <div
@@ -81,6 +99,17 @@ export function ExhibitionStillPlate({
           />
         </div>
       </AspectFrame>
+
+      {lightbox && !failed ? (
+        <ExhibitionImageLightbox
+          open={lightboxOpen}
+          onOpenChange={setLightboxOpen}
+          src={src}
+          alt={`${subjectName} — ${ratioLabel} reference plate`}
+          title={subjectName}
+          subtitle={`Reference plate · ${ratioLabel}`}
+        />
+      ) : null}
     </section>
   );
 }

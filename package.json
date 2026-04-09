@@ -2,6 +2,8 @@
   "name": "flower",
   "private": true,
   "scripts": {
+    "archive:manifest": "node scripts/generate-archive-manifest.mjs",
+    "prebuild": "node scripts/generate-archive-manifest.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

@@ -74,6 +74,7 @@ export default function CharacterDetailPage({ params }: PageProps) {
           kicker="Still"
           caption="Reference plate — aspect matches exhibition frame"
           aspectToggleAriaLabel="Character still aspect ratio"
+          lightbox
         />
         <CharacterSongPlayers characterSlug={character.slug} />
       </div>

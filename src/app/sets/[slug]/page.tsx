@@ -71,6 +71,7 @@ export default function SetDetailPage({ params }: PageProps) {
         kicker="Environment"
         caption="Production plate — aspect matches exhibition frame"
         aspectToggleAriaLabel="Set image aspect ratio"
+        lightbox
       />
     </ExhibitionLayout>
   );

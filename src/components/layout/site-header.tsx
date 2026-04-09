@@ -36,7 +36,7 @@ export function SiteHeader() {
             </Link>
 
             <nav
-              className="hidden items-center gap-1 md:flex"
+              className="hidden min-w-0 max-w-full flex-wrap items-center gap-x-0.5 gap-y-2 md:flex lg:gap-x-1"
               aria-label="Primary"
             >
               {SITE_NAV.map((item) => {
@@ -46,7 +46,7 @@ export function SiteHeader() {
                     key={item.href}
                     href={item.href}
                     className={cn(
-                      "relative px-3 py-1.5 font-sans text-[0.8125rem] font-medium tracking-[0.02em] transition-subtle",
+                      "relative px-2 py-1.5 font-sans text-[0.8125rem] font-medium tracking-[0.02em] transition-subtle lg:px-3",
                       active
                         ? "text-foreground after:absolute after:inset-x-3 after:-bottom-px after:h-px after:bg-accent/55"
                         : "text-muted-foreground hover:text-foreground/92",
@@ -62,6 +62,21 @@ export function SiteHeader() {
 
           <div className="flex shrink-0 items-center gap-2 sm:gap-3">
             <ThemeToggle />
+
+            <Link
+              href="/archive"
+              className={cn(
+                "page-label shrink-0 text-[0.6rem] tracking-[0.24em] transition-colors",
+                pathname === "/archive" || pathname.startsWith("/archive/")
+                  ? "text-foreground"
+                  : "hover:text-foreground/85",
+              )}
+              aria-current={
+                pathname === "/archive" || pathname.startsWith("/archive/") ? "page" : undefined
+              }
+            >
+              Archive
+            </Link>
 
             <button
               type="button"
