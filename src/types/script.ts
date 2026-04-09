@@ -17,6 +17,10 @@ export type ScriptScene = {
   /** Set id this scene primarily inhabits, or null for liminal / montage */
   setId: string | null;
   /**
+   * Song catalogue slugs (`src/data/songs.ts`) featured in this scene — drives sidebar audio on `/script`.
+   */
+  songSlugs?: string[];
+  /**
    * Bloom Equalizer as a **craft** dial — not plot canon. Limits “machine always on” fatigue.
    * - `on`: foreground hum / pulse / stabilization beats justified
    * - `implied`: district habits + social pressure; device texture stays background

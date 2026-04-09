@@ -8,6 +8,7 @@ import {
   exhibitionStickySidebarClassName,
 } from "@/components/layout/exhibition-layout";
 import type { Song } from "@/types";
+import { lyricsForDisplay } from "@/lib/lyrics-display";
 import { cn } from "@/lib/utils";
 import { SongPlayer } from "./song-player";
 
@@ -48,17 +49,7 @@ export function LyricsExperience({ songs }: LyricsExperienceProps) {
                       )}
                       aria-current={selected ? "true" : undefined}
                     >
-                      <span className="font-medium">
-                        {s.code ? (
-                          <>
-                            <span className="font-sans text-[0.65rem] font-medium uppercase tracking-[0.18em] text-accent/90">
-                              {s.code}
-                            </span>
-                            <span className="text-muted-foreground/80"> · </span>
-                          </>
-                        ) : null}
-                        {s.title}
-                      </span>
+                      <span className="font-medium">{s.title}</span>
                       <span className="mt-0.5 block text-[0.7rem] text-muted-foreground/90">{s.credit}</span>
                     </button>
                   </li>
@@ -84,7 +75,7 @@ export function LyricsExperience({ songs }: LyricsExperienceProps) {
             Lyrics
           </h2>
           <pre className="whitespace-pre-wrap font-sans text-[15px] leading-[1.85] tracking-[0.02em] text-foreground/88">
-            {active.lyrics}
+            {lyricsForDisplay(active.lyrics)}
           </pre>
         </section>
       </div>

@@ -65,12 +65,20 @@ export const characters: Character[] = [
     linkedSceneIds: [...ROSE_SCENE_IDS],
     linkedSetIds: [
       "flower-district",
+      "floral-neighbourhood",
       "residential-petal-ring",
       "bloom-festival-auditorium",
       "flower-high-atrium",
       "woodland-fringe-path",
       "wild-waterfall",
       "equalizer-core",
+      "squeeze-hallway-classroom-windows",
+      "squeeze-quiet-classroom",
+      "squeeze-math-classroom",
+      "squeeze-drama-studio",
+      "squeeze-biology-lab",
+      "squeeze-interior-hallway",
+      "squeeze-side-path",
     ],
   },
   {
@@ -88,7 +96,7 @@ export const characters: Character[] = [
     speechPattern:
       "Fast, casual, fluid; no hesitation; deflects seriousness with humor — e.g. “Or—we could not do that and instead do literally anything else.” Rare direct feeling: when it comes, keep it simple and honest.",
     notes:
-      "Personality: playful, charming, avoidant, intuitive. Physical: always moving until story demands stillness. Key beats: sc.6 edge walkway — first real encounter · sc.7 Rose chooses district over his path; he walks out · sc.8 See It My Way (duet) · sc.9 Squeeze the Day — classroom montage, EXT. side path · 9 fun/games · 10 ‘expecting it now’ / Iris closes · sc.11 leads to waterfall; first unease at her effect · sc.12 enters her field — connection + physical instability; ‘Don’t’ stop · sc.14 strain at rehearsal; Iris reframes; can’t counter; less her when she stabilizes · sc.16 hollow Rose; steps back; nod not agreement · sc.17 festival collapse; knee; ‘Don’t’ suppress again · sc.18 can’t explain; ‘not scared’ too late; doesn’t follow · sc.20 return — ‘not just me’; follows toward core · sc.21 ‘Look at Me’ overload; follows Rose in · sc.22 Narcissa breaks; ‘not holding’ with Rose · sc.23 public system break; Lemon down; Rose toward core · sc.24 sees her reset; follows to shutdown · sc.25 atrium core — braces, stable after.",
+      "Personality: playful, charming, avoidant, intuitive. Physical: always moving until story demands stillness. Key beats: sc.6 edge walkway — first real encounter · sc.7 Rose chooses district over his path; he walks out · sc.8 See It My Way (duet — floral neighbourhood walk) · sc.9 Squeeze the Day — classroom montage, EXT. side path · 9 fun/games · 10 ‘expecting it now’ / Iris closes · sc.11 leads to waterfall; first unease at her effect · sc.12 enters her field — connection + physical instability; ‘Don’t’ stop · sc.14 strain at rehearsal; Iris reframes; can’t counter; less her when she stabilizes · sc.16 hollow Rose; steps back; nod not agreement · sc.17 festival collapse; knee; ‘Don’t’ suppress again · sc.18 can’t explain; ‘not scared’ too late; doesn’t follow · sc.20 return — ‘not just me’; follows toward core · sc.21 ‘Look at Me’ overload; follows Rose in · sc.22 Narcissa breaks; ‘not holding’ with Rose · sc.23 public system break; Lemon down; Rose toward core · sc.24 sees her reset; follows to shutdown · sc.25 atrium core — braces, stable after.",
     moodLighting:
       "Edge paths and off-grid air: chartreuse and yellow-green in foliage bounce, wardrobe accents, sun through leaves—photosynthetic counterweight to Iris purple and machine cyan. Reads “outside the score” without feeling villainous.",
     image16x9: "/characters/lemon.png",
@@ -113,7 +121,20 @@ export const characters: Character[] = [
       "scene-25",
       "scene-26",
     ],
-    linkedSetIds: ["wild-waterfall", "woodland-fringe-path", "flower-district", "flower-high-atrium"],
+    linkedSetIds: [
+      "wild-waterfall",
+      "woodland-fringe-path",
+      "flower-district",
+      "floral-neighbourhood",
+      "flower-high-atrium",
+      "squeeze-hallway-classroom-windows",
+      "squeeze-quiet-classroom",
+      "squeeze-math-classroom",
+      "squeeze-drama-studio",
+      "squeeze-biology-lab",
+      "squeeze-interior-hallway",
+      "squeeze-side-path",
+    ],
   },
   {
     id: "daisy",
@@ -197,7 +218,7 @@ export const characters: Character[] = [
     speechPattern:
       "Polished, declarative, slightly theatrical; always ‘on’; no hesitation in performance mode.",
     notes:
-      "Personality: confident, controlled, performative. Dialogue: statements, not questions. Strong intro sc.9 courtyard; sc.10 atrium formation center; social dominance sc.9–10; sc.17 festival center — formation holds until cascade; sc.21 ‘Look at Me’ — system routes through her; sc.22 phased public collapse — slip, overcorrection, stop; sc.23 system fights her — precision useless; sc.26 epilogue — not center; imperfect okay.",
+      "Personality: confident, controlled, performative. Dialogue: statements, not questions. Strong intro sc.9 courtyard; sc.10 atrium formation center; social dominance sc.9–10; sc.17 festival center — formation holds until cascade; sc.21 **Look at Me** — **talent-show / pageant brag** on thrust — **Bloom** as backup — system routes through her; sc.22 phased public collapse — slip, overcorrection, stop; sc.23 system fights her — precision useless; sc.26 epilogue — not center; imperfect okay.",
     moodLighting:
       "Spectacle winning: magenta-gold follow-spot and bloom trim—admired, load-bearing shine. When perfection cracks: drain toward ash-rose and desaturated pink—tired glamour, not moral green.",
     image16x9: "/characters/narcissa2.png",

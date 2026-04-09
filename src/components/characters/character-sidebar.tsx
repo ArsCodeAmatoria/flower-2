@@ -2,6 +2,7 @@ import type { Character } from "@/types";
 import type { StoryLink } from "@/types/story-link";
 import { WallDefinitionRow } from "@/components/exhibition/wall-definition-row";
 import { LinkedItemsGroup } from "@/components/links/linked-items";
+import { stripScreenplayReaderMarkup } from "@/lib/screenplay-reader-markup";
 import { cn } from "@/lib/utils";
 
 export type CharacterSidebarProps = {
@@ -29,16 +30,16 @@ export function CharacterSidebar({ character: c, sceneLinks, setLinks, className
       </header>
 
       <dl className="border-b border-border/25 py-6">
-        <WallDefinitionRow term="Desire">{c.desire}</WallDefinitionRow>
-        <WallDefinitionRow term="Flaw">{c.flaw}</WallDefinitionRow>
-        <WallDefinitionRow term="Lie">{c.lie}</WallDefinitionRow>
-        <WallDefinitionRow term="Truth">{c.truth}</WallDefinitionRow>
-        <WallDefinitionRow term="Arc">{c.arc}</WallDefinitionRow>
-        <WallDefinitionRow term="Speech pattern">{c.speechPattern}</WallDefinitionRow>
+        <WallDefinitionRow term="Desire">{stripScreenplayReaderMarkup(c.desire)}</WallDefinitionRow>
+        <WallDefinitionRow term="Flaw">{stripScreenplayReaderMarkup(c.flaw)}</WallDefinitionRow>
+        <WallDefinitionRow term="Lie">{stripScreenplayReaderMarkup(c.lie)}</WallDefinitionRow>
+        <WallDefinitionRow term="Truth">{stripScreenplayReaderMarkup(c.truth)}</WallDefinitionRow>
+        <WallDefinitionRow term="Arc">{stripScreenplayReaderMarkup(c.arc)}</WallDefinitionRow>
+        <WallDefinitionRow term="Speech pattern">{stripScreenplayReaderMarkup(c.speechPattern)}</WallDefinitionRow>
         {c.moodLighting ? (
-          <WallDefinitionRow term="Mood & light">{c.moodLighting}</WallDefinitionRow>
+          <WallDefinitionRow term="Mood & light">{stripScreenplayReaderMarkup(c.moodLighting)}</WallDefinitionRow>
         ) : null}
-        <WallDefinitionRow term="Notes">{c.notes}</WallDefinitionRow>
+        <WallDefinitionRow term="Notes">{stripScreenplayReaderMarkup(c.notes)}</WallDefinitionRow>
       </dl>
 
       <div className="space-y-8 border-t border-border/25 pt-8">

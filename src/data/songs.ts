@@ -11,6 +11,7 @@ export const songs: Song[] = [
     code: "STD",
     title: "Squeeze the Day",
     credit: "Performed by Lemon · Flower",
+    performerSlugs: ["lemon"],
     audioSrc: "/songs/STD.wav",
     lyrics: `[VERSE 1 — fast, witty (acoustic groove)]
 
@@ -96,7 +97,7 @@ Are the ones that make you stay
 
 [Staging — screenplay]
 
-**Single cue in script:** sc.9 — post-**Just Fit In** / **Nettles** — **montage:** Rose **tracks** Lemon’s vocal — **quiet classroom** (“we’re not doing a musical”) — **drama studio** — skull + **spotlight** — **biology lab** — vial **oops** — **harmless** smoke **wipe** — **hallway** — lands **EXT. side path** — spoken **tried not trying** / **hum lying**. Dossier: /lyrics/squeeze-the-day.`,
+**Single cue in script:** sc.9 — post–Just Fit In — **BEGIN INTERCUT** — hallway/windows (Rose tracks O.S.) — quiet classroom (door glass) — **math classroom** (board / equation) — drama studio (skull / spot) — biology lab (vial / harmless smoke wipe) — **END INTERCUT** — interior hallway (song thins) — **EXT. side path** — spoken beat. **Set stills (sets page):** squeeze-hallway-classroom-windows · squeeze-quiet-classroom · squeeze-math-classroom · squeeze-drama-studio · squeeze-biology-lab · squeeze-interior-hallway · squeeze-side-path. Dossier: /lyrics/squeeze-the-day.`,
   },
   {
     id: "song-lam",
@@ -104,6 +105,7 @@ Are the ones that make you stay
     code: "LAM",
     title: "Look at Me",
     credit: "Performed by Narcissa · Flower",
+    performerSlugs: ["narcissa"],
     audioSrc: "/songs/LAM.wav",
     lyrics: `[Verse 1 — Female]
 
@@ -194,13 +196,18 @@ Every doubt kept far at bay
 Look at me, look at me
 Perfect as I need to be
 If I shine, then I'll be seen
-And I'll never be unseen`,
+And I'll never be unseen
+
+[Staging — screenplay]
+
+**Single cue in script:** sc.21 — **EXT. central courtyard** — raised **thrust** / **talent-night coronation** — **Narcissa** solo — **HS-musical “beauty brag”**: pageant poise, runway travel, fixed marks, **Bloom** as **backup** (ribbons, petals, harmony stabs) — **routing / credit** readout → her **node** — **wrong-credit** gag — **harmony-correction** nip — **bridge** soft crack — **final chorus** swell — overload when **Rose** enters capacity — dossier: /lyrics/look-at-me.`,
   },
   {
     id: "song-red-magic",
     slug: "red-magic",
     title: "Red Magic",
     credit: "Performed by Rose · Flower",
+    performerSlugs: ["rose"],
     audioSrc: "/songs/RED MAGIC.wav",
     lyrics: `[VERSE 1 — soft, intimate]
 
@@ -329,13 +336,14 @@ It's my magic
 
 [Staging — screenplay]
 
-**Single cue in script:** sc.24 side path — **subjective scale** (orchestra/choir on mix; **physical** district stays thin/quiet); **Lemon** enters before **Verse 2** — hears — doesn't interrupt; **growth beat** during **Final Chorus**; **Bluebell + clarity** after **Outro**; dossier: /lyrics/red-magic.`,
+**Single cue in script:** sc.24 — side path — **subjective** orchestra/choir on **mix**; **physical** world **thin** — **not** festival scale — **wildflowers** **build** on the **swell**: seam → path edge → rail/wall → **local** **radius** **around** Rose — **asymmetric**, **wrong** palette for the grid — **feral** not postcard — optional Equalizer **HUD** **flicker** / **unclassified** growth — **Lemon** before **Verse 2** — **Bluebell** after outro — dossier: /lyrics/red-magic.`,
   },
   {
     id: "song-like-every-flower",
     slug: "like-every-flower",
     title: "Like Every Flower",
     credit: "Performed by Rose · Flower",
+    performerSlugs: ["rose"],
     audioSrc:
       "/songs/\u201CLike Every Flower\u201D \u2014 I WANT SONG (ROSE).wav",
     lyrics: `[INTRO — soft, minimal, rhythmic pulse]
@@ -457,6 +465,7 @@ I just hope… I'll find it in time
     slug: "just-fit-in",
     title: "Just Fit In",
     credit: "Performed by Daisy · Flower",
+    performerSlugs: ["daisy"],
     audioSrc: "/songs/JUST FIT IN.wav",
     lyrics: `[Verse 1 — Female]
 
@@ -542,13 +551,14 @@ You'll be who you're meant to be
 
 [Staging — screenplay]
 
-**Single cue in script:** sc.9 hallway — diegetic festival vocal block; **chorus = tight circle**; Rose outside; **bridge = Daisy softer to Rose** after the cold close; then **Nettles**. One continuous play-through (no underscore or reprise elsewhere).`,
+**Single cue in script:** sc.9 hallway — diegetic — **catchy** before **rule** — **petal-tip** UI misfit (Rose shadow); **chorus = tight circle** — floor seam / **ring** — Rose **margin** / **wrong** side of line — **wall** of sound — **hard cut** — Daisy **pulls** Rose into **arch** shadow for **bridge** (soft, to her) — **Nettles** sting (**weather**, not villain). One play — dossier: /lyrics/just-fit-in.`,
   },
   {
     id: "song-see-it-my-way",
     slug: "see-it-my-way",
     title: "See It My Way",
     credit: "Rose & Lemon · Flower",
+    performerSlugs: ["rose", "lemon"],
     audioSrc: "/songs/See it my Way (2).wav",
     lyrics: `[Verse 1 — Male]
 
@@ -649,13 +659,14 @@ If I can just see it that way
 
 [Staging — screenplay]
 
-**Single cue in script:** sc.8 — after Rose sits on the ledge; **fringe / prep district**; blocking: **angle-cross through flow** → **first just-walk** → **no-ripple pass**; ends into quiet beat + **Come on** / she follows.`,
+**Single cue in script:** sc.8 — **EXT. floral neighbourhood** (white columns, wide walk, planters); **walking** duet — loose, **cutesy**, **backwards** beats — **not** floral synch — **just-walk** / **no-ripple** — ends quiet + **Come on** / she follows.`,
   },
   {
     id: "song-equalize-bloom",
     slug: "equalize-the-bloom",
     title: "Equalize the Bloom",
     credit: "Edelweiss & Lotus · Flower",
+    performerSlugs: ["edelweiss", "lotus"],
     audioSrc: "/songs/EQUALIZE THE BLOOM (1).wav",
     lyrics: `[Opening — rhythmic spoken-sung, playful teacher energy]
 
@@ -750,13 +761,14 @@ When everything aligns
 There is nothing left to fear
 
 [Staging — screenplay]
-Ensemble orientation number: Edelweiss + Lotus duet; call-and-response; claps; crowd arcs into garden-row choreography; bridge warmer / clearer diction for family audience; unease under the final mix.`,
+Ensemble orientation: Edelweiss + Lotus duet — soft rings — off-beat claps — call-and-response — garden-row arcs — **subtle** mirrored hand flourishes (wrist / two-finger — playful, contained) — **sparse** petal-light from Equalizer — **bridge:** half-hide behind piers, peek-and-answer — culturally inflected **tone**, not caricature — warmer / clearer diction on bridge — unease under final mix.`,
   },
   {
     id: "song-flower-opening",
     slug: "flower-opening",
     title: "Flower",
     credit: "Performed by Rose · Flower",
+    performerSlugs: ["rose"],
     audioSrc: "/songs/Flower (3).wav",
     lyrics: `[Verse 1 — Female]
 

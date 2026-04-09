@@ -409,6 +409,10 @@
     display: none !important;
   }
 
+  body:has(.script-page-layout) .script-mobile-tools-root {
+    display: none !important;
+  }
+
   body:has(.script-page-layout) .script-print-main {
     max-width: none;
   }

@@ -1,4 +1,5 @@
 import type { ScriptSceneSelectionProps } from "./types";
+import { stripScreenplayReaderMarkup } from "@/lib/screenplay-reader-markup";
 import { cn } from "@/lib/utils";
 
 export function BeatNav({ scenes, activeIndex, onSelectScene }: ScriptSceneSelectionProps) {
@@ -21,7 +22,7 @@ export function BeatNav({ scenes, activeIndex, onSelectScene }: ScriptSceneSelec
               >
                 <span className="font-medium">{s.title}</span>
                 <span className="mt-0.5 block text-[0.75rem] leading-snug text-muted-foreground">
-                  {s.beat}
+                  {stripScreenplayReaderMarkup(s.beat)}
                 </span>
               </button>
             </li>

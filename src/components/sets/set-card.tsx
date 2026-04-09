@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import type { FilmSet } from "@/types";
 import { flowerEase } from "@/lib/motion-presets";
+import { stripScreenplayReaderMarkup } from "@/lib/screenplay-reader-markup";
 import { cn } from "@/lib/utils";
 
 export type SetCardProps = {
@@ -85,10 +86,10 @@ export function SetCard({ set: s, index = 0, className }: SetCardProps) {
               </h2>
             </div>
             <p className="line-clamp-3 flex-1 font-sans text-sm leading-relaxed text-muted-foreground">
-              {s.summary}
+              {stripScreenplayReaderMarkup(s.summary)}
             </p>
             <p className="line-clamp-2 font-sans text-xs italic leading-relaxed text-muted-foreground/90">
-              {s.symbolicMeaning}
+              {stripScreenplayReaderMarkup(s.symbolicMeaning)}
             </p>
             <p className="font-sans text-[0.65rem] font-medium uppercase tracking-[0.2em] text-accent/80">
               <span className="opacity-70 transition-opacity duration-300 group-hover:opacity-100">

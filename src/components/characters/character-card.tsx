@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import type { Character } from "@/types";
 import { flowerEase } from "@/lib/motion-presets";
+import { stripScreenplayReaderMarkup } from "@/lib/screenplay-reader-markup";
 import { cn } from "@/lib/utils";
 
 export type CharacterCardProps = {
@@ -86,7 +87,7 @@ export function CharacterCard({ character: c, index = 0, className }: CharacterC
               </h2>
             </div>
             <p className="line-clamp-3 flex-1 font-sans text-sm leading-relaxed text-muted-foreground">
-              {c.arc}
+              {stripScreenplayReaderMarkup(c.arc)}
             </p>
             <p className="font-sans text-[0.65rem] font-medium uppercase tracking-[0.2em] text-accent/80">
               <span className="opacity-70 transition-opacity duration-300 group-hover:opacity-100">

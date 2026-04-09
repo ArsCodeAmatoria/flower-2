@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { printScriptFullDraft } from "@/lib/script-print";
 import { scriptSceneAnchorId } from "@/lib/script-anchors";
 import { formatActBlockCatalogue, formatActBlockNavLabel, sceneActBlock } from "@/lib/script-act-block";
+import { stripScreenplayReaderMarkup } from "@/lib/screenplay-reader-markup";
 import { stripLeadingDuplicateSlugline } from "@/lib/script-strip-slugline";
 import { ScreenplayBody } from "./screenplay-body";
 import type { ScriptContextPanelProps } from "./types";
@@ -56,7 +57,7 @@ function ScriptBeatNote({ beat }: { beat: string }) {
   return (
     <aside className="mt-8 max-w-readable border-l border-border/35 pl-4">
       <p className="page-label mb-2.5">Beat</p>
-      <p className="text-sm leading-[1.7] text-muted-foreground">{beat}</p>
+      <p className="text-sm leading-[1.7] text-muted-foreground">{stripScreenplayReaderMarkup(beat)}</p>
     </aside>
   );
 }
@@ -89,9 +90,13 @@ export function ReadingContextPanel({ scene, characters, sets }: ScriptContextPa
         className="mt-4 border-l border-border/35 pl-4"
       >
         <p className="page-label mb-2">Beat</p>
-        <p className="text-sm leading-relaxed text-muted-foreground">{scene.beat}</p>
+        <p className="text-sm leading-relaxed text-muted-foreground">
+          {stripScreenplayReaderMarkup(scene.beat)}
+        </p>
       </motion.div>
-      <p className="mt-4 leading-relaxed text-muted-foreground">{scene.summary}</p>
+      <p className="mt-4 leading-relaxed text-muted-foreground">
+        {stripScreenplayReaderMarkup(scene.summary)}
+      </p>
 
       <div className="mt-6 space-y-6 border-t border-border/30 pt-6">
         <LinkedItemsGroup label="In this scene" items={characterLinks} variant="inline" />

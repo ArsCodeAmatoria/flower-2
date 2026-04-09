@@ -2,6 +2,8 @@
  * Lightweight screenplay line classifier for exhibition reader (not a full Fountain engine).
  */
 
+import { stripScreenplayReaderMarkup } from "@/lib/screenplay-reader-markup";
+
 export type ScreenplayDialoguePart =
   | { type: "paren"; text: string }
   | { type: "line"; text: string };
@@ -77,7 +79,7 @@ function readActionBlock(lines: string[], start: number): { block: ScreenplayBlo
 
 /** Parse raw scene body into ordered blocks for typographic rendering. */
 export function parseScreenplay(content: string): ScreenplayBlock[] {
-  const lines = content.replace(/\r\n/g, "\n").split("\n");
+  const lines = stripScreenplayReaderMarkup(content).split("\n");
   const blocks: ScreenplayBlock[] = [];
   let i = 0;
 

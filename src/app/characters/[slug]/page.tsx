@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ExhibitionLayout, exhibitionPageLabels, exhibitionStickySidebarClassName } from "@/components/layout/exhibition-layout";
 import { ArchiveNotFound } from "@/components/layout/archive-not-found";
 import { ExhibitionStillPlate } from "@/components/media/exhibition-still-plate";
+import { CharacterSongPlayers } from "@/components/characters/character-song-players";
 import { CharacterSidebar } from "@/components/characters/character-sidebar";
 import { characters } from "@/data/characters";
 import { characterSceneLinks, characterSetLinks } from "@/lib/story-links";
@@ -65,14 +66,17 @@ export default function CharacterDetailPage({ params }: PageProps) {
       sidebarClassName={exhibitionStickySidebarClassName}
       sidebar={<CharacterSidebar character={character} sceneLinks={sceneLinks} setLinks={setLinks} />}
     >
-      <ExhibitionStillPlate
-        subjectName={character.name}
-        image16x9={character.image16x9}
-        image2x1={character.image2x1}
-        kicker="Still"
-        caption="Reference plate — aspect matches exhibition frame"
-        aspectToggleAriaLabel="Character still aspect ratio"
-      />
+      <div className="space-y-0">
+        <ExhibitionStillPlate
+          subjectName={character.name}
+          image16x9={character.image16x9}
+          image2x1={character.image2x1}
+          kicker="Still"
+          caption="Reference plate — aspect matches exhibition frame"
+          aspectToggleAriaLabel="Character still aspect ratio"
+        />
+        <CharacterSongPlayers characterSlug={character.slug} />
+      </div>
     </ExhibitionLayout>
   );
 }

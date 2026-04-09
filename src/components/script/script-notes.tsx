@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import type { ScriptScene } from "@/types";
 import { equalizerPresenceLabels } from "@/lib/equalizer-presence";
+import { stripScreenplayReaderMarkup } from "@/lib/screenplay-reader-markup";
 
 export type ScriptNotesProps = {
   scene: ScriptScene;
@@ -21,7 +22,9 @@ export function ScriptNotes({ scene, metadataSlot, className }: ScriptNotesProps
           {equalizerPresenceLabels[scene.equalizerPresence]}
         </p>
       </div>
-      <p className="text-[0.8125rem] leading-relaxed text-muted-foreground">{scene.notes}</p>
+      <p className="text-[0.8125rem] leading-relaxed text-muted-foreground">
+        {stripScreenplayReaderMarkup(scene.notes)}
+      </p>
       {metadataSlot ? (
         <div className="mt-4 border-t border-border/40 pt-4 text-[0.8125rem] leading-relaxed text-muted-foreground">
           {metadataSlot}

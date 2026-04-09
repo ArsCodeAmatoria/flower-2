@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useState } from "react";
+import { stripScreenplayReaderMarkup } from "@/lib/screenplay-reader-markup";
 import { stripLeadingDuplicateSlugline } from "@/lib/script-strip-slugline";
 import type { ScriptScene } from "@/types";
 import { cn } from "@/lib/utils";
@@ -20,7 +21,9 @@ export function ScriptSceneCopyPlain({ scene, className, onDownloadScenePdf }: S
   const [status, setStatus] = useState<"idle" | "copied" | "error">("idle");
 
   const onCopy = useCallback(async () => {
-    const body = stripLeadingDuplicateSlugline(scene.content.trim(), scene.heading);
+    const body = stripScreenplayReaderMarkup(
+      stripLeadingDuplicateSlugline(scene.content.trim(), scene.heading),
+    );
     const text = `${scene.heading.trim()}\n\n${body.trimEnd()}\n`;
     try {
       await navigator.clipboard.writeText(text);

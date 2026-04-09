@@ -7,6 +7,8 @@ export type Song = {
   code?: string;
   /** Composer, performer, or rights note */
   credit: string;
+  /** Character dossier slugs for performers — drives audio on `/characters/[slug]`. */
+  performerSlugs?: string[];
   /** Plain text lyrics (line breaks preserved) */
   lyrics: string;
   /** Public URL or path under `public/` (e.g. `/songs/theme.mp3`) */
