@@ -14,6 +14,7 @@ import { LinkedItemsGroup } from "@/components/links/linked-items";
 import { flowerEase } from "@/lib/motion-presets";
 import { equalizerPresenceLabels } from "@/lib/equalizer-presence";
 import { sceneCharacterLinks, sceneSetLinks } from "@/lib/story-links";
+import { project } from "@/data/project";
 import { cn } from "@/lib/utils";
 
 export type ScriptViewerProps = {
@@ -70,6 +71,42 @@ export function ReadingContextPanel({ scene, characters, sets }: ScriptContextPa
 
   return (
     <section className="wall-caption-card" aria-labelledby={titleId}>
+      {project.themeStated ? (
+        <p className="mb-4 border-b border-border/25 pb-4 text-[0.7rem] leading-snug text-muted-foreground">
+          <span className="font-medium text-foreground/80">Theme stated — </span>
+          {project.themeStated}
+        </p>
+      ) : null}
+      {project.protagonistWant ? (
+        <p className="mb-4 border-b border-border/25 pb-4 text-[0.7rem] leading-snug text-muted-foreground">
+          <span className="font-medium text-foreground/80">Rose’s want — </span>
+          {project.protagonistWant}
+        </p>
+      ) : null}
+      {project.craftPilotScenes ? (
+        <p className="mb-4 border-b border-border/25 pb-4 text-[0.7rem] leading-snug text-muted-foreground">
+          <span className="font-medium text-foreground/80">Craft pilot — </span>
+          {project.craftPilotScenes}
+        </p>
+      ) : null}
+      {project.concreteStakes ? (
+        <p className="mb-4 border-b border-border/25 pb-4 text-[0.7rem] leading-snug text-muted-foreground">
+          <span className="font-medium text-foreground/80">Concrete stakes — </span>
+          {project.concreteStakes}
+        </p>
+      ) : null}
+      {project.audiencePrideBeats ? (
+        <p className="mb-4 border-b border-border/25 pb-4 text-[0.7rem] leading-snug text-muted-foreground">
+          <span className="font-medium text-foreground/80">Audience pride — </span>
+          {project.audiencePrideBeats}
+        </p>
+      ) : null}
+      {project.bStoryQuestion ? (
+        <p className="mb-4 border-b border-border/25 pb-4 text-[0.7rem] leading-snug text-muted-foreground">
+          <span className="font-medium text-foreground/80">B story — </span>
+          {project.bStoryQuestion}
+        </p>
+      ) : null}
       <p className="page-label mb-4">Now reading</p>
       <h2 id={titleId} className="font-display text-xl font-medium tracking-tight text-foreground">
         {scene.title}

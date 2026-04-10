@@ -19,6 +19,18 @@ export const project: Project = {
   ],
   phase:
     "26-scene / ~100-page spine treated and reader-ready here (≈1 page per minute). Musical numbers threaded through Fun & Games, festival, and finale; Equalizer as pressure, not a speaking villain.",
+  bStoryQuestion:
+    "Can they stay connected when staying means performing for the machine — or vanishing from it — and one of them is still paying tab on the score?",
+  themeStated:
+    "“Grow right” isn’t encouragement—it’s a contract: match the grid, or pay in pieces no one names out loud.",
+  protagonistWant:
+    "She wants to be like every flower—to read clean in the bouquet, same air and rhythm, no extra correction because of her.",
+  craftPilotScenes:
+    "Pilot (line-level + format): sc.1 opening / V.O. · sc.7 Break into Two + want · sc.14 Iris · sc.16 trade · sc.17 festival · sc.24 Red Magic · sc.25 core — then roll forward by act.",
+  concreteStakes:
+    "Fault-line / public read can linger until the hum cuts — Rose stays ‘named’ at the core through the climax; release tracks shutdown (see sc.25 TRADE + aftermath).",
+  audiencePrideBeats:
+    "Micro-dignity Act 1 (2–6): no thanks to the machine · Midpoint 11–12: truth without apology · 2B noble cost 14–17 (esp. trade + public stay) · Quiet choice 19–20 · Summit 24–25 · Warm 26.",
   exhibitionIntro:
     "This site holds the working draft in one place: a full screenplay reader (26 scenes), the songbook with stems, character dossiers, environment set plates, a documents shelf, and a visual scrapbook—so story, music, and world design stay aligned as the film moves toward production.",
 };

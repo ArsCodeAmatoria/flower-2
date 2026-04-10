@@ -49,7 +49,8 @@ export const characters: Character[] = [
     role: "Protagonist",
     archetype:
       "Emotional anchor of the film; embodiment of natural variation; the only role that moves performed identity → authentic identity.",
-    desire: "If I can just get it right, I’ll belong.",
+    desire:
+      "To be like every flower—read clean in the bouquet—if she can just get it right, she’ll belong.",
     flaw: "She equates belonging with perfect synchronization—so she keeps trying to perform her way into acceptance.",
     lie: "The chaos is my fault; if I synchronize hard enough, I’ll fix it.",
     truth: "She doesn’t need to get it right to belong. The Equalizer separated her; she wasn’t the problem.",
@@ -96,7 +97,7 @@ export const characters: Character[] = [
     speechPattern:
       "Fast, casual, fluid; no hesitation; deflects seriousness with humor — e.g. “Or—we could not do that and instead do literally anything else.” Rare direct feeling: when it comes, keep it simple and honest.",
     notes:
-      "Personality: playful, charming, avoidant, intuitive. Physical: always moving until story demands stillness. Key beats: sc.6 edge walkway — first real encounter · sc.7 Rose chooses district over his path; he walks out · sc.8 See It My Way (duet — floral neighbourhood walk) · sc.9 Squeeze the Day — classroom montage, EXT. side path · 9 fun/games · 10 ‘expecting it now’ / Iris closes · sc.11 leads to waterfall; first unease at her effect · sc.12 enters her field — connection + physical instability; ‘Don’t’ stop · sc.14 strain at rehearsal; Iris reframes; can’t counter; less her when she stabilizes · sc.16 hollow Rose; steps back; nod not agreement · sc.17 festival collapse; knee; ‘Don’t’ suppress again · sc.18 can’t explain; ‘not scared’ too late; doesn’t follow · sc.20 return — ‘not just me’; follows toward core · sc.21 ‘Look at Me’ overload; follows Rose in · sc.22 Narcissa breaks; ‘not holding’ with Rose · sc.23 public system break; Lemon down; Rose toward core · sc.24 sees her reset; follows to shutdown · sc.25 atrium core — braces, stable after.",
+      "Personality: playful, charming, avoidant, intuitive. Physical: always moving until story demands stillness. **Private cost (sc.6+):** outer-ring **walk-throughs** still on the Bloom sheet — he **chooses** which windows to hit; ‘free’ reads as **managed absence**, not immunity. Key beats: sc.6 edge walkway — first real encounter · sc.7 Rose chooses district over his path; **planter bend** open loop; he walks out · sc.8 See It My Way (duet — floral neighbourhood walk; bend callback; V3 = score cost) · sc.9 Squeeze the Day — classroom montage, EXT. side path · 9 fun/games · 10 ‘expecting it now’ / Iris closes · sc.11 leads to waterfall; first unease at her effect · sc.12 enters her field — connection + physical instability; ‘Don’t’ stop · sc.14 strain at rehearsal; Iris reframes; can’t counter; less her when she stabilizes · sc.16 hollow Rose; steps back; nod not agreement · sc.17 festival collapse; knee; ‘Don’t’ suppress again · sc.18 can’t explain; ‘not scared’ too late; doesn’t follow · sc.20 return — ‘not just me’; follows toward core · sc.21 ‘Look at Me’ overload; follows Rose in · sc.22 Narcissa breaks; ‘not holding’ with Rose · sc.23 public system break; Lemon down; Rose toward core · sc.24 sees her reset; follows to shutdown · sc.25 atrium core — **one** **step** **into** **her** **isolation** **radius** (**stay**) — braces, stable after · sc.26 **matches** **pace** — **no** **drift** **off-pattern** **for** **the** **joke** — **stay** **proof**.",
     moodLighting:
       "Edge paths and off-grid air: chartreuse and yellow-green in foliage bounce, wardrobe accents, sun through leaves—photosynthetic counterweight to Iris purple and machine cyan. Reads “outside the score” without feeling villainous.",
     image16x9: "/characters/lemon.png",
@@ -151,12 +152,12 @@ export const characters: Character[] = [
     speechPattern:
       "Clear, simple, direct; no filler. Observations, not philosophy—never explains the theme.",
     notes:
-      "Personality: friendly, practical, well-meaning, slightly conditioned by the system. Key lines: sc.2 fit-in seed · sc.3 atrium (aligned baseline vs Rose) · sc.9 Bloom node + hallway ‘or less’ · sc.14 ‘You’re steadier’ (sees containment, doesn’t push) · sc.16 ‘wasn’t just you’ vs ‘It’s… steadier’ (almost validates wrong choice) · sc.19 Dark Night — ‘worse without you’; quietly corrects Iris read on Lemon; ‘just come back.’",
+      "Personality: friendly, practical, well-meaning, slightly conditioned by the system. Key lines: sc.2 fit-in seed · sc.3 atrium (aligned baseline vs Rose) · sc.9 Bloom node + hallway ‘or less’ · sc.14 ‘You’re steadier’ (sees containment, doesn’t push) · sc.16 ‘wasn’t just you’ vs ‘It’s… steadier’ (almost validates wrong choice) · sc.19 Dark Night — ‘worse without you’; quietly corrects Iris read on Lemon; ‘just come back.’ · sc.26 epilogue — **silent** **ensemble** crumb — messy-right row with a laugh off-beat — no speech.",
     moodLighting:
       "Neutral-warm daylight and honest faces—low stylization. Emotional baseline when the scene needs a clean read without Iris haze or machine cold.",
     image16x9: "/characters/daisy.png",
     image2x1: "/characters/daisy1.png",
-    linkedSceneIds: ["scene-02", "scene-03", "scene-09", "scene-10", "scene-14", "scene-16", "scene-19"],
+    linkedSceneIds: ["scene-02", "scene-03", "scene-09", "scene-10", "scene-14", "scene-16", "scene-19", "scene-26"],
     linkedSetIds: ["flower-district", "flower-high-atrium", "wild-waterfall"],
   },
   {
@@ -173,7 +174,7 @@ export const characters: Character[] = [
     speechPattern:
       "Precise, structured sentences; no filler, no emotional vocabulary; speaks in conclusions — e.g. “Feeling is not an indicator of stability.” Never cartoon-villain; never raises voice.",
     notes:
-      "Personality: calm, analytical, not performatively emotional; orientation **Equalize the Bloom** duet with **Lotus** (playful teacher energy opening; bridge Disney-clear diction). Key beats: sc.3 orientation + number · sc.4 watches system then Rose · sc.9 atrium lab ‘consistency’ · sc.13 Bad Guys Close In — containment, optimal range, technical satisfaction · sc.15 cascade failure; ‘increase stabilization’; watches machine not Rose · sc.16 atrium — notices minimal Rose; silent approval · sc.17 central courtyard — system then Rose; connection public · sc.21 festival max (not on page) · sc.25 atrium core space — aftermath; ‘variation’ line.",
+      "Personality: calm, analytical, not performatively emotional; orientation **Equalize the Bloom** duet with **Lotus** (playful teacher energy opening; bridge Disney-clear diction). Key beats: sc.3 orientation + number · sc.4 watches system then Rose · sc.9 atrium lab ‘consistency’ · sc.13 Bad Guys Close In — containment, optimal range, technical satisfaction · sc.15 cascade failure; **one** **human** **look** **at** **Rose** **then** **machine** — **care→calibration**; ‘increase stabilization’; watches machine not Rose · sc.16 atrium — notices minimal Rose; silent approval · sc.17 central courtyard — system then Rose; connection public · sc.21 festival max (not on page) · sc.25 atrium core space — aftermath; ‘variation’ line.",
     moodLighting:
       "Machine authority: sterile whites, glassy cyan, clinical green diagnostics—precision and instrument, not whisper-purple. Separates ideology from Iris framing.",
     image16x9: "/characters/edelweiss.png",
@@ -259,11 +260,11 @@ export const characters: Character[] = [
     flaw: "Calls spin ‘mercy’; plants ideas instead of owning harm.",
     lie: "A kind lie is better than a destabilizing truth.",
     truth: "Framing truth to wound is still violence—Daisy’s honesty breaks her spell (sc.19: what Lemon ‘meant’ corrected quietly).",
-    arc: "Observing (sc.4 catalyst) → sc.10 perception engine (introduced) → sc.14 Lemon reframed (‘he just reacted’) — framing only → sc.17 festival watches; says nothing (doesn’t need to) → sc.18 All Is Lost — still silent; earlier seeds complete Rose’s read → sc.21 festival; still watching → sc.22 spectacle breaks; no frame left → sc.26 watches; narrative obsolete.",
+    arc: "Observing (sc.4 catalyst) → sc.10 perception engine (introduced) → sc.14 Lemon reframed (‘he just reacted’) — framing only → sc.17 festival watches; says nothing (doesn’t need to) → sc.18 All Is Lost — still silent; earlier seeds complete Rose’s read → sc.21 festival; still watching → sc.22 spectacle breaks; no frame left → sc.26 **no** spin — **joins** an **uneven** cluster **without** leading; **stays** in the mess **without** framing.",
     speechPattern:
       "Calm, suggestive, indirect—never a bald lie; damages by framing — e.g. “I mean… he did pull back.” Plants, doesn’t argue.",
     notes:
-      "Personality: observant, subtle, socially intelligent, soft-spoken. Never lies directly — frames. Sc.4: watches glitch, not surprised — narrative seed. Sc.10: ‘followed her,’ ‘maybe she’s just—,’ ‘no one thinks you’re doing it on purpose.’ Sc.14: repeats ‘noticeable’ with new weight; ‘happens around you,’ ‘he just reacted.’ Sc.17: silent witness; crowd does the work. Sc.18: no lines — ‘confirmation’ only; Rose supplies the verdict. Sc.19: not on stage — Daisy undoes the Lemon read quietly. Sc.21: off-center; watching Narcissa + crowd. Sc.22: Narcissa breaks publicly — nothing to say; truth visible. Sc.26: silent; nothing to frame.",
+      "Personality: observant, subtle, socially intelligent, soft-spoken. Never lies directly — frames. Sc.4: watches glitch, not surprised — narrative seed. Sc.10: ‘followed her,’ ‘maybe she’s just—,’ ‘no one thinks you’re doing it on purpose.’ Sc.14: repeats ‘noticeable’ with new weight; ‘happens around you,’ ‘he just reacted’; **exit** **beat** — **others** **thank** **her** **for** **smooth** **room** — **cost** **to** **Rose/Lemon** **unspoken**. Sc.17: silent witness; crowd does the work. Sc.18: no lines — ‘confirmation’ only; Rose supplies the verdict. Sc.19: not on stage — Daisy undoes the Lemon read quietly. Sc.21: off-center; watching Narcissa + crowd. Sc.22: Narcissa breaks publicly — nothing to say; truth visible. Sc.26: **behavior** — steps beside an uneven cluster; **no** spin; **lets** mess be enough.",
     moodLighting:
       "When Iris’s framing leads: deep desaturated purple in shadow bias — plum, bruised petal, ink violet. Cooler contrast, night-inside-day; velvet suggestion, not neon villain. Keep it pretty enough for family tone.",
     image16x9: "/characters/iris.png",

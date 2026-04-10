@@ -605,10 +605,10 @@ If you could just see it my way
 
 [Verse 3 — Male]
 
-You ever notice how the clouds don't try
-To match each other as they pass on by
-They just exist and somehow that's enough
-No one's calling their bluff
+You think I don't feel the grid on my skin
+When I joke through a class I'm barely in
+Every easy walk's a number I still owe
+I'd rather vanish than let the score show
 
 [Verse 4 — Female]
 

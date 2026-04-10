@@ -34,7 +34,8 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   icons: {
-    icon: [{ url: "/favicon.ico", sizes: "any" }, { url: "/icon.svg", type: "image/svg+xml" }],
+    /** `src/app/icon.svg` — avoid `/favicon.ico` unless `public/favicon.ico` exists (breaks `next build`). */
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
   },
   openGraph: {
     type: "website",
