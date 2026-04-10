@@ -26,7 +26,7 @@ export const project: Project = {
   protagonistWant:
     "She wants what the I Want hook names aloud in the script—“I just wanna be like every flower”—then reads it as belonging: clean in the bouquet, same air and rhythm, no extra correction because of her.",
   craftPilotScenes:
-    "Pilot (line-level + format): sc.1 opening / V.O. · sc.7 Break into Two + want · sc.14 Iris · sc.16 trade · sc.17 festival · sc.24 Red Magic · sc.25 core — then roll forward by act.",
+    "Pilot: every scene note tags **Pilot** (sc.1–26); line passes applied by act. If time is short for a table read, prioritize: sc.1, 7, 14, 16, 17, 24, 25. Control-language inventory: `docs/pilot-readthrough-note.md`.",
   concreteStakes:
     "Fault-line / public read can linger until the hum cuts — Rose stays ‘named’ at the core through the climax; release tracks shutdown (see sc.25 TRADE + aftermath).",
   audiencePrideBeats:

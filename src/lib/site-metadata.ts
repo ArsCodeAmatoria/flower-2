@@ -2,6 +2,9 @@
 export const SITE_DESCRIPTION =
   "A cinematic exhibition for a film project — Flower High, the Bloom Equalizer, and the 26-scene spine.";
 
+/** Visible builder credit (footer + any in-app attribution). */
+export const SITE_SCRIPT_CREDIT = "Smart Script Built by Kojin Fox";
+
 export const HOME_OG_IMAGE = "/characters/rose.png";
 
 /**

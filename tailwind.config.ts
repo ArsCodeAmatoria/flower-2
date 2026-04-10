@@ -28,6 +28,8 @@ const config: Config = {
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
         display: ["var(--font-display)", "ui-serif", "Georgia", "serif"],
         logo: ["var(--font-logo)", "cursive"],
+        /** Colophon — retro-future / digital display (Orbitron). */
+        future: ["var(--font-future)", "ui-sans-serif", "system-ui", "sans-serif"],
       },
       fontSize: {
         /** Exhibition-scale title */

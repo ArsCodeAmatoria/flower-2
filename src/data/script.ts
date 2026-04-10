@@ -4698,7 +4698,7 @@ CUT TO:`,
     characters: ["rose", "daisy", "lemon", "iris"],
     setId: "flower-district",
     notes:
-      "**Anti-repeat:** cut sc.4/9-style **atrium stutter** as trigger. Pure framing; Iris gentle, exit early. Lemon’s hesitation = evidence to Rose. **Iris:** after she exits — **brief** **eye** **flick** **from** **others** — **thanks** — **she** **bought** **smooth** **at** **Lemon/Rose** **expense** (no new dialogue). **Pilot:** **value** **turn** = shame/complicity; **Iris** **lines** **short**; **no** **speech** **after** **receipt** **beat**.",
+      "**Anti-repeat:** cut sc.4/9-style **atrium stutter** as trigger. Pure framing; Iris gentle, exit early. Lemon’s hesitation = evidence to Rose. **Iris:** after she exits — **brief** **eye** **flick** **from** **others** — **thanks** — **ON** **IRIS** — **almost** **returns** **it** — **doesn’t** — **tracks** **Rose/Lemon** — **knows** **the** **tab** — **still** **won’t** **unpick** **the** **frame** (no new dialogue). **Pilot:** **value** **turn** = shame/complicity; **Iris** **lines** **short**; **no** **speech** **after** **receipt** **beat**.",
     content: `EXT. COURTYARD — EARLY EVENING
 
 Festival prep continues.
@@ -4981,7 +4981,9 @@ ANGLE — TWO STUDENTS — BRIEF
 
 An **eye** **flick** **toward** **Iris** — **small** — **grateful** — **the** **room** **stayed** **smooth** —
 
-Iris **doesn’t** **take** **it** **like** **a** **win** — **but** **she** **doesn’t** **correct** **the** **story** **either** —
+ON IRIS —
+
+She **almost** **returns** **it** — **doesn’t** — **freeze** **half** **a** **beat** — **eyes** **track** **Rose** **and** **Lemon** **as** **they** **pull** **apart** — **she** **knows** **the** **tab** — **still** **won’t** **unpick** **the** **frame** —
 
 **Smooth** **bought** **with** **someone** **else’s** **name** **on** **it** —
 
@@ -6921,10 +6923,10 @@ CUT TO:`,
     beat: "ACT 3 · Break into Three — re-entry with truth; new behavior (no filler, no suppression); ‘not just me’; system worse/strained; stakes urgent; Rose + Lemon toward source (core next); **doesn’t** **perform** **humility** — **permission** **to** **take** **space**",
     summary:
       "Rose returns at night: festival light uneven, hum strained. Bluebell rides her shoulder—steady glow—claimed again. She walks without matching or fixing; reactions are messier — **public rows fray**, **tending** **desperate**. Courtyard unstable; she finds Lemon—plain ‘Hey,’ ‘It’s worse,’ names that leaving didn’t stop it and she didn’t start it alone. ‘It’s forcing it’; they head in together toward where it starts.",
-    characters: ["rose", "lemon", "bluebell"],
+    characters: ["rose", "lemon", "bluebell", "daisy"],
     setId: "flower-district",
     notes:
-      "Act 3 speech: clean lines, no um. She observes system overreach; doesn’t perform calm. Lemon follows—partnership reboot, not hug-it-out. **Bluebell:** visible—not debated. **Pilot:** **Act** **3** **speech** **clean**; **partnership** **reboot** **not** **hug**; **system** **strain** **visible**.",
+      "Act 3 speech: clean lines, no um. She observes system overreach; doesn’t perform calm. Lemon follows—partnership reboot, not hug-it-out. **Bluebell:** visible—not debated. **Daisy:** **silent** **witness** **courtyard** **re-entry** — sees Rose **without** **shrink**; no line; ensemble closure. **Pilot:** **Act** **3** **speech** **clean**; **partnership** **reboot** **not** **hug**; **system** **strain** **visible**.",
     content: `EXT. TREE LINE — NIGHT
 
 Rose emerges from the trees.
@@ -7008,6 +7010,8 @@ They’re compensating.
 Guessing.
 
 Rose steps into the space.
+
+At the courtyard rim — **DAISY** — **stalls** **mid-step** — **sees** **Rose** **hold** **herself** **at** **full** **height** — **no** **pre-emptive** **shrink** — **no** **line** — **one** **breath** — **something** **quiet** **in** **her** **face** **eases** — **she** **doesn’t** **wave** **—** **doesn’t** **break** **Rose’s** **line** **to** **Lemon** —
 
 The Equalizer pulses.
 
