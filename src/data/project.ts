@@ -24,7 +24,7 @@ export const project: Project = {
   themeStated:
     "“Grow right” isn’t encouragement—it’s a contract: match the grid, or pay in pieces no one names out loud.",
   protagonistWant:
-    "She wants to be like every flower—to read clean in the bouquet, same air and rhythm, no extra correction because of her.",
+    "She wants what the I Want hook names aloud in the script—“I just wanna be like every flower”—then reads it as belonging: clean in the bouquet, same air and rhythm, no extra correction because of her.",
   craftPilotScenes:
     "Pilot (line-level + format): sc.1 opening / V.O. · sc.7 Break into Two + want · sc.14 Iris · sc.16 trade · sc.17 festival · sc.24 Red Magic · sc.25 core — then roll forward by act.",
   concreteStakes:

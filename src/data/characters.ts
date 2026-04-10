@@ -50,7 +50,7 @@ export const characters: Character[] = [
     archetype:
       "Emotional anchor of the film; embodiment of natural variation; the only role that moves performed identity → authentic identity.",
     desire:
-      "To be like every flower—read clean in the bouquet—if she can just get it right, she’ll belong.",
+      "What the I Want song names—“I just wanna be like every flower”—read clean in the bouquet—if she can just get it right, she’ll belong.",
     flaw: "She equates belonging with perfect synchronization—so she keeps trying to perform her way into acceptance.",
     lie: "The chaos is my fault; if I synchronize hard enough, I’ll fix it.",
     truth: "She doesn’t need to get it right to belong. The Equalizer separated her; she wasn’t the problem.",
