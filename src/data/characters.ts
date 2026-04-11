@@ -100,8 +100,8 @@ export const characters: Character[] = [
       "Personality: playful, charming, avoidant, intuitive. Physical: always moving until story demands stillness. **Private cost (sc.6+):** outer-ring **walk-throughs** still on the Bloom sheet — he **chooses** which windows to hit; ‘free’ reads as **managed absence**, not immunity. Key beats: sc.6 edge walkway — first real encounter · sc.7 Rose chooses district over his path; **planter bend** open loop; he walks out · sc.8 See It My Way (duet — floral neighbourhood walk; bend callback; V3 = score cost) · sc.9 Squeeze the Day — classroom montage, EXT. side path · 9 fun/games · 10 ‘expecting it now’ / Iris closes · sc.11 leads to waterfall; first unease at her effect · sc.12 enters her field — connection + physical instability; ‘Don’t’ stop · sc.14 strain at rehearsal; Iris reframes; can’t counter; less her when she stabilizes · sc.16 hollow Rose; steps back; nod not agreement · sc.17 festival collapse; knee; ‘Don’t’ suppress again · sc.18 can’t explain; ‘not scared’ too late; doesn’t follow · sc.20 return — ‘not just me’; follows toward core · sc.21 ‘Look at Me’ overload; follows Rose in · sc.22 Narcissa breaks; ‘not holding’ with Rose · sc.23 public system break; Lemon down; Rose toward core · sc.24 sees her reset; follows to shutdown · sc.25 atrium core — **one** **step** **into** **her** **isolation** **radius** (**stay**) — braces, stable after · sc.26 **matches** **pace** — **no** **drift** **off-pattern** **for** **the** **joke** — **stay** **proof**.",
     moodLighting:
       "Edge paths and off-grid air: chartreuse and yellow-green in foliage bounce, wardrobe accents, sun through leaves—photosynthetic counterweight to Iris purple and machine cyan. Reads “outside the score” without feeling villainous.",
-    image16x9: "/characters/lemon.png",
-    image2x1: "/characters/lemon.png",
+    image16x9: "/characters/lemon1.png",
+    image2x1: "/characters/lemon1.png",
     linkedSceneIds: [
       "scene-06",
       "scene-07",

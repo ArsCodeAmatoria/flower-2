@@ -12,7 +12,7 @@ export const songs: Song[] = [
     title: "Squeeze the Day",
     credit: "Performed by Lemon · Flower",
     performerSlugs: ["lemon"],
-    audioSrc: "/songs/STD.wav",
+    audioSrc: "/songs/SQUEEZE THE DAY (1).wav",
     lyrics: `[VERSE 1 — fast, witty (acoustic groove)]
 
 Some days hit like a bitter bite

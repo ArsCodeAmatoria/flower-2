@@ -2,7 +2,7 @@
 
 import { type ReactNode, useEffect, useId } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { PanelRight, X } from "lucide-react";
+import { LayoutList, X } from "lucide-react";
 import { formatActBlockNavLabel, sceneActBlock } from "@/lib/script-act-block";
 import { flowerEase } from "@/lib/motion-presets";
 import type { ScriptScene } from "@/types";
@@ -16,7 +16,7 @@ export type ScriptMobileToolsProps = {
 };
 
 /**
- * Sticky scene strip + bottom sheet (max-lg) — mirrors desktop sidebar without burying tools below the script.
+ * Floating action + bottom sheet (max-lg) — opens the same tools as desktop sidebar; no persistent bar over the script.
  */
 export function ScriptMobileTools({ scene, open, onOpenChange, children }: ScriptMobileToolsProps) {
   const titleId = useId();
@@ -54,40 +54,26 @@ export function ScriptMobileTools({ scene, open, onOpenChange, children }: Scrip
     <>
       <div
         className={cn(
-          "script-mobile-tools-root pointer-events-none fixed inset-x-0 bottom-0 z-40 lg:hidden",
-          "pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-2",
+          "script-mobile-tools-root pointer-events-none fixed bottom-0 right-0 z-40 lg:hidden",
+          "pr-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-2",
         )}
       >
-        <div className="pointer-events-auto mx-auto max-w-exhibition px-4">
-          <div
-            className={cn(
-              "flex items-stretch gap-2 rounded-panel border border-border/40 bg-background/92 shadow-frame-outer backdrop-blur-md",
-              "supports-[backdrop-filter]:bg-background/85",
-            )}
-          >
-            <div className="min-w-0 flex-1 px-3 py-2.5">
-              <p className="font-sans text-[0.65rem] font-medium uppercase tracking-[0.16em] text-muted-foreground">
-                {actLabel} · Scene {scene.sceneNumber}
-              </p>
-              <p className="mt-0.5 truncate font-display text-[0.95rem] font-medium leading-snug text-foreground">
-                {scene.title}
-              </p>
-            </div>
-            <button
-              type="button"
-              onClick={() => onOpenChange(true)}
-              className={cn(
-                "flex shrink-0 items-center gap-1.5 border-l border-border/35 px-3.5 font-sans text-[0.65rem] font-semibold uppercase tracking-[0.16em]",
-                "text-accent transition-subtle hover:bg-accent-subtle/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background",
-              )}
-              aria-expanded={open}
-              aria-haspopup="dialog"
-            >
-              <PanelRight className="h-4 w-4 opacity-90" strokeWidth={1.5} aria-hidden />
-              Tools
-            </button>
-          </div>
-        </div>
+        <button
+          type="button"
+          onClick={() => onOpenChange(true)}
+          className={cn(
+            "pointer-events-auto flex h-14 w-14 touch-manipulation items-center justify-center rounded-full",
+            "border border-border/40 bg-background/92 shadow-frame-outer backdrop-blur-md",
+            "supports-[backdrop-filter]:bg-background/85",
+            "text-accent transition-subtle hover:bg-accent-subtle/30",
+            "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background",
+          )}
+          aria-expanded={open}
+          aria-haspopup="dialog"
+          aria-label={`Script tools — ${actLabel}, scene ${scene.sceneNumber}: ${scene.title}`}
+        >
+          <LayoutList className="h-6 w-6 opacity-95" strokeWidth={1.5} aria-hidden />
+        </button>
       </div>
 
       <AnimatePresence>
